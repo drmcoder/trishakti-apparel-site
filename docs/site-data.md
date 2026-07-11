@@ -13,7 +13,8 @@ The builder session should pull ALL content from this file. Two tiers:
 - Founded: **2023** (grew out of Trishakti Stores; **33 years** family fashion legacy).
 - Type: **Sewing-only** cut-and-sew factory. In-house **Optitex CAD** pattern making,
   marking, on-site resizing. Own designs & spec charts (not just contract sewing).
-- Workforce: **~50 workers**, **~50 sewing machines** (single floor, ~339 m² / 1 kattha).
+- Workforce/plant: **~100 sewing machines** (scaled up as of 2026-07). Worker count to
+  confirm (grew alongside the machine expansion; likely ~80–100 operators — CONFIRM).
 - Product focus: **knit basics — t-shirts, polos** (and similar jersey/pique garments).
 - Fabric & trims: **imported from China**; garment **made in Nepal**.
 - Export: **EXIM code held**; **REX (EU) in progress** via TEPC. Duty management offered.
@@ -43,8 +44,8 @@ The builder session should pull ALL content from this file. Two tiers:
 ## Sourcing facts — buyers decide on these
 > 🟡 = DRAFT estimate, CONFIRM with Santosh. Do not publish as final until confirmed.
 
-- 🟡 **Monthly capacity:** ~**30,000–40,000 pcs/month** of basic knit tees
-  (estimate from ~50 machines × single-floor SMV for a basic tee; CONFIRM real figure).
+- 🟡 **Monthly capacity:** ~**60,000–80,000 pcs/month** of basic knit tees
+  (estimate from ~100 machines × single-floor SMV for a basic tee; CONFIRM real figure).
 - 🟡 **MOQ:** **300–500 pcs per style/color** (typical small-factory MOQ; CONFIRM — a
   low, flexible MOQ is a selling point, so state the real one).
 - 🟡 **Lead time:** **Sampling 7–14 days; bulk 30–45 days** after approval (CONFIRM).
@@ -128,9 +129,9 @@ The builder session should pull ALL content from this file. Two tiers:
   these are outsourced/partner services, or (b) it's aspirational marketing. **CONFIRM**
   before repeating on the export site — buyers will ask, and mis-stating in-house
   capability damages trust.
-- Old-site capacity stats ("5K production capacity, 365K pieces, 100+ machinery,
-  1K+ customers") don't match the known ~50-machine floor. Treat as unverified; use the
-  confirmed numbers above instead.
+- Old-site "**100+ machinery**" stat is now **accurate** (100 machines as of 2026-07).
+  The other stats ("5K production capacity, 365K pieces, 1K+ customers") remain
+  unverified — treat with care; prefer the confirmed numbers above.
 
 ### Real production data (note)
 Actual, current production numbers (real pcs/day, capacity, active lots) live in the
