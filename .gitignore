@@ -1,0 +1,27 @@
+# Secrets — NEVER commit
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Downloaded copy of live server (kept out of git until reviewed)
+live-backup/
