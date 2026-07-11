@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1a3e73;
+  --green: #228b22;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-body antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  h1, h2, h3, h4 {
+    @apply text-ink font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-semibold transition
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-navy;
+  }
+  .btn-primary {
+    @apply btn bg-navy text-white hover:bg-navy-900 shadow-sm;
+  }
+  .btn-accent {
+    @apply btn bg-brand-green text-white hover:brightness-95 shadow-sm;
+  }
+  .btn-outline {
+    @apply btn border border-navy/25 text-navy hover:border-navy hover:bg-navy/5;
+  }
+  .btn-ghost-light {
+    @apply btn border border-white/40 text-white hover:bg-white/10;
+  }
+
+  /* Section rhythm */
+  .section {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  .eyebrow {
+    @apply inline-block text-xs font-semibold uppercase tracking-[0.18em] text-brand-green;
+  }
+  .h-section {
+    @apply text-3xl sm:text-4xl font-semibold tracking-tight text-ink;
+  }
+  .lead {
+    @apply text-lg leading-relaxed text-body;
+  }
+
+  .card {
+    @apply rounded-xl border border-black/[0.06] bg-white shadow-card;
+  }
+
+  /* Subtle placeholder surface for missing photography */
+  .photo-ph {
+    @apply relative overflow-hidden bg-mist;
+    background-image:
+      linear-gradient(135deg, rgba(26,62,115,0.06) 0%, rgba(34,139,34,0.05) 100%);
+  }
+  .photo-ph::after {
+    content: '';
+    @apply absolute inset-0;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 11px,
+      rgba(26, 62, 115, 0.04) 11px,
+      rgba(26, 62, 115, 0.04) 12px
+    );
+  }
+}
