@@ -8,7 +8,7 @@ import { nav, contact } from '@/lib/content';
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-40 border-b border-black/[0.06] bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
         <Link href="/" aria-label="Trishakti Apparel — home" onClick={() => setOpen(false)}>
           <Logo />
@@ -42,7 +42,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-black/[0.06] bg-white md:hidden" aria-label="Mobile">
+        <nav className="border-t border-line bg-white md:hidden" aria-label="Mobile">
           <div className="container-x flex flex-col py-3">
             {nav.map((item) => (
               <Link
@@ -58,7 +58,7 @@ export default function Header() {
               href={`https://wa.me/${contact.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-accent mt-2"
+              className="btn-whatsapp mt-2"
             >
               WhatsApp us
             </a>

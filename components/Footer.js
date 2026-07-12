@@ -17,7 +17,7 @@ export default function Footer() {
             href={`https://wa.me/${contact.whatsapp}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-accent mt-5"
+            className="btn-whatsapp mt-5"
           >
             <Icon name="whatsapp" filled className="h-4 w-4" />
             Chat on WhatsApp
@@ -55,23 +55,23 @@ export default function Footer() {
           <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Contact</h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li className="flex gap-2.5">
-              <Icon name="pin" className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" />
+              <Icon name="pin" className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
               <span className="text-white/70">{contact.address.full}</span>
             </li>
             <li className="flex gap-2.5">
-              <Icon name="phone" className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" />
+              <Icon name="phone" className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
               <a href={`tel:${contact.phones[1].replace(/[^+\d]/g, '')}`} className="text-white/70 hover:text-white">
                 {contact.phones[1]}
               </a>
             </li>
             <li className="flex gap-2.5">
-              <Icon name="mail" className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" />
+              <Icon name="mail" className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
               <a href={`mailto:${contact.email}`} className="text-white/70 hover:text-white">
                 {contact.email}
               </a>
             </li>
             <li className="flex gap-2.5">
-              <Icon name="clock" className="mt-0.5 h-4 w-4 shrink-0 text-brand-green" />
+              <Icon name="clock" className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
               <span className="text-white/70">{contact.hours.office}</span>
             </li>
           </ul>

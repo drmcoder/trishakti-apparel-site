@@ -7,6 +7,7 @@ export const metadata = {
   title: 'About',
   description:
     'Trishakti Apparel grew out of Trishakti Stores and 33 years of family fashion experience. A cut-and-sew garment factory in Gaindakot, Nepal, founded in 2023.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {
@@ -40,7 +41,7 @@ export default function AboutPage() {
                 specialise in, and honest, transparent communication from first
                 consultation to final delivery.
               </p>
-              <p className="border-l-2 border-brand-green pl-4 text-body/70">
+              <p className="border-l-2 border-primary-500 pl-4 text-body/70">
                 {company.taglinePoetic}
               </p>
             </div>
@@ -54,7 +55,7 @@ export default function AboutPage() {
               </h2>
               <dl className="mt-4 space-y-4">
                 {stats.map((s) => (
-                  <div key={s.label} className="flex items-baseline justify-between gap-4 border-b border-black/[0.06] pb-3 last:border-0 last:pb-0">
+                  <div key={s.label} className="flex items-baseline justify-between gap-4 border-b border-line pb-3 last:border-0 last:pb-0">
                     <dt className="text-sm text-body/70">{s.label}</dt>
                     <dd className="text-lg font-semibold text-navy">{s.value}</dd>
                   </div>
@@ -74,8 +75,8 @@ export default function AboutPage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
             {differentiators.map((d) => (
-              <div key={d.title} className="flex gap-4 rounded-xl border border-black/[0.06] bg-white p-6">
-                <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-green/10 text-brand-green">
+              <div key={d.title} className="flex gap-4 rounded-lg border border-line bg-white p-6">
+                <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-50 text-primary-700">
                   <Icon name="spark" className="h-4 w-4" />
                 </div>
                 <div>
@@ -102,13 +103,13 @@ export default function AboutPage() {
                   {initials(m.name)}
                 </div>
                 <h3 className="mt-4 font-semibold text-ink">{m.name}</h3>
-                <p className="mt-0.5 text-sm text-brand-green">{m.role}</p>
+                <p className="mt-0.5 text-sm text-primary-600">{m.role}</p>
               </div>
             ))}
           </div>
 
           {/* Wider team */}
-          <div className="mt-10 rounded-xl border border-black/[0.06] p-6">
+          <div className="mt-10 rounded-lg border border-line p-6">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-body/60">
               Production &amp; operations team
             </h3>

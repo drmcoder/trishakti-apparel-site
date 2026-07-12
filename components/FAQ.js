@@ -6,7 +6,7 @@ import { faqs } from '@/lib/content';
 export default function FAQ() {
   const [open, setOpen] = useState(0);
   return (
-    <div className="mx-auto max-w-3xl divide-y divide-black/[0.08] rounded-xl border border-black/[0.06]">
+    <div className="mx-auto max-w-3xl divide-y divide-black/[0.08] rounded-lg border border-line">
       {faqs.map((f, i) => {
         const isOpen = open === i;
         return (

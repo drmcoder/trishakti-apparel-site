@@ -8,7 +8,7 @@ const FIELDS = [
   { name: 'name', label: 'Your name', type: 'text', required: true, half: true },
   { name: 'company', label: 'Company / brand', type: 'text', required: true, half: true },
   { name: 'email', label: 'Email', type: 'email', required: true, half: true },
-  { name: 'country', label: 'Destination country', type: 'text', required: true, half: true },
+  { name: 'country', label: 'Destination country', type: 'text', required: false, half: true },
 ];
 
 const QUANTITY_RANGES = [
@@ -35,6 +35,7 @@ export default function InquiryForm() {
         `Company: ${data.company}`,
         `Email: ${data.email}`,
         `Destination country: ${data.country}`,
+        `Buyer type: ${data.buyerType}`,
         `Product: ${data.product}`,
         `Target quantity: ${data.quantity || '—'}`,
         '',
@@ -67,7 +68,7 @@ export default function InquiryForm() {
   if (status === 'sent') {
     return (
       <div className="card flex flex-col items-center gap-3 p-8 text-center">
-        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-green/10 text-brand-green">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-success/10 text-success">
           <Icon name="check" className="h-6 w-6" />
         </div>
         <h3 className="text-xl font-semibold text-ink">Thank you — we’ll be in touch</h3>
@@ -80,7 +81,7 @@ export default function InquiryForm() {
           href={`https://wa.me/${contact.whatsapp}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-accent mt-1"
+          className="btn-whatsapp mt-1"
         >
           <Icon name="whatsapp" filled className="h-4 w-4" />
           WhatsApp us
@@ -95,7 +96,7 @@ export default function InquiryForm() {
         {FIELDS.map((f) => (
           <div key={f.name} className={f.half ? '' : 'sm:col-span-2'}>
             <label htmlFor={f.name} className="mb-1 block text-sm font-medium text-ink">
-              {f.label} {f.required && <span className="text-brand-red">*</span>}
+              {f.label} {f.required && <span className="text-error">*</span>}
             </label>
             <input
               id={f.name}
@@ -108,8 +109,25 @@ export default function InquiryForm() {
         ))}
 
         <div>
+          <label htmlFor="buyerType" className="mb-1 block text-sm font-medium text-ink">
+            You are a… <span className="font-normal text-body/50">(optional)</span>
+          </label>
+          <select
+            id="buyerType"
+            name="buyerType"
+            defaultValue=""
+            className="w-full rounded-lg border border-black/10 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition focus:border-navy focus:ring-2 focus:ring-navy/20"
+          >
+            <option value="" disabled>Select…</option>
+            {inquiry.buyerTypes.map((o) => (
+              <option key={o} value={o}>{o}</option>
+            ))}
+          </select>
+        </div>
+
+        <div>
           <label htmlFor="product" className="mb-1 block text-sm font-medium text-ink">
-            Product of interest <span className="text-brand-red">*</span>
+            Product of interest <span className="text-error">*</span>
           </label>
           <select
             id="product"
@@ -127,12 +145,11 @@ export default function InquiryForm() {
 
         <div>
           <label htmlFor="quantity" className="mb-1 block text-sm font-medium text-ink">
-            Target quantity <span className="text-brand-red">*</span>
+            Target quantity <span className="font-normal text-body/50">(optional)</span>
           </label>
           <select
             id="quantity"
             name="quantity"
-            required
             defaultValue=""
             className="w-full rounded-lg border border-black/10 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition focus:border-navy focus:ring-2 focus:ring-navy/20"
           >
@@ -173,7 +190,7 @@ export default function InquiryForm() {
       </div>
 
       {status === 'error' && (
-        <p className="mt-4 rounded-lg bg-brand-red/10 px-3 py-2 text-sm text-brand-red">
+        <p className="mt-4 rounded-lg bg-error/10 px-3 py-2 text-sm text-error">
           Something went wrong. Please email {contact.email} or message us on WhatsApp.
         </p>
       )}

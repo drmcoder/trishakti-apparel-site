@@ -6,20 +6,22 @@ export const metadata = {
   title: 'Get a Quote',
   description:
     'Request a quote from Trishakti Apparel — private-label knitwear manufacturer in Gaindakot, Nepal. Share your designs and quantities, or reach us on WhatsApp, phone, or email.',
+  alternates: { canonical: '/contact' },
 };
 
 export default function ContactPage() {
   return (
     <>
-      <section className="border-b border-black/[0.06] bg-navy text-white">
+      <section className="border-b border-line bg-navy text-white">
         <div className="container-x py-14 sm:py-20">
-          <span className="eyebrow text-brand-green">Get a quote</span>
-          <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
+          <span className="eyebrow text-primary-300">Get a quote</span>
+          <h1 className="mt-3 max-w-3xl font-display text-5xl font-medium tracking-[-0.02em] text-white sm:text-6xl">
             Let’s price your program
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-white/80">
             Tell us what you want to make and how many. We’ll come back with fabric
             options, MOQ, pricing, and lead time — usually within one business day.
+            It’s free and no-obligation.
           </p>
         </div>
       </section>
@@ -38,9 +40,9 @@ export default function ContactPage() {
                 href={`https://wa.me/${contact.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 rounded-xl border border-brand-green/30 bg-brand-green/5 p-5 transition hover:bg-brand-green/10"
+                className="flex items-center gap-4 rounded-lg border border-whatsapp/30 bg-whatsapp/5 p-5 transition hover:bg-whatsapp/10"
               >
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-brand-green text-white">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-whatsapp text-white">
                   <Icon name="whatsapp" filled className="h-6 w-6" />
                 </div>
                 <div>
@@ -76,7 +78,7 @@ export default function ContactPage() {
             </div>
 
             {/* Map */}
-            <div className="mt-4 overflow-hidden rounded-xl border border-black/[0.06]">
+            <div className="mt-4 overflow-hidden rounded-lg border border-line">
               <iframe
                 title="Trishakti Apparel location"
                 className="h-64 w-full"
@@ -94,7 +96,7 @@ export default function ContactPage() {
 
 function ContactRow({ icon, label, children }) {
   return (
-    <div className="flex items-start gap-4 rounded-xl border border-black/[0.06] p-5">
+    <div className="flex items-start gap-4 rounded-lg border border-line p-5">
       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-navy">
         <Icon name={icon} className="h-5 w-5" />
       </div>

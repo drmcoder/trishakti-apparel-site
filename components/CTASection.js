@@ -8,12 +8,12 @@ export default function CTASection({
   body = 'Send us your designs, tech pack, or a reference — we’ll come back with MOQ, pricing, and lead time for your program.',
 }) {
   return (
-    <section className="section bg-navy text-white">
-      <div className="container-x flex flex-col items-center gap-6 text-center">
-        <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h2>
+    <section className="section relative grain bg-navy text-white">
+      <div className="container-x relative flex flex-col items-center gap-6 text-center">
+        <h2 className="max-w-2xl font-display text-4xl font-medium tracking-[-0.015em] text-white sm:text-5xl">{title}</h2>
         <p className="max-w-xl text-lg text-white/80">{body}</p>
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Link href="/contact/" className="btn-accent">
+          <Link href="/contact/" className="btn-primary">
             Request a Quote
             <Icon name="arrow" className="h-4 w-4" />
           </Link>

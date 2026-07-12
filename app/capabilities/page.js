@@ -1,12 +1,15 @@
+import Image from 'next/image';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
-import { capabilities, process, compliance } from '@/lib/content';
+import { capabilities, process, compliance, factory, contact } from '@/lib/content';
+import { asset } from '@/lib/asset';
 
 export const metadata = {
   title: 'Capabilities',
   description:
     'Trishakti Apparel capabilities: design & development, in-house Optitex CAD pattern making, cut & sew, private-label finishing, quality control, and fabric/trims sourcing with duty management.',
+  alternates: { canonical: '/capabilities' },
 };
 
 export default function CapabilitiesPage() {
@@ -30,6 +33,36 @@ export default function CapabilitiesPage() {
               <p className="mt-2 text-sm leading-relaxed text-body/80">{c.body}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Inside the factory (illustrative, honestly framed) */}
+      <section className="section relative grain bg-navy text-white">
+        <div className="container-x relative grid gap-10 lg:grid-cols-2 lg:items-center">
+          <div>
+            <span className="eyebrow text-primary-300">{factory.eyebrow}</span>
+            <h2 className="mt-2 font-display text-4xl font-medium tracking-[-0.015em] text-white sm:text-5xl">
+              {factory.title}
+            </h2>
+            <p className="mt-4 text-lg text-white/75">{factory.body}</p>
+            <a
+              href={`https://wa.me/${contact.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-whatsapp mt-6"
+            >
+              <Icon name="whatsapp" filled className="h-4 w-4" />
+              Book a video walkthrough
+            </a>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            {factory.images.map((im) => (
+              <div key={im.src} className="relative aspect-[3/4] overflow-hidden rounded-lg border border-white/10">
+                <Image src={asset(im.src)} alt={im.alt} fill sizes="(max-width: 1024px) 45vw, 280px" className="object-cover" />
+              </div>
+            ))}
+            <p className="col-span-2 text-xs text-white/45">{factory.caption}</p>
+          </div>
         </div>
       </section>
 
@@ -71,6 +104,14 @@ export default function CapabilitiesPage() {
               garment is made in Nepal. We handle export documentation and duty
               management, and ship worldwide by air or sea.
             </p>
+            <p className="mt-4 text-sm text-body/80">
+              <strong className="font-semibold text-ink">Duty advantage:</strong> under
+              Nepal’s LDC single-transformation rules, our knit t-shirts and polos qualify
+              as Nepal-made — and land <strong className="font-semibold text-ink">duty-free
+              in the EU, UK, and Canada</strong> — even though the fabric is imported, with
+              a Certificate of Origin supplied. For the US, Nepal carries the lowest tariff
+              in South Asia. Tell us your market and we’ll confirm what applies.
+            </p>
             <p className="mt-4 text-sm text-body/70">
               We state our compliance posture honestly: what we hold today, and what’s
               in progress. No cert claims we can’t back up.
@@ -78,7 +119,7 @@ export default function CapabilitiesPage() {
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
             {compliance.points.map((c) => (
-              <div key={c.label} className="rounded-xl border border-black/[0.06] p-5">
+              <div key={c.label} className="rounded-lg border border-line p-5">
                 <div className="text-sm font-semibold text-navy">{c.value}</div>
                 <div className="mt-0.5 text-sm font-medium text-ink">{c.label}</div>
                 <div className="mt-1 text-xs text-body/70">{c.note}</div>
