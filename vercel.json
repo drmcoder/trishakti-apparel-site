@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/service", "destination": "/capabilities/", "permanent": true },
+    { "source": "/service/:path*", "destination": "/capabilities/", "permanent": true },
+    { "source": "/services", "destination": "/capabilities/", "permanent": true },
+    { "source": "/corporate-orders", "destination": "/products/", "permanent": true },
+    { "source": "/corporate-order", "destination": "/products/", "permanent": true },
+    { "source": "/quote", "destination": "/contact/", "permanent": true },
+    { "source": "/get-a-quote", "destination": "/contact/", "permanent": true },
+    { "source": "/career", "destination": "/contact/", "permanent": true },
+    { "source": "/careers", "destination": "/contact/", "permanent": true },
+    { "source": "/team", "destination": "/about/", "permanent": true },
+    { "source": "/testimonial", "destination": "/about/", "permanent": true },
+    { "source": "/testimonials", "destination": "/about/", "permanent": true },
+    { "source": "/clients-feedback", "destination": "/about/", "permanent": true },
+    { "source": "/faq", "destination": "/", "permanent": true },
+    { "source": "/blog", "destination": "/", "permanent": true },
+    { "source": "/blog/:path*", "destination": "/", "permanent": true },
+    { "source": "/blog-category/:path*", "destination": "/", "permanent": true },
+    { "source": "/image-gallery", "destination": "/products/", "permanent": true },
+    { "source": "/video-gallery", "destination": "/products/", "permanent": true },
+    { "source": "/gallery", "destination": "/products/", "permanent": true },
+    { "source": "/events", "destination": "/", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/", "permanent": true }
+  ]
+}
