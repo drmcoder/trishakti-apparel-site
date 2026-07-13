@@ -21,7 +21,8 @@ const QUANTITY_RANGES = [
 
 export default function InquiryForm() {
   const [status, setStatus] = useState('idle'); // idle | sending | sent | error
-  const hasEndpoint = Boolean(inquiry.endpoint);
+  // Real direct-to-inbox delivery is active only once a Web3Forms key is set.
+  const hasEndpoint = Boolean(inquiry.web3formsKey);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -92,6 +93,20 @@ export default function InquiryForm() {
 
   return (
     <form onSubmit={handleSubmit} className="card p-6 sm:p-8">
+      {/* Web3Forms delivery fields (only meaningful once a key is configured) */}
+      <input type="hidden" name="access_key" value={inquiry.web3formsKey} />
+      <input type="hidden" name="subject" value="New quote request — Trishakti Apparel" />
+      <input type="hidden" name="from_name" value="Trishakti Apparel website" />
+      {/* Honeypot: bots fill this; humans never see it */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        autoComplete="off"
+        className="hidden"
+        aria-hidden="true"
+        style={{ display: 'none' }}
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         {FIELDS.map((f) => (
           <div key={f.name} className={f.half ? '' : 'sm:col-span-2'}>

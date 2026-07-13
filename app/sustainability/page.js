@@ -6,7 +6,7 @@ import { sustainability, seo } from '@/lib/content';
 export const metadata = {
   title: 'Sustainability & Ethics — Ethical Garment Manufacturing in Nepal',
   description:
-    'How Trishakti Apparel makes garments responsibly: 87% women workforce, fair wages, made on Nepal’s hydro-electric renewable power, and honest, audit-ready compliance.',
+    'How Trishakti Apparel makes garments responsibly: 80% women workforce, fair wages, made on Nepal’s hydro-electric renewable power, and honest, audit-ready compliance.',
   alternates: { canonical: '/sustainability' },
   keywords: [
     'ethical clothing manufacturer Nepal',

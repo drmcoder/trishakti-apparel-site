@@ -8,14 +8,14 @@ same ONE contact identity below.
 - **Email:** admin@trishaktiapparel.com.np  ← single primary export inbox (send + receive live)
 - **WhatsApp:** +977 9863618347
 - **Website:** https://trishaktiapparel.com.np
-- **Headcount framing:** say **"a ~100-machine single-floor knit line, 87% women"** —
+- **Headcount framing:** say **"a ~100-machine single-floor knit line, 80% women"** —
   do NOT quote a worker headcount until confirmed (old "~50 workers" line is retired to
-  avoid an inconsistency). Machines + the 87% figure are both confirmed and stronger.
+  avoid an inconsistency). Machines + the 80% figure are both confirmed and stronger.
 
 ## Credibility links to drop into emails (all live now)
 - Duty-free proof: https://trishaktiapparel.com.np/why-nepal/
 - Honest compliance posture: https://trishaktiapparel.com.np/compliance/
-- Ethics / 87% women: https://trishaktiapparel.com.np/sustainability/
+- Ethics / 80% women: https://trishaktiapparel.com.np/sustainability/
 - "Why trust a Nepali supplier": https://trishaktiapparel.com.np/blog/why-trust-a-nepali-garment-supplier/
 - Products / line card: https://trishaktiapparel.com.np/products/
 
@@ -36,14 +36,14 @@ same ONE contact identity below.
 >
 > I'm Santosh Rijal, founder of Trishakti Apparel, a private-label knit garment factory in
 > Gaindakot, Nepal. We make t-shirts, polos, and jersey basics to our customers' own designs
-> and tech packs — a ~100-machine single-floor line, 87% women, with in-house CAD.
+> and tech packs — a ~100-machine single-floor line, 80% women, with in-house CAD.
 >
 > The reason I'm writing to you specifically: as a Least Developed Country producer, our
 > garments enter the EU at **0% import duty** under Everything But Arms — even with imported
 > fabric, under single-transformation rules — versus the ~12% you'd pay from most origins.
 > We supply the Certificate of Origin.
 >
-> We're built for programs like yours: genuinely low MOQs (from ~300 pcs/style), dedicated
+> We're built for programs like yours: a flexible MOQ (500–1,000 pcs/style), dedicated
 > capacity, and direct communication. We're honest about where we stand on compliance —
 > everything is on our site, nothing hidden.
 >
@@ -65,8 +65,8 @@ same ONE contact identity below.
 > Trading Scheme, our Nepal-made garments enter the **UK duty-free** — including garments cut
 > and sewn from imported fabric. That's a direct landed-cost advantage on every unit.
 >
-> We're a focused, quality-first floor (~100 machines, 87% women, in-house CAD) with low
-> MOQs from ~300 pcs/style — well suited to growing and mid-size UK labels that want
+> We're a focused, quality-first floor (~100 machines, 80% women, in-house CAD) with a
+> flexible MOQ of 500–1,000 pcs/style — well suited to growing and mid-size UK labels that want
 > attention rather than a slot behind a mega-buyer.
 >
 > May I send our line card and free samples? A short call would be great too.
@@ -82,10 +82,10 @@ same ONE contact identity below.
 >
 > I'm Santosh Rijal, founder of Trishakti Apparel, a private-label knit garment factory in
 > Nepal. We make t-shirts, polos, and jersey basics to our customers' designs — a ~100-machine
-> line that's 87% women, with fair wages and an open-door, audit-welcome policy.
+> line that's 80% women, with fair wages and an open-door, audit-welcome policy.
 >
 > For US buyers diversifying away from concentrated sourcing, Nepal is a strong China-plus-one:
-> among the lowest tariffs in South Asia, genuinely low MOQs (from ~300 pcs/style), and a
+> among the lowest tariffs in South Asia, a flexible MOQ (500–1,000 pcs/style), and a
 > partner who isn't overbooked. We're candid about compliance — what we hold and what's in
 > progress is all on our site.
 >
@@ -94,11 +94,11 @@ same ONE contact identity below.
 > Best regards,
 > Santosh Rijal — Trishakti Apparel
 > admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com.np
-> Ethics / 87% women: trishaktiapparel.com.np/sustainability/
+> Ethics / 80% women: trishaktiapparel.com.np/sustainability/
 
 ### D. WhatsApp / short fast-fire (any market)
 > Namaste 👋 I'm Santosh Rijal, founder of Trishakti Apparel — a private-label knit factory
-> in Nepal (t-shirts, polos, jersey to your designs; low MOQ from ~300 pcs; 87% women floor).
+> in Nepal (t-shirts, polos, sweatshirts & hoodies to your designs; MOQ 500–1,000 pcs; 80% women floor).
 > We enter the EU/UK/Canada duty-free under Nepal's LDC status. Happy to send our line card,
 > photos, or free samples — are you sourcing knitwear? trishaktiapparel.com.np
 

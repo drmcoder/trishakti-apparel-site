@@ -66,8 +66,8 @@ export default function Footer() {
             </li>
             <li className="flex gap-2.5">
               <Icon name="phone" className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
-              <a href={`tel:${contact.phones[1].replace(/[^+\d]/g, '')}`} className="text-white/70 hover:text-white">
-                {contact.phones[1]}
+              <a href={`tel:${contact.phones[0].replace(/[^+\d]/g, '')}`} className="text-white/70 hover:text-white">
+                {contact.phones[0]}
               </a>
             </li>
             <li className="flex gap-2.5">
