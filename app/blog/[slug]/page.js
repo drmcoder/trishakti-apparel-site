@@ -30,16 +30,21 @@ export default function BlogPost({ params }) {
     description: p.description,
     datePublished: p.date,
     dateModified: p.date,
-    author: { '@type': 'Organization', name: seo.siteName },
-    publisher: { '@type': 'Organization', name: seo.siteName, logo: { '@type': 'ImageObject', url: `${seo.url}/assets/logo-mark.png` } },
-    mainEntityOfPage: `${seo.url}/blog/${p.slug}/`,
+    inLanguage: 'en',
+    image: `${seo.url}/assets/og-image.jpg`,
+    keywords: p.tags.join(', '),
+    articleSection: p.tags[0],
+    author: { '@type': 'Organization', name: seo.siteName, url: seo.url },
+    publisher: { '@id': `${seo.url}/#organization` },
+    isPartOf: { '@id': `${seo.url}/#website` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${seo.url}/blog/${p.slug}/` },
   };
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${seo.url}/` },
-      { '@type': 'ListItem', position: 2, name: 'Insights', item: `${seo.url}/blog/` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${seo.url}/blog/` },
       { '@type': 'ListItem', position: 3, name: p.title, item: `${seo.url}/blog/${p.slug}/` },
     ],
   };
@@ -52,7 +57,7 @@ export default function BlogPost({ params }) {
             <nav className="text-xs text-muted" aria-label="Breadcrumb">
               <Link href="/" className="hover:text-primary-700">Home</Link>
               <span className="px-1.5">/</span>
-              <Link href="/blog/" className="hover:text-primary-700">Insights</Link>
+              <Link href="/blog/" className="hover:text-primary-700">Blog</Link>
             </nav>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
               {p.tags.map((t) => <span key={t}>{t}</span>)}
