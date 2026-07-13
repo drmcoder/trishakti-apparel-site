@@ -1,0 +1,22 @@
+name: SEO — IndexNow ping
+
+# After each push (Vercel auto-deploys), notify IndexNow (Bing/Yandex/etc.) that
+# URLs changed so they re-crawl within minutes. Google doesn't use IndexNow — its
+# sitemap is submitted once in Search Console and Google crawls on its own.
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch: {}
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Wait for Vercel deploy to go live
+        run: sleep 120
+      - name: Submit changed URLs to IndexNow
+        run: node scripts/indexnow.mjs
