@@ -35,6 +35,9 @@ export default function Footer() {
               </li>
             ))}
             <li>
+              <Link href="/sustainability/" className="text-white/70 transition hover:text-white">Sustainability</Link>
+            </li>
+            <li>
               <Link href="/blog/" className="text-white/70 transition hover:text-white">Insights</Link>
             </li>
           </ul>

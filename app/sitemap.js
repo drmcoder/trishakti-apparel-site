@@ -13,6 +13,9 @@ export default function sitemap() {
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
+  const extra = [
+    { url: `${seo.url}/sustainability/`, changeFrequency: 'monthly', priority: 0.7 },
+  ];
   const blog = [
     { url: `${seo.url}/blog/`, changeFrequency: 'weekly', priority: 0.6 },
     ...posts.map((p) => ({
@@ -22,5 +25,5 @@ export default function sitemap() {
       priority: 0.6,
     })),
   ];
-  return [...pages, ...productPages, ...blog];
+  return [...pages, ...productPages, ...extra, ...blog];
 }
