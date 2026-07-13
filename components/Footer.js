@@ -34,6 +34,9 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href="/blog/" className="text-white/70 transition hover:text-white">Insights</Link>
+            </li>
           </ul>
         </div>
 

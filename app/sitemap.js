@@ -1,4 +1,5 @@
 import { seo, nav, products } from '@/lib/content';
+import { posts } from '@/lib/posts';
 
 // Generates a static sitemap.xml at build time (works with output: 'export').
 export default function sitemap() {
@@ -12,5 +13,14 @@ export default function sitemap() {
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
-  return [...pages, ...productPages];
+  const blog = [
+    { url: `${seo.url}/blog/`, changeFrequency: 'weekly', priority: 0.6 },
+    ...posts.map((p) => ({
+      url: `${seo.url}/blog/${p.slug}/`,
+      lastModified: p.date,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    })),
+  ];
+  return [...pages, ...productPages, ...blog];
 }
