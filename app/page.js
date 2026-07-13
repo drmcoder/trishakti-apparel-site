@@ -167,12 +167,12 @@ export default function Home() {
                 <h3 className="mt-4 font-semibold text-white">{w.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/70">{w.body}</p>
                 {w.note && (
-                  <p className="mt-3 border-t border-white/10 pt-3 text-xs text-white/50">{w.note}</p>
+                  <p className="mt-3 border-t border-white/10 pt-3 text-xs text-white/65">{w.note}</p>
                 )}
               </div>
             ))}
           </div>
-          <p className="mt-6 text-xs text-white/45">
+          <p className="mt-6 text-xs text-white/70">
             Duty rates depend on your market and product’s rule of origin, and LDC duty-free
             access runs through a transition window — tell us your destination country and
             we’ll confirm exactly what applies to your order.

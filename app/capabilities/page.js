@@ -61,7 +61,7 @@ export default function CapabilitiesPage() {
                 <Image src={asset(im.src)} alt={im.alt} fill sizes="(max-width: 1024px) 45vw, 280px" className="object-cover" />
               </div>
             ))}
-            <p className="col-span-2 text-xs text-white/45">{factory.caption}</p>
+            <p className="col-span-2 text-xs text-white/70">{factory.caption}</p>
           </div>
         </div>
       </section>

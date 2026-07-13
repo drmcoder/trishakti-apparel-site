@@ -112,7 +112,7 @@ export default function WhyNepalPage() {
           <div className="rounded-lg border border-white/10 bg-white/[0.03] p-6">
             <div className="flex items-baseline justify-between border-b border-white/10 pb-4">
               <span className="text-white/70">Standard EU duty (most countries)</span>
-              <span className="font-display text-3xl font-medium tabular-nums text-white/50 line-through">~12%</span>
+              <span className="font-display text-3xl font-medium tabular-nums text-white/65 line-through">~12%</span>
             </div>
             <div className="flex items-baseline justify-between pt-4">
               <span className="text-white">Duty from Nepal (EBA)</span>

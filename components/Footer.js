@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="container-x flex flex-col gap-2 py-5 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-x flex flex-col gap-2 py-5 text-xs text-white/65 sm:flex-row sm:items-center sm:justify-between">
           <p>© {company.founded}–2026 {company.name}. All rights reserved.</p>
           <p>{company.taglinePoetic}</p>
         </div>
