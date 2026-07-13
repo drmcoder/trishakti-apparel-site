@@ -36,17 +36,9 @@ export default function ProductPage({ params }) {
   if (!p) notFound();
   const related = products.filter((x) => x.slug !== p.slug);
 
-  const productJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: p.name,
-    image: `${seo.url}${p.image}`,
-    description: p.seoDescription,
-    material: p.fabric,
-    category: 'Apparel',
-    brand: { '@type': 'Brand', name: seo.siteName },
-    manufacturer: { '@type': 'Organization', name: seo.siteName },
-  };
+  // NOTE: no Product schema here on purpose — Google's Product rich result
+  // requires offers(price)/review/aggregateRating, which a quote-based B2B
+  // manufacturer can't provide honestly. Breadcrumb schema is the valid signal.
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -153,7 +145,6 @@ export default function ProductPage({ params }) {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <CTASection
