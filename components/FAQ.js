@@ -1,9 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { faqs } from '@/lib/content';
+import { faqs as defaultFaqs } from '@/lib/content';
 
-export default function FAQ() {
+export default function FAQ({ items }) {
+  const faqs = items || defaultFaqs;
   const [open, setOpen] = useState(0);
   return (
     <div className="mx-auto max-w-3xl divide-y divide-black/[0.08] rounded-lg border border-line">
