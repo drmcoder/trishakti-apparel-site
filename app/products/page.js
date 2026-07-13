@@ -111,12 +111,12 @@ export default function ProductsPage() {
                 </dl>
 
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <Link href="/contact/" className="btn-primary">
-                    Request a quote
+                  <Link href={`/products/${p.slug}/`} className="btn-primary">
+                    View {p.name.toLowerCase()}
                     <Icon name="arrow" className="h-4 w-4" />
                   </Link>
-                  <Link href="/capabilities/" className="btn-outline">
-                    How we build it
+                  <Link href="/contact/" className="btn-outline">
+                    Request a quote
                   </Link>
                 </div>
               </div>
