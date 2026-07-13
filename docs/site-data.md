@@ -42,15 +42,12 @@ The builder session should pull ALL content from this file. Two tiers:
 ---
 
 ## Sourcing facts — buyers decide on these
-> 🟡 = DRAFT estimate, CONFIRM with Santosh. Do not publish as final until confirmed.
+> ✅ CONFIRMED by Santosh 2026-07-13 (published live as ranges on the site).
 
-- 🟡 **Monthly capacity:** ~**60,000–80,000 pcs/month** of basic knit tees
-  (estimate from ~100 machines × single-floor SMV for a basic tee; CONFIRM real figure).
-- 🟡 **MOQ:** **300–500 pcs per style/color** (typical small-factory MOQ; CONFIRM — a
-  low, flexible MOQ is a selling point, so state the real one).
-- 🟡 **Lead time:** **Sampling 7–14 days; bulk 30–45 days** after approval (CONFIRM).
-- 🟡 **Incoterms:** **EXW Gaindakot / FOB Kolkata** (Nepal is landlocked — bulk export
-  routes via Kolkata port; CONFIRM which you actually quote).
+- ✅ **Monthly capacity:** ~**60,000–80,000 pcs/month** of basic knit tees.
+- ✅ **MOQ:** from ~**300 pcs per style/color** (small-batch friendly).
+- ✅ **Lead time:** **Sampling 7–14 days; bulk 30–45 days** after approval.
+- ✅ **Incoterms:** **EXW Gaindakot / FOB Kolkata** (landlocked — bulk routes via Kolkata).
 - 🟡 **Certifications / audits:** **None held yet** — state honestly as "compliance-ready,
   audits in progress" rather than claim certs. (CONFIRM if any exist.)
 - 🟡 **Sample policy:** **Free/low-cost samples, buyer pays courier** (CONFIRM).
