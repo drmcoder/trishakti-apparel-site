@@ -3,6 +3,7 @@ import { Inter, Fraunces } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import MobileCTABar from '@/components/MobileCTABar';
 import Reveal from '@/components/Reveal';
 import { seo, company, contact } from '@/lib/content';
 
@@ -113,7 +114,10 @@ export default function RootLayout({ children }) {
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        {/* Spacer so the fixed mobile action bar never covers footer content */}
+        <div className="h-14 md:hidden" aria-hidden="true" />
         <WhatsAppFloat />
+        <MobileCTABar />
         <Reveal />
       </body>
     </html>
