@@ -26,15 +26,15 @@ _Crafting quality knitwear — t-shirts & polos — with in-house design & CAD._
   Nepali origin** (single-transformation rule). Duty-free guaranteed through ~2029 — lock in now.
 - **Preferential access** to the UK (DCTS) and a favorable US tariff position vs. regional peers.
 
-### Products
-| Product | Fabric | GSM | Sizes |
-|---|---|---|---|
-| Crew-neck T-shirt | Single jersey cotton / CVC | 135–200 | XS–XXL |
-| Polo shirt | Pique cotton | 180–220 | XS–XXL |
-| Heavier knits (sweatshirts) | Fleece / terry | up to 400 | XS–XXL |
+### Products (full knit range — men's, women's & kids')
+| Product | Fabric | GSM |
+|---|---|---|
+| T-shirts (crew & V-neck), long-sleeve tees, tanks | Single jersey cotton / CVC | 135–200 |
+| Polo shirts | Pique cotton | 180–220 |
+| Sweatshirts & hoodies | Fleece / French terry | up to 400 |
 
-_Knit fabric capability: **135–400 GSM** — lightweight jersey tees to heavyweight fleece.
-Custom designs, colors, labels & packaging — private-label welcome._
+_Knit fabric capability: **135–400 GSM** — lightweight jersey to heavyweight fleece.
+Sizes XS–XXL. Custom designs, colors, labels & packaging — private-label welcome._
 
 ### Terms
 - **MOQ:** 500–1,000 pcs per style/color

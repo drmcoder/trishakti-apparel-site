@@ -1,0 +1,245 @@
+<title>Trishakti Apparel — Capability Line-Card</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --backdrop: #ece9e1;
+    --ink: #1b2230;
+    --navy: #1a3e73;
+    --green: #1e7a34;
+    --green-tint: #edf3ec;
+    --muted: #5b6474;
+    --line: #e0dccf;
+    --line-strong: #c9c4b4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --backdrop: #14171d; }
+  }
+  :root[data-theme="light"] { --backdrop: #ece9e1; }
+  :root[data-theme="dark"]  { --backdrop: #14171d; }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--backdrop);
+    font-family: -apple-system, "Segoe UI", system-ui, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    padding: 28px 16px 64px;
+    line-height: 1.5;
+  }
+  .serif {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "URW Palladio L", P052, Georgia, serif;
+  }
+
+  /* ---- the sheet (stays paper in both themes — it's a printed document) ---- */
+  .sheet {
+    background: var(--paper);
+    color: var(--ink);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 52px 56px 40px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 18px 44px rgba(20,30,55,.18);
+    border-top: 4px solid var(--navy);
+  }
+
+  /* ---- masthead ---- */
+  .mast { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+  .brand-name {
+    font-size: 33px; letter-spacing: .16em; font-weight: 700;
+    color: var(--navy); margin: 0; line-height: 1;
+  }
+  .brand-sub {
+    margin: 9px 0 0; font-size: 12px; letter-spacing: .2em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600;
+  }
+  .origin-badge {
+    text-align: right; flex-shrink: 0; border-left: 2px solid var(--green);
+    padding-left: 14px;
+  }
+  .origin-badge .flag { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); font-weight: 700; }
+  .origin-badge .sub  { font-size: 11px; color: var(--muted); margin-top: 3px; letter-spacing: .04em; }
+
+  .thesis {
+    margin: 26px 0 0; font-size: 21px; line-height: 1.34; color: var(--ink);
+    text-wrap: balance; max-width: 40ch;
+  }
+  .thesis b { color: var(--navy); }
+  .thesis .g { color: var(--green); font-style: normal; }
+
+  .rule { height: 1px; background: var(--line-strong); border: 0; margin: 26px 0; }
+
+  /* ---- body grid ---- */
+  .cols { display: grid; grid-template-columns: 1.05fr 1fr; gap: 34px; }
+  @media (max-width: 680px) { .cols { grid-template-columns: 1fr; gap: 26px; } }
+
+  h2.ey {
+    font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--green); font-weight: 700; margin: 0 0 10px;
+  }
+  p { margin: 0 0 11px; font-size: 13.5px; }
+  p:last-child { margin-bottom: 0; }
+  .muted { color: var(--muted); }
+
+  /* products table */
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th, td { text-align: left; padding: 7px 8px; vertical-align: top; }
+  thead th {
+    font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+    border-bottom: 1.5px solid var(--line-strong); font-weight: 700;
+  }
+  tbody td { border-bottom: 1px solid var(--line); }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.gsm { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--navy); font-weight: 600; }
+  .prod { font-weight: 600; }
+
+  /* terms spec list */
+  .spec { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: 13px; }
+  .spec dt { color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+  .spec dd { margin: 0; font-weight: 500; }
+  .spec dd b { color: var(--navy); }
+
+  /* why-now callout */
+  .callout {
+    background: var(--green-tint); border-left: 3px solid var(--green);
+    padding: 16px 18px; margin-top: 6px;
+  }
+  .callout h2.ey { color: var(--green); }
+  .callout p { font-size: 12.8px; }
+  .callout .big { font-weight: 700; color: var(--navy); }
+
+  /* edge chips */
+  .edges { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; margin-top: 4px; }
+  .edge { font-size: 12.8px; padding-left: 18px; position: relative; }
+  .edge::before {
+    content: ""; position: absolute; left: 0; top: 6px; width: 8px; height: 8px;
+    background: var(--green); border-radius: 2px; transform: rotate(45deg);
+  }
+  .edge b { color: var(--navy); }
+
+  /* footer contact */
+  .foot {
+    margin-top: 30px; padding-top: 18px; border-top: 2px solid var(--navy);
+    display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+    font-size: 12px; color: var(--muted);
+  }
+  .foot .co { color: var(--ink); font-weight: 600; font-size: 12.5px; }
+  .foot a { color: var(--navy); text-decoration: none; font-weight: 600; }
+  .foot .codes { text-align: right; font-variant-numeric: tabular-nums; letter-spacing: .01em; }
+
+  /* print button */
+  .toolbar { max-width: 860px; margin: 0 auto 16px; display: flex; justify-content: flex-end; }
+  .print-btn {
+    font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+    background: var(--navy); color: #fff; border: 0; padding: 9px 18px; border-radius: 6px;
+    letter-spacing: .02em;
+  }
+  .print-btn:hover { background: #16335f; }
+  .print-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar { display: none; }
+    .sheet { box-shadow: none; max-width: none; margin: 0; padding: 22mm 20mm; }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+
+<div class="toolbar">
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<div class="sheet">
+  <header class="mast">
+    <div>
+      <h1 class="brand-name serif">TRISHAKTI APPAREL</h1>
+      <p class="brand-sub">Full-package knit garment manufacturer · Nepal</p>
+    </div>
+    <div class="origin-badge">
+      <div class="flag">Made in Nepal</div>
+      <div class="sub">Duty-free to the EU &amp; UK</div>
+    </div>
+  </header>
+
+  <p class="thesis serif">
+    Premium <b>private-label knitwear</b> — sewn in Nepal, landed in Europe at
+    <span class="g">0% duty</span>. Low minimums, your designs, top quality.
+  </p>
+
+  <hr class="rule" />
+
+  <div class="cols">
+    <!-- LEFT -->
+    <section>
+      <h2 class="ey">Who we are</h2>
+      <p>A <b>full-package (FOB) manufacturer</b> — we source the fabric, make to your design
+      and spec, and deliver finished goods. Founded 2023 on a <b>33-year family fashion
+      legacy</b> (Trishakti Stores, est. 1991).</p>
+      <p class="muted">~100 sewing machines · in-house Optitex CAD (pattern, marking, grading,
+      resizing) · trusted by 750+ retail &amp; wholesale stores across Nepal.</p>
+
+      <div style="height:22px"></div>
+
+      <h2 class="ey">Product range — men's, women's &amp; kids'</h2>
+      <table>
+        <thead>
+          <tr><th>Product</th><th>Fabric</th><th>GSM</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="prod">T-shirts, tanks, long-sleeve</td><td class="muted">Single jersey cotton / CVC</td><td class="gsm">135–200</td></tr>
+          <tr><td class="prod">Polo shirts</td><td class="muted">Pique cotton</td><td class="gsm">180–220</td></tr>
+          <tr><td class="prod">Sweatshirts &amp; hoodies</td><td class="muted">Fleece / French terry</td><td class="gsm">up to 400</td></tr>
+        </tbody>
+      </table>
+      <p class="muted" style="font-size:12px; margin-top:9px">Sizes XS–XXL · custom designs,
+      colours, labels &amp; packaging · knit capability 135–400 GSM.</p>
+    </section>
+
+    <!-- RIGHT -->
+    <section>
+      <h2 class="ey">Terms at a glance</h2>
+      <dl class="spec">
+        <dt>MOQ</dt><dd><b>500–1,000</b> pcs / style / colour</dd>
+        <dt>Capacity</dt><dd><b>~50,000</b> pcs / month</dd>
+        <dt>Lead time</dt><dd>Bulk <b>40–50 days</b> · samples ~1–2 wks</dd>
+        <dt>Incoterms</dt><dd>EXW Gaidakot · FOB Kolkata</dd>
+        <dt>Payment</dt><dd>T/T deposit + balance · L/C for larger</dd>
+        <dt>Samples</dt><dd>Low-cost; buyer pays courier</dd>
+        <dt>Compliance</dt><dd>Ethical, audit-ready · SMETA available</dd>
+      </dl>
+
+      <div class="callout">
+        <h2 class="ey">Why source from Nepal now</h2>
+        <p><span class="big">0% EU duty</span> under Nepal's LDC / EBA status — vs. ~12% MFN.
+        Because we cut &amp; sew in Nepal, <b>imported fabric still counts as Nepali origin</b>
+        (single-transformation rule).</p>
+        <p style="margin-bottom:0"><b>Guaranteed duty-free through ~2029</b> — plus UK DCTS
+        preference and a favourable US tariff position. Lock in your sourcing while the window is open.</p>
+      </div>
+    </section>
+  </div>
+
+  <hr class="rule" />
+
+  <section>
+    <h2 class="ey">What sets us apart</h2>
+    <div class="edges">
+      <div class="edge"><b>Top-notch quality</b> — premium fabric, meticulous finishing</div>
+      <div class="edge"><b>Low, flexible MOQ</b> — built for private-label brands</div>
+      <div class="edge"><b>Own design + Optitex CAD</b> — sketch to spec, not just contract sewing</div>
+      <div class="edge"><b>Duty-free landed cost</b> — a real advantage on your shelf</div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div>
+      <div class="co">Trishakti Apparel</div>
+      Gaida Chowk, Ward-6, Gaidakot, Nawalparasi (East), Nepal<br />
+      WhatsApp <a href="https://wa.me/9779863618347">+977 9863618347</a> ·
+      <a href="mailto:admin@trishaktiapparel.com">admin@trishaktiapparel.com</a>
+    </div>
+    <div class="codes">
+      HS 6109 · 6105 · 6106 · 6110<br />
+      EXIM 1244417670168
+    </div>
+  </footer>
+</div>

@@ -40,9 +40,6 @@ export default function Footer() {
             <li>
               <Link href="/compliance/" className="text-white/70 transition hover:text-white">Compliance</Link>
             </li>
-            <li>
-              <Link href="/blog/" className="text-white/70 transition hover:text-white">Insights</Link>
-            </li>
           </ul>
         </div>
 

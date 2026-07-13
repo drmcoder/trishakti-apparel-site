@@ -18,7 +18,7 @@ export default function sitemap() {
     { url: `${seo.url}/compliance/`, changeFrequency: 'monthly', priority: 0.7 },
   ];
   const blog = [
-    { url: `${seo.url}/blog/`, changeFrequency: 'weekly', priority: 0.6 },
+    // /blog/ index is already emitted via `nav`; only per-post URLs here.
     ...posts.map((p) => ({
       url: `${seo.url}/blog/${p.slug}/`,
       lastModified: p.date,
