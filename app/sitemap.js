@@ -15,6 +15,7 @@ export default function sitemap() {
   }));
   const extra = [
     { url: `${seo.url}/sustainability/`, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${seo.url}/compliance/`, changeFrequency: 'monthly', priority: 0.7 },
   ];
   const blog = [
     { url: `${seo.url}/blog/`, changeFrequency: 'weekly', priority: 0.6 },

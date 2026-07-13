@@ -3,7 +3,7 @@ import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import FAQ from '@/components/FAQ';
-import { whyNepal, dutyFree, dutyFaqs } from '@/lib/content';
+import { whyNepal, dutyFree, dutyComparison, dutyFaqs } from '@/lib/content';
 
 export const metadata = {
   title: 'Duty-Free Apparel Sourcing from Nepal (EU, UK & Canada) — Why Nepal',
@@ -91,6 +91,53 @@ export default function WhyNepalPage() {
           </div>
 
           <p className="mt-6 max-w-3xl text-xs leading-relaxed text-muted">{dutyFree.disclaimer}</p>
+        </div>
+      </section>
+
+      {/* Nepal vs other origins — comparison table (anchoring on the duty gap) */}
+      <section className="section bg-mist/60">
+        <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">How Nepal compares</span>
+            <h2 className="mt-2 h-section">Nepal vs the other sourcing origins</h2>
+            <p className="mt-4 lead measure">{dutyComparison.intro}</p>
+          </div>
+
+          <div className="mt-8 rounded-lg border-l-2 border-accent bg-canvas p-5">
+            <p className="text-sm font-medium text-ink">{dutyComparison.hook}</p>
+          </div>
+
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full min-w-[720px] border-separate border-spacing-0 text-sm">
+              <thead>
+                <tr className="text-left text-xs uppercase tracking-wider text-muted">
+                  <th className="border-b border-line pb-3 pr-4 font-semibold">Origin</th>
+                  <th className="border-b border-line pb-3 pr-4 font-semibold">EU duty</th>
+                  <th className="border-b border-line pb-3 pr-4 font-semibold">UK duty</th>
+                  <th className="border-b border-line pb-3 pr-4 font-semibold">Basis / preference</th>
+                </tr>
+              </thead>
+              <tbody>
+                {dutyComparison.rows.map((r) => (
+                  <tr key={r.origin} className={r.highlight ? 'bg-success/[0.06]' : undefined}>
+                    <td className={`border-b border-line py-4 pr-4 font-semibold ${r.highlight ? 'text-success' : 'text-ink'}`}>
+                      <span className="mr-2" aria-hidden="true">{r.flag}</span>{r.origin}
+                    </td>
+                    <td className="border-b border-line py-4 pr-4 font-semibold tabular-nums text-ink">{r.eu}</td>
+                    <td className="border-b border-line py-4 pr-4 font-semibold tabular-nums text-ink">{r.uk}</td>
+                    <td className="border-b border-line py-4 pr-4 text-body">{r.basis}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-sm leading-relaxed text-body/80">{dutyComparison.honestNote}</p>
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-body/80">{dutyComparison.usNote}</p>
+          {dutyComparison.footnotes.map((f) => (
+            <p key={f} className="mt-4 max-w-3xl text-xs leading-relaxed text-muted">{f}</p>
+          ))}
+          <p className="mt-2 max-w-3xl text-xs leading-relaxed text-muted">{dutyComparison.disclaimer}</p>
         </div>
       </section>
 

@@ -38,6 +38,9 @@ export default function Footer() {
               <Link href="/sustainability/" className="text-white/70 transition hover:text-white">Sustainability</Link>
             </li>
             <li>
+              <Link href="/compliance/" className="text-white/70 transition hover:text-white">Compliance</Link>
+            </li>
+            <li>
               <Link href="/blog/" className="text-white/70 transition hover:text-white">Insights</Link>
             </li>
           </ul>

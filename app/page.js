@@ -3,9 +3,9 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import CTASection from '@/components/CTASection';
 import FAQ from '@/components/FAQ';
+import StatStrip from '@/components/StatStrip';
 import { asset } from '@/lib/asset';
 import {
-  trustBar,
   products,
   capabilities,
   whyNepal,
@@ -85,20 +85,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Trust bar — CONFIRMED facts only */}
-        <div className="relative border-t border-white/10 bg-navy-900/60">
-          <div className="container-x grid grid-cols-2 divide-x divide-white/10 py-6 sm:grid-cols-4">
-            {trustBar.map((s) => (
-              <div key={s.key} className="px-4 text-center sm:text-left">
-                <div className="font-display text-2xl font-medium tabular-nums tracking-[-0.02em] text-white sm:text-3xl">
-                  {s.value}
-                </div>
-                <div className="mt-1 text-[11px] uppercase tracking-[0.16em] text-white/55">{s.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
+
+      {/* ---------- By the numbers (credibility strip) ---------- */}
+      <StatStrip />
 
       {/* ---------- What we make ---------- */}
       <section className="section">
@@ -284,6 +274,10 @@ export default function Home() {
               We’re a young factory and we say so plainly — we state what we hold today
               and what’s in progress, never certifications we haven’t earned.
             </p>
+            <Link href="/compliance/" className="btn-outline mt-6">
+              Full compliance &amp; transparency
+              <Icon name="arrow" className="h-4 w-4" />
+            </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
             {compliance.points.map((c) => (
