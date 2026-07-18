@@ -14,21 +14,18 @@ export const metadata = {
   alternates: { canonical: '/products' },
 };
 
-// Product structured data for search / AI discovery.
+// ItemList of product PAGES (not Product objects) — for search/AI discovery.
+// Deliberately NOT schema.org/Product: our B2B line is quote-based, so it has no
+// price/offers/reviews, and Google flags Product snippets that lack them as invalid.
 const productsJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
+  name: 'Trishakti Apparel product line card',
   itemListElement: products.map((p, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    item: {
-      '@type': 'Product',
-      name: p.name,
-      image: `${seo.url}${p.image}`,
-      description: p.blurb,
-      material: p.fabric,
-      brand: { '@type': 'Brand', name: seo.siteName },
-    },
+    name: p.name,
+    url: `${seo.url}/products/${p.slug}/`,
   })),
 };
 

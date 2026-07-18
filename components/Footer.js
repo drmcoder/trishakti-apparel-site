@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Logo from './Logo';
 import Icon from './Icon';
 import { company, contact, nav, products } from '@/lib/content';
+import { hasEvents } from '@/lib/events';
 
 export default function Footer() {
   return (
@@ -40,6 +41,11 @@ export default function Footer() {
             <li>
               <Link href="/compliance/" className="text-white/70 transition hover:text-white">Compliance</Link>
             </li>
+            {hasEvents && (
+              <li>
+                <Link href="/gallery/" className="text-white/70 transition hover:text-white">Gallery</Link>
+              </li>
+            )}
           </ul>
         </div>
 
