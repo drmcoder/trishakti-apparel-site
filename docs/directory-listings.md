@@ -45,8 +45,8 @@ copy blocks above. Tick them off as you go.
 |---|---|---|---|
 | 1 | **Google Business Profile** (optimise existing) | Free | Already #1 in the local pack, 5.0★. Add Products (incl. sweatshirts/hoodies), Services, photos, and ask buyers for reviews. **Biggest single win — you already rank; this compounds it.** |
 | 2 | **TEPC exporter directory** | Free for registered exporters | You hold an EXIM code. Also your route to REX + trade-fair subsidy. |
-| 3 | **Europages** | Free tier | **EU buyer-facing = your duty-free market.** Highest-value free listing. |
-| 4 | **Kompass** | Free tier | Global B2B, strong EU presence. |
+| ~~3~~ | ~~**Europages / Visable**~~ | ❌ **NOT ELIGIBLE** | Supplier signup requires an **EU country of registration + VAT number**. Country dropdown lists Europe only — no Nepal. Verified on the live form 2026-07. **Don't waste time.** |
+| 4 | **Kompass** | Free tier | Global B2B (accepts non-EU). Verify Nepal is selectable at signup before investing time. |
 | 5 | **Go4WorldBusiness** | Free tier, "valid for life" | Overseas buyers search here. Ignore the $89–125/mo upsell. |
 | 6 | **Textilepages** | Free | Apparel/textile-specific, free buyer-requirement listings. |
 | 7 | **FashionUnited Marketplace** | Free signup | Fashion-industry buyer traffic. |
@@ -100,7 +100,15 @@ Nepal-USA Chamber; Logo Fashion won a Nepal-German Chamber award. This is the pa
     for leads only; never pay for "SEO value" here.
 
 ### TIER 3 — General B2B (breadth; EU-facing ones matter most)
-13. **Europages** · europages.co.uk — **EU buyer-facing = our duty-free market.** Free tier.
+13. **Europages / Visable** · ❌ **NOT ELIGIBLE FOR NEPAL.** Supplier registration demands an
+    EU country of registration and a VAT number; the country dropdown is Europe-only
+    (verified on the live signup form, July 2026). Skip it.
+
+**⚠️ Eligibility rule learned the hard way:** before filling in any directory form, check the
+**country dropdown** and whether a **VAT/EU tax number** is mandatory. Several EU-centric
+platforms silently exclude non-EU suppliers. Never enter a false country of registration to
+get past a form — buyers verify this, and it would destroy the honest positioning the whole
+site is built on.
 14. **Kompass** · kompass.com — global B2B, free tier (~$40/yr basic paid).
 15. **Go4WorldBusiness** · go4worldbusiness.com — free tier "valid for life"; paid $89–125/mo
     (not worth it). Higher volume, lower buyer quality.
