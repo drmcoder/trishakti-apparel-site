@@ -36,23 +36,89 @@ manufacturer, duty-free apparel Nepal, cut and sew Nepal, OEM apparel Nepal
 
 ---
 
-## Target directories (from live Google results for our keyword)
+## ⭐ FREE-ONLY action list — work down this in order
 
-### Priority 1 — Nepal-specific, already ranking
-1. **TEPC — Trade & Export Promotion Centre** (tepc.gov.np) — govt exporter directory.
-   Email info@tepc.gov.np · Na-Tole, Pulchowk, Lalitpur. Also gets you the REX number.
-2. **GAN — Garment Association Nepal** (ganasso.org.np) — industry umbrella body; member
-   listing + backlink. gan@asso.wlink.com.np, gan@ntc.net.np · WhatsApp 9761801580.
-3. **Vistaar Trade** (vistaartrade.com) — "150+ Nepal factories" listing that ranks page 1.
-4. **Textile Infomedia** (textileinfomedia.com) — apparel & garments Nepal company list.
-5. **Lusha** (lusha.com) — B2B company database; claim/add the company profile.
+Everything here costs nothing. Do them in this sequence; each takes 10–20 minutes with the
+copy blocks above. Tick them off as you go.
 
-### Priority 2 — global B2B sourcing marketplaces (buyer discovery + backlink)
-6. **Go4WorldBusiness** — overseas buyers search here for suppliers.
-7. **Fibre2Fashion** marketplace — textile/apparel B2B, high authority.
-8. **Kompass** (kompass.com) — global B2B directory.
-9. **Europages** (europages.co.uk) — EU buyer-facing directory (our duty-free market).
-10. **TradeIndia / ExportHub / ApparelSourcing** — additional B2B reach.
+| # | Where | Cost | Why it's worth it |
+|---|---|---|---|
+| 1 | **Google Business Profile** (optimise existing) | Free | Already #1 in the local pack, 5.0★. Add Products (incl. sweatshirts/hoodies), Services, photos, and ask buyers for reviews. **Biggest single win — you already rank; this compounds it.** |
+| 2 | **TEPC exporter directory** | Free for registered exporters | You hold an EXIM code. Also your route to REX + trade-fair subsidy. |
+| 3 | **Europages** | Free tier | **EU buyer-facing = your duty-free market.** Highest-value free listing. |
+| 4 | **Kompass** | Free tier | Global B2B, strong EU presence. |
+| 5 | **Go4WorldBusiness** | Free tier, "valid for life" | Overseas buyers search here. Ignore the $89–125/mo upsell. |
+| 6 | **Textilepages** | Free | Apparel/textile-specific, free buyer-requirement listings. |
+| 7 | **FashionUnited Marketplace** | Free signup | Fashion-industry buyer traffic. |
+| 8 | **Textile Infomedia** | Free join | India-facing — use it deliberately to test the India market. |
+| 9 | **Fibre2Fashion** | Free tier | Leads only — verified to pass **no** link. Never pay here. |
+| 10 | **Apparel Search** | Free listing | Long-established fashion B2B directory. |
+| 11 | **Lusha** | Free | Claim/correct your company profile. |
+| 12 | **Bing Places** + **Apple Business Connect** | Free | Feeds Bing/Copilot/ChatGPT Search and Apple Maps. Often forgotten. |
+
+**Not free, but cheap and high-credibility (do when budget allows):** GAN membership,
+FNCCI, and a bilateral chamber (Nepal-German / Nepal-Britain / Nepal-USA). Both competitors
+who outrank you lean on exactly these — PFS shows GSV + Nepal-USA Chamber; Logo Fashion won
+a Nepal-German Chamber award. Membership fees are modest; this is how they built trust.
+
+**Skip entirely:** Foursource (paid subscription), Alibaba ($1,999–6,999/yr), Maker's Row
+(US-only, ineligible), Sqetch (served casino spam on fetch).
+
+---
+
+## Target directories — tiered, with honest verification status
+
+**Read this first:** most B2B directories are **lead-gen, not SEO**. Verified example:
+Fibre2Fashion supplier profiles contain **zero external anchors** (grepped the live HTML)
+— listing there gets you enquiries, never link equity. So judge each by *buyers reached*,
+and treat any backlink as a bonus. After listing anywhere, confirm with:
+`node scripts/backlink-check.mjs --add <listing-url>` then `node scripts/backlink-check.mjs`
+
+### TIER 1 — Nepal institutional (do these first: credibility + likely real links)
+Both competitors who outrank us lean on institutional credentials — PFS displays GSV +
+Nepal-USA Chamber; Logo Fashion won a Nepal-German Chamber award. This is the pattern to copy.
+
+1. **GAN — Garment Association Nepal** · ganasso.org.np · gan@ntc.net.np, gan@asso.wlink.com.np
+   · +977-1-4780691 · New Baneshwor. Membership + member directory. **Highest priority.**
+2. **TEPC — Trade & Export Promotion Centre** · tepc.gov.np · info@tepc.gov.np · Pulchowk,
+   Lalitpur · +977-1-5525362. Exporter directory, REX registration, **and trade-fair subsidy**.
+3. **FNCCI** · fncci.org · Teku, Kathmandu · +977-1-4262061. Apex business federation.
+4. **Bilateral chambers** — Nepal-German, Nepal-Britain, Nepal-USA. Membership → directory
+   listing → award eligibility. This is precisely how competitors built their trust signals.
+5. **Nepal Chamber of Commerce** · Kantipath · +977-1-4230947.
+
+### TIER 2 — Apparel/textile-specific (most relevant buyers)
+6. **Foursource** · foursource.com — apparel-sourcing specific, EU brands actively source
+   here. **Best fit of any global platform.** Suppliers pay; verify current pricing.
+7. **GoSourcing365** · gosourcing365.com — textile/apparel sourcing network, buyer-side traffic.
+8. **Textilepages** · textilepages.com — free listings, connects garment makers to buyers.
+9. **Common Objective** · commonobjective.co — sustainable-fashion sourcing. Fits our
+   80%-women / hydro-powered / transparency positioning better than any generic portal.
+10. **FashionUnited Marketplace** · fashionunited.com/marketplace — free signup.
+11. **Apparel Search** · apparelsearch.com — long-established fashion B2B directory.
+12. **Fibre2Fashion** · fibre2fashion.com — ⚠️ VERIFIED: profiles pass **no link**. Free tier
+    for leads only; never pay for "SEO value" here.
+
+### TIER 3 — General B2B (breadth; EU-facing ones matter most)
+13. **Europages** · europages.co.uk — **EU buyer-facing = our duty-free market.** Free tier.
+14. **Kompass** · kompass.com — global B2B, free tier (~$40/yr basic paid).
+15. **Go4WorldBusiness** · go4worldbusiness.com — free tier "valid for life"; paid $89–125/mo
+    (not worth it). Higher volume, lower buyer quality.
+16. **TradeWheel** · tradewheel.com — general apparel B2B marketplace.
+17. **Textile Infomedia** · textileinfomedia.com — ⚠️ **India-facing portal** (+91 default).
+    Best used deliberately as an India-market test channel. Note a name collision exists:
+    "Excel Handicrafts/Trishakti Textile" is a different Kathmandu company.
+18. **Vistaar Trade** · vistaartrade.com — "150+ Nepal factories", ranks page 1 for our terms.
+19. **Lusha** · lusha.com — B2B company database; claim the profile.
+
+### AVOID / not worth it
+- **Alibaba** — US $1,999–6,999/yr; price-driven buyers; we compete on duty-free access and
+  low MOQ, not lowest unit cost. Wrong buyer, wrong economics.
+- **Maker's Row** — **ineligible**, US-based manufacturers only.
+- **Sewport** — supplier profiles sit behind a JS/login shell; not crawlable, no link.
+- **Sqetch** — ⚠️ its homepage served casino spam when fetched; footer still reads "© 2023".
+  Check in a browser before touching it.
+- **ThomasNet** — North-America focused; poor fit.
 
 ## Google Business Profile — already #1, push it further
 We rank #1 in the local pack (5.0★, 7 reviews). Compounding moves:
