@@ -56,6 +56,37 @@ copy blocks above. Tick them off as you go.
 | 11 | **Lusha** | Free | Claim/correct your company profile. |
 | 12 | **Bing Places** + **Apple Business Connect** | Free | Feeds Bing/Copilot/ChatGPT Search and Apple Maps. Often forgotten. |
 
+### ⭐⭐ HIGHEST VALUE and most often missed — do these before more B2B marketplaces
+These aren't sourcing directories; they're what **buyers check when they Google you** and what
+**AI assistants read** when asked about you. All free.
+
+| Where | Why it matters more than another marketplace |
+|---|---|
+| **LinkedIn Company Page** | The first place an overseas buyer looks to check you're real. Very high domain authority, and AI systems read it. **If you don't have one, this is the biggest single gap.** Free. |
+| **Wikidata** (wikidata.org) | Free, structured, and directly feeds Google's Knowledge Graph and AI assistants. This is the purest AEO play available — create a company item with your facts and citations to the site. |
+| **Crunchbase** | Free company profile, high authority, frequently cited by AI answer engines. |
+| **D&B / DUNS number** (dnb.com) | **Free to obtain.** Large retailers and brands often *require* a DUNS number for vendor onboarding — without it you can be disqualified before the conversation starts. Real commercial value, not just SEO. |
+| **Bing Places for Business** | Feeds Bing → which powers **ChatGPT Search and Copilot**. Almost nobody bothers. Free. |
+| **Apple Business Connect** | Apple Maps + Apple Intelligence. Free. |
+| **OpenCorporates** | Company-registry aggregator; a corroborating citation for AI and due-diligence. |
+| **Facebook / Instagram Business** | Already have facebook.com/trishaktiapparel — keep it active; buyers do check social proof. |
+
+### More B2B marketplaces (free tiers; verify Nepal is selectable each time)
+- **TradeWheel** · tradewheel.com — general apparel B2B.
+- **ExportHub** · exporthub.com — exporter-focused, developing-country friendly.
+- **eWorldTrade** · eworldtrade.com — free supplier listing.
+- **Tradekey** · tradekey.com — long-established global B2B.
+- **Exporters.SG** · exporters.sg — Asia-facing B2B.
+- **GoSourcing365** · gosourcing365.com — textile/apparel sourcing network.
+- **Common Objective** · commonobjective.co — sustainable fashion; fits the 80%-women/hydro story.
+- **Fashiondex** · fashiondex.com — apparel sourcing directory.
+- **IndiaMART** · indiamart.com — ⭐ **use deliberately for the India market** (40% value addition
+  clears the Treaty of Trade 30% rule, so India duty-free access is open to us).
+
+### Nepal official (free, high credibility)
+- **Nepal Trade Information Portal** · nepaltradeportal.gov.np — official government portal.
+- **Local chamber of commerce** — Chitwan/Nawalparasi. Local credibility + a citation.
+
 **Not free, but cheap and high-credibility (do when budget allows):** GAN membership,
 FNCCI, and a bilateral chamber (Nepal-German / Nepal-Britain / Nepal-USA). Both competitors
 who outrank you lean on exactly these — PFS shows GSV + Nepal-USA Chamber; Logo Fashion won
