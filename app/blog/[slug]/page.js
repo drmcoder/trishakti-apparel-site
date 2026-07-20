@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Icon from '@/components/Icon';
 import CTASection from '@/components/CTASection';
-import { posts, getPost } from '@/lib/posts';
+import { posts, getPost, getRelatedPosts } from '@/lib/posts';
 import { seo } from '@/lib/content';
 
 export function generateStaticParams() {
@@ -22,6 +23,7 @@ export function generateMetadata({ params }) {
 export default function BlogPost({ params }) {
   const p = getPost(params.slug);
   if (!p) notFound();
+  const related = getRelatedPosts(p.slug, 3);
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -77,6 +79,31 @@ export default function BlogPost({ params }) {
           </div>
         </div>
       </article>
+
+      {related.length > 0 && (
+        <section className="section pt-0">
+          <div className="container-x">
+            <div className="mx-auto max-w-2xl">
+              <h2 className="font-display text-2xl font-medium text-ink">Related guides</h2>
+              <ul className="mt-5 divide-y divide-line border-y border-line">
+                {related.map((r) => (
+                  <li key={r.slug}>
+                    <Link href={`/blog/${r.slug}/`} className="group flex items-start gap-3 py-4">
+                      <span className="mt-1 text-primary-500">
+                        <Icon name="arrow" className="h-4 w-4" />
+                      </span>
+                      <span>
+                        <span className="block font-medium text-ink group-hover:text-primary-700">{r.title}</span>
+                        <span className="mt-0.5 block text-sm leading-relaxed text-body/70">{r.description}</span>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
