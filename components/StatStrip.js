@@ -7,7 +7,7 @@ import { homeStats } from '@/lib/content';
 export default function StatStrip() {
   return (
     <section aria-label="Trishakti Apparel by the numbers" className="border-b border-line bg-canvas">
-      <div className="container-x grid grid-cols-2 gap-x-6 gap-y-9 py-12 sm:grid-cols-3 lg:grid-cols-6 lg:gap-x-5 lg:py-14">
+      <div className="container-x grid grid-cols-2 gap-x-6 gap-y-9 py-12 sm:grid-cols-4 md:gap-x-5 md:py-14">
         {homeStats.map((s) => (
           <div key={s.label} className="text-center lg:text-left">
             <Icon name={s.icon} className="mx-auto h-5 w-5 text-primary-500 lg:mx-0" />

@@ -7,6 +7,8 @@ import StatStrip from '@/components/StatStrip';
 import { asset } from '@/lib/asset';
 import {
   products,
+  offerings,
+  termsAtAGlance,
   capabilities,
   whyNepal,
   trust,
@@ -132,6 +134,52 @@ export default function Home() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ---------- Two ways to buy ---------- */}
+      <section className="section pt-0">
+        <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">Two ways to buy</span>
+            <h2 className="mt-2 h-section">Custom-made, or ready to import</h2>
+            <p className="mt-4 lead">
+              Build it to your own spec, or import our proven ready-made designs and sell
+              with minimal lead time — ideal for importers and resellers.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            {offerings.map((o) => (
+              <div key={o.key} className="card flex flex-col p-7">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary-50 text-primary-600">
+                  <Icon name={o.icon} className="h-6 w-6" />
+                </div>
+                <h3 className="mt-4 text-xl font-semibold text-ink">{o.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-body/80">{o.body}</p>
+                <ul className="mt-4 space-y-2">
+                  {o.points.map((pt) => (
+                    <li key={pt} className="flex gap-2.5 text-sm text-body/85">
+                      <Icon name="check" className="mt-0.5 h-4 w-4 shrink-0 text-primary-600" />
+                      {pt}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Terms at a glance ---------- */}
+      <section className="border-y border-line bg-mist/50">
+        <div className="container-x grid grid-cols-2 gap-x-6 gap-y-8 py-10 md:grid-cols-4">
+          {termsAtAGlance.map((t) => (
+            <div key={t.label}>
+              <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted">{t.label}</div>
+              <div className="mt-1.5 font-display text-lg font-medium leading-snug text-navy">{t.value}</div>
+              <div className="mt-1 text-xs leading-snug text-muted">{t.note}</div>
+            </div>
+          ))}
         </div>
       </section>
 

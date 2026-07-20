@@ -1,0 +1,98 @@
+# Germany + France fabric-agnostic buyers (52, salvaged 2026-07-20)
+
+Streetwear · promo/blank distributors · workwear · value fast-fashion · sourcing agents. All fabric-agnostic (poly, blends, performance) — good fits. ⭐=direct email.
+
+- **Gustav Daiber GmbH (brands: James & Nicholson, myrtle beach)** (Germany) — _high_ — info@daiber.de
+  - Promotional/corporate blank knits for decoration: T-shirts, polos, sweatshirts, hoodies, f | fabrics: Explicitly fabric-agnostic: 100% cotton AND large recycled-p
+- **Promodoro Fashion GmbH** (Germany) — _high_ — info@promodoro.de
+  - Corporate-fashion and merchandising blanks: T-shirts, sweatshirts, polos, workwear tops fo | fabrics: Combed/ring-spun cotton for basics but explicitly uses polye
+- **PEGADOR (Pegador GmbH)** (Germany) — _high_ — (via form)
+  - Trend streetwear: oversized hoodies, sweatshirts, tees, jersey sets and activewear-leaning | fabrics: Heavyweight fleece/French-terry poly-cotton, jersey and poly
+- **Falk & Ross Group Europe GmbH** (Germany) — _high_ — de.sales@falk-ross.eu
+  - Pan-European B2B distributor of blank/promotional apparel: t-shirts, polos, sweatshirts, h | fabrics: Fabric-agnostic. Core assortment is poly-cotton/CVC, 100% co
+- **TB International GmbH (brands: Urban Classics, Mister Tee, Build Your Brand, Merchcode, Southpole, Starter, MSTRDS)** (Germany) — _high_ — info@tbint.de
+  - Streetwear/urban-fashion group: t-shirts, oversized tees, tanks, sweatshirts, hoodies, jog | fabrics: Fabric-agnostic streetwear — cotton, poly-cotton, French ter
+- **LFDY (Live Fast Die Young)** (Germany) — _high_ — (via form)
+  - Streetwear: t-shirts, hoodies, sweatshirts, crewnecks, track/activewear pieces | fabrics: Fabric-agnostic streetwear — cotton, poly blends and heavywe
+- **Pegador GmbH** (Germany) — _high_ — support@pegador.com
+  - Oversized streetwear hoodies, tees, sweatshirts, tracksuits, women's line | fabrics: Hoodies 80% cotton / 20% polyester, 380gsm; uses cotton-poly
+- **Project X Paris (PXP)** (France) — _high_ — rp.deal@projectxparis.fr
+  - Premium/accessible streetwear — tees, hoodies, sweatshirts, tracksuits, joggers | fabrics: Trend polyester and poly-cotton blends, fleece; fabric-led r
+- **Sixth June** (France) — _high_ — (via form)
+  - Men's & women's streetwear — tees, hoodies, cargos, tracksuits, activewear-leaning pieces | fabrics: Many pieces 100% polyester; poly and technical blends, desig
+- **6PM (6PM Season)** (Germany) — _high_ — (via form)
+  - Premium streetwear + '6PM Sports' performance line — hoodies, tees, sweats, track/performa | fabrics: Runs a dedicated performance/sport line — poly and technical
+- **Groupe Beaumanoir (Cache Cache, Bonobo, Morgan, Bréal, Vib's)** (France) — _high_ — (via form)
+  - Mass-market women's and men's ready-to-wear across its store brands: jersey tops, t-shirts | fabrics: Fabric-agnostic value fashion — cotton, poly, viscose/modal 
+- **Groupe Eram — Gémo** (France) — _high_ — (via form)
+  - Gémo family clothing chain: t-shirts, polos, knit tops, sweatshirts, kids and casual basic | fabrics: Mass-market blends — cotton, polyester and poly-cotton/CVC; 
+- **Happychic (Jules, Brice, Bizzbee)** (France) — _high_ — (via form)
+  - Menswear/young-men RTW: t-shirts, polos, sweatshirts, hoodies and light knitwear across Ju | fabrics: Cotton, polyester and blended jersey/fleece; mainstream fabr
+- **SOL'S (Solo Invest / Solo Group Paris)** (France) — _high_ — (via form)
+  - Blank promotional/customisable textiles for the ad-and-merch trade: t-shirts, polos, sweat | fabrics: Heavily poly and poly-cotton/CVC plus performance/technical 
+- **Kariban Brands (Kariban, Proact, WK Designed to Work, Kimood, Native Spirit) — distributed via TopTex** (France) — _high_ — (via form)
+  - Promotional/corporate/sportswear blanks: t-shirts, polos, sweatshirts and — via Proact — 1 | fabrics: Strong polyester and performance/quick-dry technical knits (
+- **Fashion LGP** (France) — _high_ — contact@fashionlgp.com
+  - Sourcing bureau / full-package developer of ready-to-wear: knitwear (t-shirts, polos, swea | fabrics: Fabric-agnostic. Works across knit jersey, fleece, sportswea
+- **Falzon Apparel** (France / China (French-founded, Asia-based supply chain)) — _high_ — (via form)
+  - Apparel supply-chain / sourcing house managing garment programs (fashion, sports, safety/w | fabrics: Fabric-agnostic across fashion, sport and safety apparel; no
+- **Wasted Paris** (France) — _high_ — (via form)
+  - Skate/streetwear: graphic hoodies, sweatshirts, graphic tees, denim, accessories | fabrics: Heavy fleece and jersey knit tops driven by bold graphics; f
+- **Ernsting's family GmbH & Co. KG** (Germany) — _medium_ — info@ernstings-family.de
+  - Value family fashion for women/men/kids: T-shirts, tops, knitted shirts, sweatshirts, loun | fabrics: Broad value-fashion mix — cotton, poly-cotton/CVC, viscose/m
+- **Takko Fashion (Takko Holding GmbH)** (Germany) — _medium_ — (via form)
+  - Value fast-fashion for the family: jersey tees, tops, sweatshirts, kids knits, basics and  | fabrics: Value assortment heavy on polyester, poly-cotton/CVC and vis
+- **NEW YORKER Group-Services International GmbH & Co. KG** (Germany) — _medium_ — (via form)
+  - Young trend fast-fashion private label (Amisu, Fishbone, Smog, Censored sub-brands): jerse | fabrics: Trend-driven poly, poly-spandex, viscose/modal and CVC blend
+- **KiK Textilien und Non-Food GmbH** (Germany) — _medium_ — (via form)
+  - Germany's largest textile discounter (~3,500 stores): family T-shirts, sweatshirts, sports | fabrics: Value assortment dominated by polyester and poly-cotton/CVC 
+- **NKD Deutschland GmbH (NKD Group)** (Germany) — _medium_ — (via form)
+  - Value discounter (~2,000 stores, Central/Eastern Europe): seasonal family fashion — tees,  | fabrics: Value-fashion poly, poly-cotton and viscose blends alongside
+- **Homeboy (License to Thrill GmbH)** (Germany) — _medium_ — service@homeboy.eu
+  - Heritage streetwear (since 1988): hoodies, sweatshirts, baggy fits, tees, tops and accesso | fabrics: Heavyweight fleece/French-terry and jersey in cotton and pol
+- **L-SHOP-TEAM GmbH** (Germany) — _medium_ — info@l-shop-team.de
+  - Germany's largest B2B promotional/leisure/workwear textile wholesaler: t-shirts, polos, sw | fabrics: Fully fabric-agnostic — poly-cotton, cotton and polyester pr
+- **KATAG AG** (Germany) — _medium_ — (via form)
+  - Bielefeld fashion buying group / service provider for 350+ retail companies (1,800+ stores | fabrics: Fabric-agnostic across jersey basics and knitwear for its pr
+- **HAKRO GmbH** (Germany) — _medium_ — kundenbeziehungen@hakro.com
+  - Corporate-fashion / promotional workwear brand: polos, t-shirts, sweatshirts, fleece and s | fabrics: Fabric-agnostic — polyester fleece and softshell, poly-cotto
+- **Paul H. Kübler Bekleidungswerk GmbH & Co. KG (KÜBLER Workwear)** (Germany) — _medium_ — info@kuebler.eu
+  - Workwear brand: work/performance t-shirts, polos, sweatshirts, softshell/knit collections  | fabrics: Fabric-agnostic performance workwear — polyester and poly-co
+- **Strauss (Engelbert Strauss / Strauss Deutschland GmbH & Co. KG)** (Germany) — _medium_ — info@engelbert-strauss.de
+  - Large workwear and safety-apparel brand: work t-shirts, polos, sweatshirts, fleece and sof | fabrics: Heavily fabric-agnostic — polyester and poly-cotton performa
+- **Prohibited** (Germany) — _medium_ — support@prohibited.shop
+  - Streetwear — t-shirts, hoodies, crewnecks, sweatpants, track pants | fabrics: Heavy jersey/fleece cotton-poly blends; quality-basics focus
+- **Vertere Berlin** (Germany) — _medium_ — (via form)
+  - Nightlife-inspired streetwear — t-shirts, longsleeves, hoodies, essentials, statement knit | fabrics: Wardrobe-essentials jersey and fleece; blend-based, fabric-l
+- **Tabassum Promotion & Merchandising GmbH** (Germany) — _medium_ — bestellung@tabassum.de
+  - Wholesale band/merch & promotional apparel — printed t-shirts, hoodies, clubwear shirts, w | fabrics: Blank-based printed tees/hoodies in standard cotton and poly
+- **HRM Textil GmbH** (Germany) — _medium_ — info@hrm-textil.de
+  - Corporate fashion, workwear and promotional wear: t-shirts, polo shirts, sweatshirts, hood | fabrics: Broad range including fleece jackets, softshell/quilted and 
+- **Falk&Ross Group Europe GmbH** (Germany) — _medium_ — info@falk-ross.de
+  - B2B promotional and workwear textiles distributor (50+ brands) plus its own private-label  | fabrics: Fleece, softshell and sweat lines are polyester/blend-based;
+- **Engelbert Strauss GmbH & Co. KG** (Germany) — _medium_ — info@engelbert-strauss.de
+  - Workwear and utility gear: work t-shirts, work polos, pullovers, functional/performance sh | fabrics: Extensive poly-cotton and functional/performance polyester w
+- **Kiabi** (France) — _medium_ — (via form)
+  - Value fast-fashion for the whole family: t-shirts, tanks, sweatshirts, hoodies, activewear | fabrics: Cotton, polyester, poly-cotton/CVC, recycled polyester and b
+- **Jennyfer** (France) — _medium_ — (via form)
+  - Young-women trend fast fashion: t-shirts, crop tops, knit tops, sweatshirts and casual bas | fabrics: Polyester, nylon, acrylic and cotton, plus a recycled-poly c
+- **ORYX Bangladesh (French-run buying house serving the French market)** (France) — _medium_ — (via form)
+  - Sourcing/buying house placing knit, woven, sweater, outerwear and lingerie orders on behal | fabrics: Fabric-agnostic across knit and woven categories — matches w
+- **Solo Group / Sol's (Solo Invest S.A.S.)** (France) — _medium_ — (via form)
+  - Europe-leading B2B customizable/promotional textiles. Brands: SOL'S, RTP Apparel, NEOBLU,  | fabrics: Strongly fabric-agnostic: cotton, poly-cotton/CVC, 100% poly
+- **Grossiste Textile France** (France) — _medium_ — contact@grossistetextilefrance.fr
+  - B2B wholesaler/distributor of blank apparel to resellers, marking professionals and busine | fabrics: Explicitly fabric-agnostic - lists jersey, polyester, techni
+- **Dynasource** (France) — _medium_ — (via form)
+  - Import/sourcing agency handling full import projects for clients, including textiles and p | fabrics: Fabric-agnostic - sources to client specification across kni
+- **Euro France Textiles** (France) — _medium_ — (via form)
+  - Wholesaler of streetwear and sportswear apparel (own brands Bullguard, Missy): t-shirts, s | fabrics: Fabric-agnostic streetwear/sportswear - fleece sweats, jerse
+- **KUBDESIGNS (Kub Designs)** (France) — _medium_ — (via form)
+  - Private-label / white-label textile studio designing and producing custom collections for  | fabrics: Performance/athleisure-oriented and fabric-agnostic - poly-s
+- **Wrung (Wrung Division)** (France) — _medium_ — (via form)
+  - Urban/streetwear: t-shirts, hoodies, sweatshirts, caps | fabrics: Graphic jersey and fleece knit tops; fabric-agnostic streetw
+- **Otto International (Otto Group)** (Germany) — _medium_ — (via form)
+  - Sourcing office handling apparel, accessories and home textiles for Otto Group brands and  | fabrics: Fabric-agnostic — sources across cotton, blends and syntheti
+- **SOL'S / Solo Group Paris** (France) — _medium_ — (via form)
+  - Blank/promotional customisable textiles: t-shirts, polos, sweatshirts, hoodies, fleece jac | fabrics: Heavy use of polyester, poly-cotton/CVC and performance blen
+- **Ness Paris** (France) — _low_ — contact@ness_paris.fr
+  - Ready-to-wear wholesaler (La Courneuve, Paris) supplying everyday essentials - t-shirts an | fabrics: Fabric-agnostic everyday knit basics (jersey tees and casual
