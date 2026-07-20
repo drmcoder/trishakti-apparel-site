@@ -1,5 +1,6 @@
 import Icon from '@/components/Icon';
 import InquiryForm from '@/components/InquiryForm';
+import QuoteEstimator from '@/components/QuoteEstimator';
 import { contact } from '@/lib/content';
 
 import { og } from '@/lib/seo';
@@ -26,6 +27,23 @@ export default function ContactPage() {
             options, MOQ, pricing, and lead time — usually within one business day.
             It’s free and no-obligation.
           </p>
+        </div>
+      </section>
+
+      {/* Instant feasibility + quote estimator */}
+      <section className="section border-b border-line bg-mist/50">
+        <div className="container-x">
+          <div className="mx-auto max-w-xl text-center">
+            <span className="eyebrow">Instant check</span>
+            <h2 className="mt-2 h-section">Can we make it? Check in 10 seconds</h2>
+            <p className="mt-3 lead">
+              Pick your product, fabric, quantity and market — confirm feasibility and your
+              duty-free status, then get your exact price on WhatsApp.
+            </p>
+          </div>
+          <div className="mt-8">
+            <QuoteEstimator />
+          </div>
         </div>
       </section>
 
