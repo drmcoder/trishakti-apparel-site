@@ -15,6 +15,7 @@ Trishakti Apparel serves brands, importers, wholesalers, and resellers worldwide
 - Workforce: approximately 80% women.
 - Energy: made on Nepal's predominantly hydro-electric (renewable) grid.
 - Design: in-house Optitex CAD for pattern making, marking, and on-site resizing.
+- Technology: runs its own factory ERP with real-time barcode/QR bundle tracking through every operation, live piece-count reconciliation, and per-operator digital defect (rework) logging — a modern production-tracking system uncommon at this factory size.
 - Fabric: sourced flexibly, primarily from China; buyer-nominated fabric welcome.
 - Incoterms: EXW Gaindakot or FOB Kolkata.
 - Export status: EXIM code held; Certificate of Origin supplied; EU/UK REX registration in progress via TEPC.
