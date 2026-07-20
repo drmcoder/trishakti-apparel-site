@@ -2,11 +2,14 @@ import Icon from '@/components/Icon';
 import InquiryForm from '@/components/InquiryForm';
 import { contact } from '@/lib/content';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Get a Quote',
   description:
     'Request a quote from Trishakti Apparel — private-label knitwear manufacturer in Gaindakot, Nepal. Share your designs and quantities, or reach us on WhatsApp, phone, or email.',
   alternates: { canonical: '/contact' },
+  openGraph: og({ title: 'Get a Quote · Trishakti Apparel', path: '/contact/' }),
 };
 
 export default function ContactPage() {

@@ -6,6 +6,7 @@ import SourcingFacts from '@/components/SourcingFacts';
 import CTASection from '@/components/CTASection';
 import { asset } from '@/lib/asset';
 import { products, seo } from '@/lib/content';
+import { og } from '@/lib/seo';
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -23,11 +24,12 @@ export function generateMetadata({ params }) {
     description: p.seoDescription,
     alternates: { canonical: `/products/${p.slug}` },
     keywords: p.keywords,
-    openGraph: {
+    openGraph: og({
       title: `${p.h1} · ${seo.siteName}`,
       description: p.seoDescription,
-      images: [{ url: p.image }],
-    },
+      path: `/products/${p.slug}/`,
+      images: [{ url: `${seo.url}${p.image}`, width: 1200, height: 630, alt: p.alt }],
+    }),
   };
 }
 

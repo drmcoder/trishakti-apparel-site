@@ -4,11 +4,14 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import { posts } from '@/lib/posts';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Sourcing Insights — Buyer Guides for Apparel Importers',
   description:
     'Practical, fact-based guides for brands and importers sourcing knit garments from Nepal — duty-free access, sourcing comparisons, MOQ, and more.',
   alternates: { canonical: '/blog' },
+  openGraph: og({ title: 'Sourcing Insights — Trishakti Apparel', path: '/blog/' }),
 };
 
 export default function BlogIndex() {

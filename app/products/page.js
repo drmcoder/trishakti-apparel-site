@@ -7,11 +7,14 @@ import CTASection from '@/components/CTASection';
 import { products, offerings, gallery, seo } from '@/lib/content';
 import { asset } from '@/lib/asset';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Products & Line Card',
   description:
     'Private-label knit basics from Trishakti Apparel — crew-neck t-shirts, polo shirts, jersey & long-sleeve, plus woven shirts. Buy custom to your tech pack or import our ready-made designs.',
   alternates: { canonical: '/products' },
+  openGraph: og({ title: 'Products & Line Card · Trishakti Apparel', path: '/products/' }),
 };
 
 // ItemList of product PAGES (not Product objects) — for search/AI discovery.

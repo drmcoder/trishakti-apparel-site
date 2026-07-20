@@ -3,11 +3,14 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import { company, leadership, team, stats, differentiators } from '@/lib/content';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'About',
   description:
     'Trishakti Apparel grew out of Trishakti Stores and 33 years of family fashion experience. A cut-and-sew garment factory in Gaindakot, Nepal, founded in 2023.',
   alternates: { canonical: '/about' },
+  openGraph: og({ title: 'About · Trishakti Apparel', path: '/about/' }),
 };
 
 export default function AboutPage() {

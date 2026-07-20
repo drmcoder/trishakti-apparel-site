@@ -5,11 +5,14 @@ import { asset } from '@/lib/asset';
 import { getEventImages } from '@/lib/events';
 import { seo } from '@/lib/content';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Life at Trishakti — Our Team, Factory & Events',
   description:
     'Real photos from inside Trishakti Apparel — our people, our production floor in Gaindakot, and life at a women-led knit garment factory in Nepal.',
   alternates: { canonical: '/gallery' },
+  openGraph: og({ title: 'Life at Trishakti — Our Team, Factory & Events', path: '/gallery/' }),
   keywords: [
     'Trishakti Apparel factory photos',
     'women-led garment factory Nepal',

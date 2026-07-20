@@ -5,12 +5,14 @@ import CTASection from '@/components/CTASection';
 import FAQ from '@/components/FAQ';
 import { whyNepal, dutyFree, dutyComparison, dutyFaqs } from '@/lib/content';
 import DutySavingsCalculator from '@/components/DutySavingsCalculator';
+import { og } from '@/lib/seo';
 
 export const metadata = {
   title: 'Duty-Free Apparel Sourcing from Nepal (EU, UK & Canada) — Why Nepal',
   description:
     'Why source knit garments from Nepal: 0% import duty to the EU (EBA), UK (DCTS) and Canada (LDCT) under single-transformation rules — imported fabric qualifies. Lowest US tariff in South Asia. Low MOQ, ethical, export-ready.',
   alternates: { canonical: '/why-nepal' },
+  openGraph: og({ title: 'Duty-Free Apparel Sourcing from Nepal — Why Nepal', path: '/why-nepal/' }),
   keywords: [
     'Nepal garment duty free EU',
     'duty-free knitwear manufacturer Nepal',

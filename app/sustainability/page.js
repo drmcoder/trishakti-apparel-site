@@ -3,11 +3,14 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import { sustainability, seo } from '@/lib/content';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Sustainability & Ethics — Ethical Garment Manufacturing in Nepal',
   description:
     'How Trishakti Apparel makes garments responsibly: 80% women workforce, fair wages, made on Nepal’s hydro-electric renewable power, and honest, audit-ready compliance.',
   alternates: { canonical: '/sustainability' },
+  openGraph: og({ title: 'Sustainability & Ethics — Trishakti Apparel', path: '/sustainability/' }),
   keywords: [
     'ethical clothing manufacturer Nepal',
     'sustainable t-shirt manufacturer',

@@ -5,11 +5,14 @@ import CTASection from '@/components/CTASection';
 import { capabilities, process, compliance, factory, contact } from '@/lib/content';
 import { asset } from '@/lib/asset';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Capabilities',
   description:
     'Trishakti Apparel capabilities: design & development, in-house Optitex CAD pattern making, cut & sew, private-label finishing, quality control, and fabric/trims sourcing with duty management.',
   alternates: { canonical: '/capabilities' },
+  openGraph: og({ title: 'Capabilities · Trishakti Apparel', path: '/capabilities/' }),
 };
 
 export default function CapabilitiesPage() {

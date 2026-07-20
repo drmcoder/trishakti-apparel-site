@@ -4,6 +4,7 @@ import Icon from '@/components/Icon';
 import CTASection from '@/components/CTASection';
 import { posts, getPost, getRelatedPosts } from '@/lib/posts';
 import { seo } from '@/lib/content';
+import { og } from '@/lib/seo';
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -16,7 +17,10 @@ export function generateMetadata({ params }) {
     title: p.title,
     description: p.description,
     alternates: { canonical: `/blog/${p.slug}` },
-    openGraph: { type: 'article', title: p.title, description: p.description, publishedTime: p.date },
+    openGraph: {
+      ...og({ title: p.title, description: p.description, path: `/blog/${p.slug}/`, type: 'article' }),
+      publishedTime: p.date,
+    },
   };
 }
 

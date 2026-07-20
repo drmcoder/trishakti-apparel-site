@@ -3,11 +3,14 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import { compliance, seo } from '@/lib/content';
 
+import { og } from '@/lib/seo';
+
 export const metadata = {
   title: 'Compliance & Transparency — Ethical Garment Sourcing from Nepal',
   description:
     'Exactly where Trishakti Apparel stands on compliance: EXIM & Certificate of Origin held, REX and social audits (Sedex/SMETA, BSCI) in progress. Honest status, no borrowed badges — plus a plain-English guide to what each standard means.',
   alternates: { canonical: '/compliance' },
+  openGraph: og({ title: 'Compliance & Transparency — Trishakti Apparel', path: '/compliance/' }),
   keywords: [
     'ethical garment manufacturer Nepal',
     'social compliance garment factory Nepal',
