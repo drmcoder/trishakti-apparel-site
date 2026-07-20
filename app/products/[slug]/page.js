@@ -106,7 +106,7 @@ export default function ProductPage({ params }) {
                 <Row label="GSM range" value={p.gsm.confirmed && p.gsm.value ? p.gsm.value : 'Confirmed per order'} />
                 <Row label="Sizes" value={p.sizes} />
                 <Row label="MOQ" value="500–1,000 pcs / style" />
-                <Row label="Lead time" value="Sample 7–14d · Bulk 30–45d" />
+                <Row label="Lead time" value="Sample 7–14d · Bulk 40–50d" />
               </dl>
             </div>
           </aside>
