@@ -1,0 +1,189 @@
+<title>Trishakti Apparel — FOB Quote Calculator</title>
+<style>
+  :root{
+    --bg:#eef1f4; --card:#ffffff; --ink:#1b2230; --navy:#1a3e73; --green:#1e7a34;
+    --green-tint:#edf3ec; --muted:#5b6474; --line:#e2e6ec; --field:#f7f9fb; --accent:#d7282b;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;--green:#5cc27a;
+      --green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;}
+  }
+  :root[data-theme="light"]{--bg:#eef1f4;--card:#fff;--ink:#1b2230;--navy:#1a3e73;--green:#1e7a34;--green-tint:#edf3ec;--muted:#5b6474;--line:#e2e6ec;--field:#f7f9fb;}
+  :root[data-theme="dark"]{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;--green:#5cc27a;--green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;}
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
+    font-family:-apple-system,"Segoe UI",system-ui,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;padding:24px 16px 60px}
+  .wrap{max-width:1000px;margin:0 auto}
+  header.top{margin-bottom:20px}
+  h1{font-size:24px;margin:0;color:var(--navy);letter-spacing:.01em}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 20px}
+  h2{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:0 0 14px;font-weight:700}
+  .field{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px}
+  .field label{font-size:13.5px;color:var(--ink)}
+  .field .hint{display:block;font-size:11px;color:var(--muted);margin-top:1px}
+  .field input,.field select{width:120px;flex-shrink:0;background:var(--field);border:1px solid var(--line);
+    color:var(--ink);border-radius:7px;padding:8px 10px;font:inherit;font-size:14px;text-align:right;
+    font-variant-numeric:tabular-nums}
+  .field select{text-align:left}
+  .field input:focus,.field select:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green)}
+  .unit{color:var(--muted);font-size:12px;width:46px;text-align:left;flex-shrink:0}
+
+  /* results */
+  .result{position:sticky;top:16px}
+  .fob{background:var(--navy);color:#fff;border-radius:12px;padding:18px 20px;margin-bottom:14px;
+    display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .fob .lbl{font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+  .fob .val{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
+  .fob .val small{font-size:15px;font-weight:600;opacity:.8}
+  .brk{width:100%;border-collapse:collapse;font-size:13.5px}
+  .brk td{padding:7px 2px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+  .brk td:last-child{text-align:right;font-weight:600}
+  .brk tr.sub td{color:var(--muted)}
+  .brk tr.tot td{font-weight:800;color:var(--navy);border-bottom:2px solid var(--navy);font-size:14.5px}
+  .brk tr.grand td{font-weight:800;color:var(--green);font-size:15px;border-bottom:0;padding-top:12px}
+  .pill{display:inline-block;background:var(--green-tint);color:var(--green);font-size:11px;font-weight:700;
+    padding:2px 8px;border-radius:20px;margin-left:6px}
+  .note{font-size:11.5px;color:var(--muted);margin-top:14px;line-height:1.5}
+  .btnrow{margin-top:14px}
+  .reset{font:inherit;font-size:12.5px;font-weight:600;background:transparent;border:1px solid var(--line);
+    color:var(--muted);padding:7px 14px;border-radius:7px;cursor:pointer}
+  .reset:hover{border-color:var(--green);color:var(--green)}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>FOB Quote Calculator</h1>
+    <div class="sub">Trishakti Apparel · plug in your real costs → get a defensible price per piece. Everything updates live.</div>
+  </header>
+
+  <div class="grid">
+    <!-- INPUTS -->
+    <div>
+      <div class="card">
+        <h2>Garment & fabric</h2>
+        <div class="field">
+          <label>Garment type<span class="hint">sets fabric area + GSM defaults</span></label>
+          <select id="garment"></select>
+        </div>
+        <div class="field"><label>Fabric area <span class="hint">m² per piece (editable)</span></label><input id="area" type="number" step="0.05"><span class="unit">m²</span></div>
+        <div class="field"><label>GSM <span class="hint">fabric weight</span></label><input id="gsm" type="number" step="5"><span class="unit">g/m²</span></div>
+        <div class="field"><label>Fabric price <span class="hint">imported, per kg</span></label><input id="fabprice" type="number" step="0.1"><span class="unit">$/kg</span></div>
+        <div class="field"><label>Fabric wastage</label><input id="waste" type="number" step="1"><span class="unit">%</span></div>
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <h2>Labour, trims & margin</h2>
+        <div class="field"><label>CMT <span class="hint">cut-make-trim labour, per pc</span></label><input id="cmt" type="number" step="5"><span class="unit">NPR</span></div>
+        <div class="field"><label>NPR per USD <span class="hint">exchange rate</span></label><input id="fx" type="number" step="0.5"><span class="unit">Rs/$</span></div>
+        <div class="field"><label>Trims <span class="hint">labels, thread, polybag, per pc</span></label><input id="trims" type="number" step="0.01"><span class="unit">$/pc</span></div>
+        <div class="field"><label>Factory overhead</label><input id="oh" type="number" step="1"><span class="unit">%</span></div>
+        <div class="field"><label>Profit margin</label><input id="margin" type="number" step="1"><span class="unit">%</span></div>
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <h2>Logistics & order</h2>
+        <div class="field"><label>Inland freight to Kolkata <span class="hint">per pc</span></label><input id="freight" type="number" step="0.01"><span class="unit">$/pc</span></div>
+        <div class="field"><label>Export handling & docs <span class="hint">per pc</span></label><input id="handling" type="number" step="0.01"><span class="unit">$/pc</span></div>
+        <div class="field"><label>Order quantity</label><input id="qty" type="number" step="100"><span class="unit">pcs</span></div>
+        <div class="btnrow"><button class="reset" id="reset">↺ Reset to defaults</button></div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="result">
+      <div class="fob">
+        <div class="lbl">FOB Kolkata / piece</div>
+        <div class="val">$<span id="fobPc">–</span></div>
+      </div>
+      <div class="card">
+        <h2>Cost breakdown <span class="pill" id="cons">–</span></h2>
+        <table class="brk">
+          <tr class="sub"><td>Fabric (with wastage)</td><td>$<span id="rFab">–</span></td></tr>
+          <tr class="sub"><td>Trims</td><td>$<span id="rTrim">–</span></td></tr>
+          <tr class="sub"><td>CMT labour</td><td>$<span id="rCmt">–</span></td></tr>
+          <tr><td>Factory cost</td><td>$<span id="rFactory">–</span></td></tr>
+          <tr class="sub"><td>+ Overhead</td><td>$<span id="rOh">–</span></td></tr>
+          <tr class="sub"><td>+ Margin</td><td>$<span id="rMargin">–</span></td></tr>
+          <tr class="tot"><td>EXW Gaidakot / pc</td><td>$<span id="rExw">–</span></td></tr>
+          <tr class="sub"><td>+ Freight + handling</td><td>$<span id="rLog">–</span></td></tr>
+          <tr class="tot"><td>FOB Kolkata / pc</td><td>$<span id="rFob">–</span></td></tr>
+          <tr class="grand"><td>Total order value <span id="qtyLbl" style="color:var(--muted);font-weight:600"></span></td><td>$<span id="rTotal">–</span></td></tr>
+        </table>
+        <div class="note">
+          Estimate only — replace defaults with your real fabric price, CMT and freight for an accurate quote.
+          Fabric consumption = area × GSM ÷ 1000 × (1 + wastage). EXW = ex-factory + margin; FOB adds inland
+          freight to Kolkata. For <b>FOB per kg / by weight</b> buyers, quote the piece price. Keep a copy of
+          your inputs with each quote so you can defend the price.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var PRESETS={
+    "T-shirt (crew)":{area:1.15,gsm:180},
+    "Polo shirt":{area:1.35,gsm:200},
+    "Tank top":{area:0.90,gsm:170},
+    "Long-sleeve tee":{area:1.50,gsm:185},
+    "Sweatshirt":{area:1.85,gsm:280},
+    "Hoodie":{area:2.15,gsm:320}
+  };
+  var DEFAULTS={area:1.15,gsm:180,fabprice:4.5,waste:12,cmt:55,fx:133,trims:0.18,oh:10,margin:15,freight:0.12,handling:0.06,qty:1000};
+  var g=document.getElementById("garment");
+  Object.keys(PRESETS).forEach(function(k){var o=document.createElement("option");o.value=k;o.textContent=k;g.appendChild(o);});
+
+  function $(id){return document.getElementById(id);}
+  function num(id){var v=parseFloat($(id).value);return isNaN(v)?0:v;}
+  function money(x){return x.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});}
+
+  function setDefaults(){
+    for(var k in DEFAULTS){ if($(k)) $(k).value=DEFAULTS[k]; }
+    g.value="T-shirt (crew)";
+    calc();
+  }
+  g.addEventListener("change",function(){
+    var p=PRESETS[g.value]; if(p){$("area").value=p.area;$("gsm").value=p.gsm;} calc();
+  });
+  $("reset").addEventListener("click",setDefaults);
+
+  function calc(){
+    var area=num("area"),gsm=num("gsm"),fabprice=num("fabprice"),waste=num("waste");
+    var cmtNpr=num("cmt"),fx=num("fx")||1,trims=num("trims"),oh=num("oh"),margin=num("margin");
+    var freight=num("freight"),handling=num("handling"),qty=num("qty");
+
+    var consKg=area*gsm/1000;                 // greige consumption
+    var consWaste=consKg*(1+waste/100);       // with wastage
+    var fabCost=consWaste*fabprice;
+    var cmtUsd=cmtNpr/fx;
+    var factory=fabCost+trims+cmtUsd;
+    var ohAmt=factory*oh/100;
+    var exFactory=factory+ohAmt;
+    var marginAmt=exFactory*margin/100;
+    var exw=exFactory+marginAmt;
+    var log=freight+handling;
+    var fob=exw+log;
+    var total=fob*qty;
+
+    $("cons").textContent=consWaste.toFixed(3)+" kg/pc";
+    $("rFab").textContent=money(fabCost);
+    $("rTrim").textContent=money(trims);
+    $("rCmt").textContent=money(cmtUsd);
+    $("rFactory").textContent=money(factory);
+    $("rOh").textContent=money(ohAmt);
+    $("rMargin").textContent=money(marginAmt);
+    $("rExw").textContent=money(exw);
+    $("rLog").textContent=money(log);
+    $("rFob").textContent=money(fob);
+    $("fobPc").textContent=money(fob);
+    $("rTotal").textContent=money(total);
+    $("qtyLbl").textContent="("+qty.toLocaleString()+" pcs)";
+  }
+  document.querySelectorAll("input").forEach(function(el){el.addEventListener("input",calc);});
+  setDefaults();
+</script>

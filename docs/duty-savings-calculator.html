@@ -1,0 +1,172 @@
+<title>Duty-Free Sourcing Savings — Trishakti Apparel (Nepal)</title>
+<style>
+  :root{--bg:#eef1f4;--card:#fff;--ink:#1b2230;--navy:#1a3e73;--green:#1e7a34;
+    --green-tint:#edf3ec;--muted:#5b6474;--line:#e2e6ec;--field:#f7f9fb;--warn:#8a5a12;--warn-bg:#fbf3e3;}
+  @media(prefers-color-scheme:dark){:root{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;
+    --green:#5cc27a;--green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;--warn:#e0b869;--warn-bg:#2a2416;}}
+  :root[data-theme="light"]{--bg:#eef1f4;--card:#fff;--ink:#1b2230;--navy:#1a3e73;--green:#1e7a34;--green-tint:#edf3ec;--muted:#5b6474;--line:#e2e6ec;--field:#f7f9fb;--warn:#8a5a12;--warn-bg:#fbf3e3;}
+  :root[data-theme="dark"]{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;--green:#5cc27a;--green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;--warn:#e0b869;--warn-bg:#2a2416;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.55;
+    font-family:-apple-system,"Segoe UI",system-ui,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:26px 16px 60px}
+  .wrap{max-width:640px;margin:0 auto}
+  .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:700}
+  h1{font-size:27px;margin:6px 0 6px;color:var(--navy);letter-spacing:.01em;text-wrap:balance}
+  .lede{color:var(--muted);font-size:14.5px;margin:0 0 20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .fld{margin-bottom:15px}
+  .fld label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+  select,input{width:100%;background:var(--field);border:1px solid var(--line);color:var(--ink);
+    border-radius:8px;padding:11px 12px;font:inherit;font-size:15px}
+  select:focus,input:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:520px){.row{grid-template-columns:1fr}}
+
+  .result{margin-top:18px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .rtop{background:var(--navy);color:#fff;padding:22px 22px}
+  .rtop .k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+  .rtop .big{font-size:40px;font-weight:800;line-height:1.05;margin-top:4px;font-variant-numeric:tabular-nums}
+  .rtop .cap{font-size:13px;opacity:.9;margin-top:6px}
+  .rbody{background:var(--card);padding:18px 22px}
+  .cmp{display:flex;gap:10px;align-items:stretch;margin-bottom:14px}
+  .cmp .box{flex:1;border:1px solid var(--line);border-radius:10px;padding:12px}
+  .cmp .box .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .cmp .box .rate{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+  .cmp .now .rate{color:var(--ink)}
+  .cmp .nep{background:var(--green-tint);border-color:var(--green)}
+  .cmp .nep .rate{color:var(--green)}
+  .cmp .arrow{align-self:center;color:var(--muted);font-size:20px}
+  .msg{font-size:13.5px;color:var(--ink);background:var(--green-tint);border-left:3px solid var(--green);padding:11px 13px;border-radius:8px}
+  .msg.warn{background:var(--warn-bg);border-left-color:var(--warn);color:var(--warn)}
+
+  .cta{margin-top:16px;border-top:1px solid var(--line);padding-top:16px}
+  .cta p{font-size:13px;color:var(--muted);margin:0 0 10px}
+  .cta a{display:block;text-align:center;background:var(--green);color:#fff;text-decoration:none;
+    font-weight:700;padding:13px;border-radius:9px;font-size:15px}
+  .cta a:hover{background:#186627}
+  .disc{font-size:11px;color:var(--muted);margin-top:16px;line-height:1.5}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Trishakti Apparel · Made in Nepal</div>
+  <h1>How much could duty-free Nepal sourcing save you?</h1>
+  <p class="lede">Nepal enters most major markets duty-free (LDC status). See your potential annual saving vs. your current origin — then get an exact quote.</p>
+
+  <div class="card">
+    <div class="fld">
+      <label>Where do you sell / import into?</label>
+      <select id="dest"></select>
+    </div>
+    <div class="row">
+      <div class="fld">
+        <label>Where do you currently produce?</label>
+        <select id="origin"></select>
+      </div>
+      <div class="fld">
+        <label>Annual sourcing spend (USD)</label>
+        <input id="value" type="number" step="10000" value="500000">
+      </div>
+    </div>
+  </div>
+
+  <div class="result" id="result" style="display:none">
+    <div class="rtop">
+      <div class="k" id="topk">Estimated annual duty saving</div>
+      <div class="big" id="save">$0</div>
+      <div class="cap" id="cap"></div>
+    </div>
+    <div class="rbody">
+      <div class="cmp">
+        <div class="box now"><div class="lab">Current duty <span id="ol"></span></div><div class="rate" id="curRate">–</div></div>
+        <div class="arrow">→</div>
+        <div class="box nep"><div class="lab">From Nepal</div><div class="rate" id="nepRate">0%</div></div>
+      </div>
+      <div class="msg" id="msg"></div>
+      <div class="cta">
+        <p>Want the exact landed-cost breakdown for your styles?</p>
+        <a id="quote" href="#" target="_blank" rel="noopener">Get a quote on WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="disc"><b>Indicative only — verify before contracting.</b> Duty-free access requires meeting each
+  market's rules of origin. Nepal's cut-and-sew (single transformation) qualifies <i>with imported fabric</i>
+  for the <b>EU</b> (EBA), <b>UK</b> (DCTS), <b>Canada</b> (LDCT — liberalised Jan 2025) and <b>Japan</b>
+  (LDC single-stage rule). <b>Australia</b> requires ≥50% local content, so imported-fabric garments may not
+  qualify. Nepal's EU/EBA duty-free runs through the ~2029 LDC-graduation transition. The <b>USA</b> grants
+  Nepal no duty-free (NTPP expired). Rates are MFN on knitted apparel (HS 6109) and can change with trade
+  policy. Sources: EU Access2Markets, UK GOV.UK DCTS, Canada CBSA, Japan Customs, WTO.</p>
+</div>
+
+<script>
+  // MFN duty on knit tees + Nepal status, per destination (verified 2026-07, incl. rules of origin)
+  var DEST={
+    "European Union":{mfn:12,nepal:0,note:"EBA — single transformation, imported fabric OK, through ~2029"},
+    "United Kingdom":{mfn:12,nepal:0,note:"DCTS — single transformation, imported fabric OK"},
+    "Canada":{mfn:18,nepal:0,note:"LDCT — since Jan 2025 cut & sew confers origin regardless of fabric origin"},
+    "Japan":{mfn:9.2,nepal:0,note:"LDC single-stage rule — imported fabric OK"},
+    "Australia":{mfn:5,nepal:0,conditional:true,note:"LDC scheme needs ≥50% local content — imported-fabric garments may NOT qualify"},
+    "United States":{mfn:26.5,nepal:null,note:"not duty-free; ~26.5% (16.5% MFN + 10%), like India/Bangladesh; China ~34%"}
+  };
+  // origins already duty-free into a destination (=> no duty saving)
+  var FREE={
+    "China":{},
+    "India":{"Australia":1},
+    "Bangladesh":{"European Union":1,"United Kingdom":1,"Canada":1,"Australia":1,"Japan":1},
+    "Vietnam":{"European Union":1,"United Kingdom":1},
+    "Turkey":{"European Union":1},
+    "Pakistan":{"European Union":1,"United Kingdom":1},
+    "Cambodia":{"European Union":1,"United Kingdom":1,"Canada":1,"Australia":1,"Japan":1},
+    "Other / non-preferential":{}
+  };
+  var WA="https://wa.me/9779863618347";
+  function $(i){return document.getElementById(i)}
+  var d=$("dest"),o=$("origin");
+  Object.keys(DEST).forEach(function(k){var x=document.createElement("option");x.value=k;x.textContent=k;d.appendChild(x)});
+  Object.keys(FREE).forEach(function(k){var x=document.createElement("option");x.value=k;x.textContent=k;o.appendChild(x)});
+  d.value="European Union"; o.value="China";
+  function fmt(n){return "$"+Math.round(n).toLocaleString()}
+  function calc(){
+    var dest=d.value,origin=o.value,val=parseFloat($("value").value)||0;
+    var D=DEST[dest]; $("result").style.display="block";
+    $("ol").textContent="("+origin.split(" /")[0]+")";
+    // USA special
+    if(D.nepal===null){
+      $("topk").textContent="Nepal is not duty-free to the US";
+      $("save").textContent="—";
+      $("cap").textContent="But Nepal's tariff is among the lowest in South Asia — below India's — plus ethical, low-MOQ production.";
+      $("curRate").textContent=D.mfn+"%"; $("nepRate").textContent="~10% add-on";
+      $("msg").className="msg warn";
+      $("msg").textContent="The US doesn't grant Nepal duty-free entry (the NTPP program expired). At ~26.5% Nepal is in the same band as India and Bangladesh; only China is higher (~34%). Choose Nepal for quality, ethics and flexible MOQ — not US duty savings.";
+    } else if(D.conditional){
+      $("topk").textContent="Duty-free to Australia is conditional";
+      $("save").textContent="Verify origin";
+      $("cap").textContent="Australia's LDC rule needs ≥50% local content — hard to meet with imported fabric.";
+      $("curRate").textContent=D.mfn+"%"; $("nepRate").textContent="0% if it qualifies";
+      $("msg").className="msg warn";
+      $("msg").innerHTML="Australia grants LDCs duty-free, but <b>only if ≥50% of factory cost is local content</b>. Because your fabric is imported (usually the majority of cost), your garments may <b>not qualify</b> for 0%. Australia's duty is only 5% anyway — confirm eligibility before promising a saving.";
+    } else {
+      var free=FREE[origin] && FREE[origin][dest];
+      var curRate= free?0:D.mfn;
+      var saving= (curRate - D.nepal)/100 * val;
+      $("curRate").textContent=curRate+"%"; $("nepRate").textContent=D.nepal+"%";
+      if(free){
+        $("topk").textContent="You're already duty-free from "+origin.split(" /")[0];
+        $("save").textContent="$0 duty saving";
+        $("cap").textContent="Nepal matches 0% — and adds flexibility + a hedge.";
+        $("msg").className="msg";
+        $("msg").innerHTML="Good news: "+origin.split(" /")[0]+" already enters "+dest+" duty-free, and <b>so does Nepal</b>. The reason to add Nepal: <b>low/flexible MOQ, all knit fabrics, ethical production</b> — and a duty-free <b>hedge</b> if "+origin.split(" /")[0]+" loses its preference.";
+      } else {
+        $("topk").textContent="Estimated annual duty saving";
+        $("save").textContent=fmt(saving);
+        $("cap").textContent="vs. "+curRate+"% duty from "+origin.split(" /")[0]+" into "+dest+" ("+D.note+").";
+        $("msg").className="msg";
+        $("msg").innerHTML="Sourcing from "+origin.split(" /")[0]+" into "+dest+" you pay <b>"+curRate+"%</b> duty. Made in Nepal, the same garments enter at <b>0%</b> ("+D.note+") — even with imported fabric, under single-transformation rules. That's <b>"+fmt(saving)+"/yr</b> back in your margin.";
+      }
+    }
+    var pre="Hi Trishakti, I sell into "+dest+", currently source from "+origin.split(" /")[0]+", ~$"+((parseFloat($("value").value)||0).toLocaleString())+"/yr. I'd like a duty-free quote.";
+    $("quote").href=WA+"?text="+encodeURIComponent(pre);
+  }
+  [d,o,$("value")].forEach(function(el){el.addEventListener("input",calc)});
+  calc();
+</script>
