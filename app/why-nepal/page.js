@@ -4,6 +4,7 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import FAQ from '@/components/FAQ';
 import { whyNepal, dutyFree, dutyComparison, dutyFaqs } from '@/lib/content';
+import DutySavingsCalculator from '@/components/DutySavingsCalculator';
 
 export const metadata = {
   title: 'Duty-Free Apparel Sourcing from Nepal (EU, UK & Canada) — Why Nepal',
@@ -91,6 +92,24 @@ export default function WhyNepalPage() {
           </div>
 
           <p className="mt-6 max-w-3xl text-xs leading-relaxed text-muted">{dutyFree.disclaimer}</p>
+        </div>
+      </section>
+
+      {/* Interactive duty-savings calculator */}
+      <section className="section bg-mist/60">
+        <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">See your saving</span>
+            <h2 className="mt-2 h-section">Duty-savings calculator</h2>
+            <p className="mt-4 lead measure">
+              Pick your market and where you produce today — see what duty-free Nepal sourcing
+              could save you, then get an exact quote. Honest: if you already source duty-free,
+              it says so.
+            </p>
+          </div>
+          <div className="mt-10">
+            <DutySavingsCalculator />
+          </div>
         </div>
       </section>
 
