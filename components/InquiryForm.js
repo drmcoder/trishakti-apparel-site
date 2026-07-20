@@ -125,7 +125,7 @@ export default function InquiryForm() {
 
         <div>
           <label htmlFor="buyerType" className="mb-1 block text-sm font-medium text-ink">
-            You are a… <span className="font-normal text-body/50">(optional)</span>
+            You are a… <span className="font-normal text-muted">(optional)</span>
           </label>
           <select
             id="buyerType"
@@ -160,7 +160,7 @@ export default function InquiryForm() {
 
         <div>
           <label htmlFor="quantity" className="mb-1 block text-sm font-medium text-ink">
-            Target quantity <span className="font-normal text-body/50">(optional)</span>
+            Target quantity <span className="font-normal text-muted">(optional)</span>
           </label>
           <select
             id="quantity"
@@ -191,7 +191,7 @@ export default function InquiryForm() {
         {hasEndpoint && (
           <div className="sm:col-span-2">
             <label htmlFor="attachment" className="mb-1 block text-sm font-medium text-ink">
-              Tech pack / artwork <span className="font-normal text-body/50">(optional)</span>
+              Tech pack / artwork <span className="font-normal text-muted">(optional)</span>
             </label>
             <input
               id="attachment"
@@ -214,7 +214,7 @@ export default function InquiryForm() {
         {status === 'sending' ? 'Sending…' : 'Send inquiry'}
         {status !== 'sending' && <Icon name="arrow" className="h-4 w-4" />}
       </button>
-      <p className="mt-3 text-xs text-body/60">
+      <p className="mt-3 text-xs text-muted">
         We typically reply within one business day. We’ll only use your details to
         respond to this inquiry — no spam, ever.
       </p>

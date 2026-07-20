@@ -190,7 +190,7 @@ export default function ProductsPage() {
 function Spec({ label, value }) {
   return (
     <div>
-      <dt className="text-xs font-semibold uppercase tracking-wider text-body/50">{label}</dt>
+      <dt className="text-xs font-semibold uppercase tracking-wider text-muted">{label}</dt>
       <dd className="mt-1 font-medium text-ink">{value}</dd>
     </div>
   );

@@ -53,7 +53,11 @@ export default function Footer() {
           <h3 className="text-sm font-semibold uppercase tracking-wider text-white">What we make</h3>
           <ul className="mt-4 space-y-2.5 text-sm">
             {products.map((p) => (
-              <li key={p.key} className="text-white/70">{p.name}</li>
+              <li key={p.key}>
+                <Link href={`/products/${p.slug}/`} className="text-white/70 transition hover:text-white">
+                  {p.name}
+                </Link>
+              </li>
             ))}
             <li>
               <Link href="/products/" className="font-medium text-white/90 hover:text-white">

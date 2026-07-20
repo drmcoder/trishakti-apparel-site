@@ -269,7 +269,7 @@ export default function Home() {
                 {heritage.proof.map((h) => (
                   <div key={h.label}>
                     <dt className="text-2xl font-semibold text-navy">{h.value}</dt>
-                    <dd className="mt-0.5 text-xs leading-snug text-body/60">{h.label}</dd>
+                    <dd className="mt-0.5 text-xs leading-snug text-muted">{h.label}</dd>
                   </div>
                 ))}
               </dl>

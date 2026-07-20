@@ -2,11 +2,15 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import Logo from './Logo';
 import { nav, contact } from '@/lib/content';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname() || '/';
+  const norm = (s) => (s !== '/' && s.endsWith('/') ? s.slice(0, -1) : s);
+  const isActive = (href) => norm(pathname) === norm(href);
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
@@ -19,7 +23,10 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-body transition hover:bg-navy/5 hover:text-navy"
+              aria-current={isActive(item.href) ? 'page' : undefined}
+              className={`rounded-md px-3 py-2 text-sm font-medium transition hover:bg-navy/5 hover:text-navy ${
+                isActive(item.href) ? 'bg-navy/5 text-navy' : 'text-body'
+              }`}
             >
               {item.label}
             </Link>
@@ -49,7 +56,10 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-3 py-3 text-base font-medium text-body hover:bg-navy/5 hover:text-navy"
+                aria-current={isActive(item.href) ? 'page' : undefined}
+                className={`rounded-md px-3 py-3 text-base font-medium hover:bg-navy/5 hover:text-navy ${
+                  isActive(item.href) ? 'bg-navy/5 text-navy' : 'text-body'
+                }`}
               >
                 {item.label}
               </Link>

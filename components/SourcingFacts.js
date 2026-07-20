@@ -7,7 +7,7 @@ export default function SourcingFacts() {
     <div className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-black/[0.06] sm:grid-cols-4">
       {sourcing.map((s) => (
         <div key={s.key} className="bg-white p-5">
-          <div className="text-xs font-semibold uppercase tracking-wider text-body/60">
+          <div className="text-xs font-semibold uppercase tracking-wider text-muted">
             {s.label}
           </div>
           <div className="mt-1.5 text-lg font-semibold text-ink">{s.value}</div>

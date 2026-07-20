@@ -53,7 +53,7 @@ export default function AboutPage() {
           {/* Stats sidebar */}
           <aside className="lg:col-span-1">
             <div className="card p-6">
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-body/60">
+              <h2 className="text-sm font-semibold uppercase tracking-wider text-muted">
                 At a glance
               </h2>
               <dl className="mt-4 space-y-4">
@@ -113,14 +113,14 @@ export default function AboutPage() {
 
           {/* Wider team */}
           <div className="mt-10 rounded-lg border border-line p-6">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-body/60">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-muted">
               Production &amp; operations team
             </h3>
             <ul className="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
               {team.map((m) => (
                 <li key={m.name} className="flex justify-between gap-4 border-b border-black/[0.04] py-1.5 text-sm">
                   <span className="font-medium text-ink">{m.name}</span>
-                  <span className="text-right text-body/60">{m.role}</span>
+                  <span className="text-right text-muted">{m.role}</span>
                 </li>
               ))}
             </ul>

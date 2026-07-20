@@ -122,7 +122,7 @@ function ContactRow({ icon, label, children }) {
         <Icon name={icon} className="h-5 w-5" />
       </div>
       <div>
-        <div className="text-xs font-semibold uppercase tracking-wider text-body/50">{label}</div>
+        <div className="text-xs font-semibold uppercase tracking-wider text-muted">{label}</div>
         <div className="mt-0.5 text-sm text-body/85">{children}</div>
       </div>
     </div>
