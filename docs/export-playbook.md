@@ -151,7 +151,7 @@ private-label relationships that reorder is a real win — not dozens of buyers.
 | Market | Your duty | The reality | Play |
 |---|---|---|---|
 | **EU (27)** | **0%** (EBA) → transition to ~2029 → then GSP+/GSP | MFN rate is **12%** on cotton knit tees (HS 6109) — that's your headroom vs non-preferential origins. **BUT Bangladesh, Cambodia, Myanmar also get 0%** and Bangladesh pays lower wages (~$113/mo vs Nepal ~$141/mo) | Hero market. Duty-free is table-stakes among LDCs — win on quality + low MOQ + full-package |
-| **UK** | Preferential (UK **DCTS**, the post-Brexit LDC-style scheme) | Similar duty-free logic to EU; confirm current DCTS terms | Same pitch as EU |
+| **UK** | **0%** (DCTS Comprehensive) → Enhanced Preferences ~2029 | ⭐ MORE durable than EU: since **1 Jan 2026**, DCTS needs only **cut & sew in Nepal** (single transformation) — imported fabric qualifies — and this apparel rule is **preserved when Nepal moves to Enhanced Preferences (~2029)**. Duty-free through at least 2029. | **Prioritise for long-term deals** — the fabric-import model survives graduation here, unlike the EU. Verify exact 6109 duty under Enhanced before multi-year contracts. |
 | **USA** | MFN (~13–15% on knits) **+ 10% reciprocal** | Nepal's +10% is the **lowest add-on in South Asia** — India far higher. Relative advantage vs India/China, but policy-dependent (can change) | Ride the "cheaper tariff than India" moment while it lasts; buyers diversifying away from Asia |
 
 **Key takeaway:** the duty-free story is real but **shared**. It gets a buyer to look; your

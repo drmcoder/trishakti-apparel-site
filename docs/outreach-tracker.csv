@@ -1,11 +1,32 @@
-Company,Country,Segment,Contact,Template,Status,Date contacted,Follow-up due,Notes
-Bradshaw Taylor,UK,Warm target,info@bradshawtaylor.com,B (DCTS),SENT,2026-07-13,2026-07-18,First email sent + line-card. Also submit Sales form.
-Khangri Sourcing,Nepal/US,Warm target,info@khangrisourcing.com,Follow-up,SENT,2026-07-13,2026-07-18,Follow-up sent. CALL Ktm landline +977-1-4427191 to get WhatsApp.
-Sudara,USA,Warm target,Info@sudara.org,C (ethics no-duty),SENT,2026-07-13,2026-07-18,Ethics angle. Also try sudara.org/partner-with-us.
-Komodo,UK,Growing brand,komodo.co.uk (Wholesale/Contact),B (DCTS),SENT,2026-07-14,2026-07-19,STRONGEST LEAD - already produces in Nepal. Personalised email sent + line-card.
-Neu Nomads,USA,Growing brand,neunomads.com (Contact),A/C,TO SEND,,,Sources cotton yarn from Kathmandu cooperative. Verify contact.
-Cottsbury,UK,Growing brand,cottsbury.com (Contact),B (DCTS),TO SEND,,,Organic cotton basics brand. Confirm they outsource (not own factory).
-Ethical Tee Company,UK,Reseller,ethicalteecompany.com (Contact),B (DCTS),TO SEND,,,Ethical tee aggregator; owns Bangladesh factory. Ethics + duty-free angle.
-Organic Blank,USA,Reseller,organicblank.com (Wholesale),A,TO SEND,,,Wholesaler of organic custom apparel. Duty-free landed cost angle.
-EthixMerch,USA,Reseller,ethixmerch.com (Contact),C (ethics),TO SEND,,,US/union-made focus - may not want imports. Test with ethics angle.
-Ark Fair Trade,UK,Reseller,arkfairtrade.com (Contact),B (DCTS),TO SEND,,,UK reseller of Nepal-made clothing. Offer factory cut-&-sew knits.
+Company,Country,Email/Contact,Template,Fit,Status,Date contacted,Follow-up due,Notes
+Bradshaw Taylor,UK,info@bradshawtaylor.com,B (DCTS),Medium,SENT,2026-07-13,2026-07-23,Also submit Sales form.
+Khangri Sourcing,Nepal/US,info@khangrisourcing.com,Follow-up,High,SENT,2026-07-13,2026-07-23,CALL +977-1-4427191 for WhatsApp.
+Sudara,USA,Info@sudara.org,C (ethics),Medium,SENT,2026-07-13,2026-07-23,Ethics angle.
+Komodo,UK,mark@komodo.co.uk,B (DCTS),High,SENT,2026-07-14,2026-07-23,Uses Knitex Kathmandu + India. mark@ is direct.
+Surya,Australia,info@surya.com.au,A/B,High,SENT,2026-07-14,2026-07-23,STRONG - all production in Nepal partners. Personalised email sent.
+Ark Fair Trade,Canada,namaste@arkfairtrade.com,A,High,SENT,2026-07-14,2026-07-23,STRONG - buys Nepal cut-&-sew since 1985. Personalised email sent.
+People Tree,UK,wholesale@peopletree.co.uk,B (DCTS),High,SENT,2026-07-20,2026-07-25,Fair-trade pioneer; already produces in NEPAL + India/BD.
+Aiayu,Denmark,sales@aiayu.com,A,High,SENT,2026-07-20,2026-07-25,ALREADY makes in Nepal (SEDEX-certified workshop). Strong ethics fit.
+Happy Earth Apparel,USA,help@happyearthapparel.com,C (ethics),High,SENT,2026-07-20,2026-07-25,Near-identical range (organic tees + fleece hoodies). Outsources India.
+Tree of Life,Australia,customer@treeoflife.com.au,A/B,High,TO SEND,,,Large ~158pc Made-in-Nepal range. High-volume scale.
+Nomads Clothing,UK,info@nomadsclothing.co.uk,B (DCTS),High,TO SEND,,,Organic cotton jersey from South Asia; Nepal origin story.
+Terra Thread,USA,terrathread@terrathread.com,C (ethics),High,TO SEND,,,Organic cotton tees; fair-trade; active wholesale.
+Maggie's Organics,USA,info@maggiesorganics.com,C (ethics),High,TO SEND,,,Organic cotton tees/tanks; Fair Trade Federation.
+ThokkThokk,Germany,andi@thokkthokk.com,A (EU),High,TO SEND,,,Printed organic tees/hoodies/sweats. andi@ = B2B contact.
+GREEN SHIRTS,Germany,office@green-shirts.com,A (EU),High,TO SEND,,,Organic tees/hoodies own line + B2B custom. Multi-country.
+Gecko Gearz,New Zealand,penny_betts@hotmail.com,A,High,TO SEND,,,25+ yrs Nepal sourcing; organic cotton tees. Personal email.
+Cotton Roots,UK,sales@cottonroots.co.uk,B (DCTS),High,TO SEND,,,Ethical promo/workwear polos/tees/fleece. Fairtrade/Fair Wear.
+Ganesh Himal Trading,USA,info@ganeshhimaltrading.com,C (ethics),High,TO SEND,,,Fair-trade wholesaler; imports Nepal cut-&-sew 20-30 yrs.
+Dedicated Brand,Sweden,dedicatedbrand.com (form),A (EU),High,TO SEND,,,Exact product overlap (tees/sweats/hoodies). Find B2B contact.
+tentree,Canada,tentree.com (wholesale form),A,High,TO SEND,,,Tees/hoodies/sweats; audited partners; CA duty-free.
+Ethical Tee Company,UK,richard@ethicalteecompany.com,B (DCTS),Medium,TO SEND,,,CAUTION - needs GOTS+Fairwear audit. Real named contact.
+The Good Tee,Canada,hello@thegoodtee.com,A,Medium,TO SEND,,,Exact category; committed to India - pitch as duty-free 2nd source.
+Mata Traders,USA,wholesale@matatraders.com,C (ethics),Medium,TO SEND,,,Produces in Nepal cooperatives already. Wholesale email.
+ARMEDANGELS,Germany,shop@armedangels.com,A (EU),Medium,TO SEND,,,Large EU eco brand; high compliance bar.
+Mantra Wholesale,UK,info@mantrawholesale.com,B (DCTS),Medium,TO SEND,,,Imports cotton/fleece from Nepal+India; resells to retailers.
+Thought,UK,info@wearethought.com,B (DCTS),Medium,TO SEND,,,Organic jersey basics; China-weighted - diversification pitch.
+Known Supply,USA,supply@knownsupply.com,C (ethics),Medium,TO SEND,,,Ethical custom merch; Peru/Uganda. US not duty-free - ethics angle.
+Kindred Apparel,Canada,team@kindredapparel.com,A,Medium,TO SEND,,,Canadian custom apparel; imports fair-trade cotton. CA duty-free.
+Reflect Studio,Netherlands,hello@reflectstudio.com,A (EU),Medium,TO SEND,,,Fairtrade merch for NGOs/brands; has own Istanbul arm.
+Norm Tekstil,Turkey,demireld@normltd.com.tr,A,Medium,TO SEND,,,Knitwear buying AGENT; seeks duty-free EU alternatives.
+KHQS International,India,sathish@khqsintl.com,A,Low,TO SEND,,,Knit sourcing agent; could route EU duty-free via Nepal.

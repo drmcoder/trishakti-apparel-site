@@ -15,13 +15,9 @@
     { "source": "/testimonials", "destination": "/about/", "permanent": true },
     { "source": "/clients-feedback", "destination": "/about/", "permanent": true },
     { "source": "/faq", "destination": "/", "permanent": true },
-    { "source": "/blog", "destination": "/", "permanent": true },
-    { "source": "/blog/:path*", "destination": "/", "permanent": true },
-    { "source": "/blog-category/:path*", "destination": "/", "permanent": true },
-    { "source": "/image-gallery", "destination": "/products/", "permanent": true },
-    { "source": "/video-gallery", "destination": "/products/", "permanent": true },
-    { "source": "/gallery", "destination": "/products/", "permanent": true },
-    { "source": "/events", "destination": "/", "permanent": true },
+    { "source": "/blog-category/:path*", "destination": "/blog/", "permanent": true },
+    { "source": "/image-gallery", "destination": "/gallery/", "permanent": true },
+    { "source": "/video-gallery", "destination": "/gallery/", "permanent": true },
     { "source": "/privacy-policy", "destination": "/", "permanent": true }
   ]
 }
