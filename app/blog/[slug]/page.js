@@ -36,7 +36,12 @@ export default function BlogPost({ params }) {
     image: `${seo.url}/assets/og-image.jpg`,
     keywords: p.tags.join(', '),
     articleSection: p.tags[0],
-    author: { '@type': 'Organization', name: seo.siteName, url: seo.url },
+    author: {
+      '@type': 'Person',
+      name: 'Santosh Rijal',
+      jobTitle: 'Founder',
+      worksFor: { '@id': `${seo.url}/#organization` },
+    },
     publisher: { '@id': `${seo.url}/#organization` },
     isPartOf: { '@id': `${seo.url}/#website` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${seo.url}/blog/${p.slug}/` },
@@ -68,6 +73,9 @@ export default function BlogPost({ params }) {
             <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight tracking-[-0.02em] text-ink sm:text-5xl">
               {p.title}
             </h1>
+            <p className="mt-4 text-sm text-body/70">
+              By <span className="font-medium text-ink">Santosh Rijal</span> · Founder, Trishakti Apparel
+            </p>
           </div>
         </header>
 
