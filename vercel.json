@@ -2,6 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     { "source": "/service", "destination": "/capabilities/", "permanent": true },
+    { "source": "/work-process", "destination": "/capabilities/", "permanent": true },
+    { "source": "/feedback", "destination": "/contact/", "permanent": true },
+    { "source": "/blog-tags/:path*", "destination": "/blog/", "permanent": true },
     { "source": "/service/:path*", "destination": "/capabilities/", "permanent": true },
     { "source": "/services", "destination": "/capabilities/", "permanent": true },
     { "source": "/corporate-orders", "destination": "/products/", "permanent": true },
