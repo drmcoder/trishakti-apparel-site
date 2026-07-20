@@ -1,0 +1,126 @@
+<title>Get Your Quote — Trishakti Apparel (Nepal knit manufacturer)</title>
+<style>
+  :root{--bg:#eef1f4;--card:#fff;--ink:#1b2230;--navy:#1a3e73;--green:#1e7a34;
+    --green-tint:#edf3ec;--muted:#5b6474;--line:#e2e6ec;--field:#f7f9fb;--warn:#8a5a12;--warn-bg:#fbf3e3;}
+  @media(prefers-color-scheme:dark){:root{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;
+    --green:#5cc27a;--green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;--warn:#e0b869;--warn-bg:#2a2416;}}
+  :root[data-theme="light"]{--bg:#eef1f4;--card:#fff;--ink:#1b2230;--navy:#1a3e73;--green:#1e7a34;--green-tint:#edf3ec;--muted:#5b6474;--line:#e2e6ec;--field:#f7f9fb;--warn:#8a5a12;--warn-bg:#fbf3e3;}
+  :root[data-theme="dark"]{--bg:#12151b;--card:#1b2028;--ink:#e8ecf2;--navy:#7ea6e0;--green:#5cc27a;--green-tint:#17301f;--muted:#9aa4b2;--line:#2b323d;--field:#232a34;--warn:#e0b869;--warn-bg:#2a2416;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.55;
+    font-family:-apple-system,"Segoe UI",system-ui,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:26px 16px 60px}
+  .wrap{max-width:640px;margin:0 auto}
+  .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:700}
+  h1{font-size:26px;margin:6px 0 6px;color:var(--navy);letter-spacing:.01em;text-wrap:balance}
+  .lede{color:var(--muted);font-size:14.5px;margin:0 0 20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .fld{margin-bottom:15px}
+  .fld label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+  select,input{width:100%;background:var(--field);border:1px solid var(--line);color:var(--ink);
+    border-radius:8px;padding:11px 12px;font:inherit;font-size:15px}
+  select:focus,input:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:520px){.row{grid-template-columns:1fr}}
+
+  .result{margin-top:18px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .rtop{background:var(--navy);color:#fff;padding:20px 22px}
+  .rtop .k{font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+  .rtop .big{font-size:22px;font-weight:700;line-height:1.2;margin-top:4px}
+  .rbody{background:var(--card);padding:18px 22px}
+  .chk{display:flex;gap:9px;align-items:flex-start;margin-bottom:11px;font-size:14px}
+  .chk .i{flex:0 0 20px;font-weight:800}
+  .chk.ok .i{color:var(--green)}
+  .chk.warn .i{color:var(--warn)}
+  .chk b{color:var(--ink)}
+  .cta{margin-top:16px;border-top:1px solid var(--line);padding-top:16px}
+  .cta a{display:block;text-align:center;background:var(--green);color:#fff;text-decoration:none;
+    font-weight:700;padding:14px;border-radius:9px;font-size:15px}
+  .cta a:hover{background:#186627}
+  .cta .sub{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}
+  .disc{font-size:11px;color:var(--muted);margin-top:16px;line-height:1.5}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Trishakti Apparel · Nepal</div>
+  <h1>Get your quote — tell us what you need</h1>
+  <p class="lede">Confirm we can make it, check your duty-free status, then get your exact price. No sign-up, no sales call.</p>
+
+  <div class="card">
+    <div class="row">
+      <div class="fld"><label>Product</label>
+        <select id="product">
+          <option>T-shirts</option><option>Tanks</option><option>Long-sleeve tees</option>
+          <option>Polo shirts</option><option>Sweatshirts</option><option>Hoodies</option>
+        </select></div>
+      <div class="fld"><label>Fabric</label>
+        <select id="fabric">
+          <option>Cotton jersey</option><option>Cotton/CVC blend</option><option>Polyester / poly-blend</option>
+          <option>Performance / athleisure</option><option>Modal / viscose blend</option><option>Fleece / French terry</option>
+        </select></div>
+    </div>
+    <div class="row">
+      <div class="fld"><label>Quantity (per style)</label>
+        <input id="qty" type="number" step="100" value="1000"></div>
+      <div class="fld"><label>Your market</label>
+        <select id="dest">
+          <option>European Union</option><option>United Kingdom</option><option>Canada</option>
+          <option>Japan</option><option>Australia</option><option>United States</option><option>Other</option>
+        </select></div>
+    </div>
+  </div>
+
+  <div class="result" id="result">
+    <div class="rtop">
+      <div class="k">Your instant check</div>
+      <div class="big" id="head">Yes — we can make this</div>
+    </div>
+    <div class="rbody">
+      <div id="checks"></div>
+      <div class="cta">
+        <a id="wa" href="#" target="_blank" rel="noopener">Get my exact price on WhatsApp &rarr;</a>
+        <div class="sub">Sends your spec to our team — you'll get a real quote, not a guess.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="disc">Feasibility and duty status are indicative; final price, lead time and duty-free eligibility
+  depend on your exact design, fabric spec and destination rules of origin — we confirm precisely on quote.
+  We deliberately don't publish prices: every quote is costed to your real specs.</p>
+</div>
+
+<script>
+  var DUTY={
+    "European Union":{free:true,note:"duty-free (EBA, single transformation — imported fabric OK)"},
+    "United Kingdom":{free:true,note:"duty-free (DCTS, single transformation)"},
+    "Canada":{free:true,note:"duty-free (LDCT — cut & sew confers origin since Jan 2025)"},
+    "Japan":{free:true,note:"duty-free (LDC single-stage rule)"},
+    "Australia":{free:"cond",note:"LDC duty-free is conditional (≥50% local content) — we verify per product"},
+    "United States":{free:false,note:"not duty-free to the US (we compete on quality, ethics & MOQ)"},
+    "Other":{free:"ask",note:"tell us the country and we'll confirm your duty treatment"}
+  };
+  var MOQ=500;
+  var WA="https://wa.me/9779863618347";
+  function $(i){return document.getElementById(i)}
+  function calc(){
+    var p=$("product").value,f=$("fabric").value,q=parseInt($("qty").value)||0,d=$("dest").value;
+    var D=DUTY[d];
+    var meetsMoq=q>=MOQ;
+    // lead time: bulk 40-50 days after sample; sampling ~1-2 wks
+    var out=[];
+    out.push(chk(meetsMoq?"ok":"warn", meetsMoq?"✓":"!",
+      meetsMoq?("Meets our MOQ — "+q.toLocaleString()+" pcs is fine (min 500/style)."):
+               ("Below our 500/style MOQ — ask us, we're often flexible for growing brands.")));
+    out.push(chk("ok","✓","We make "+p.toLowerCase()+" in "+f.toLowerCase()+" — all knit fabrics, your designs, in-house CAD."));
+    var dcls = D.free===true?"ok":(D.free===false?"warn":"warn");
+    var dico = D.free===true?"✓":"!";
+    out.push(chk(dcls,dico,"<b>"+d+":</b> "+D.note+"."));
+    out.push(chk("ok","✓","Lead time: samples ~1–2 weeks · bulk ~40–50 days after sample approval."));
+    $("checks").innerHTML=out.join("");
+    $("head").textContent = meetsMoq ? "Yes — we can make this" : "Let's talk — likely yes";
+    var msg="Hi Trishakti, I'd like a quote: "+q.toLocaleString()+" x "+p+" in "+f+", for "+d+". Please send your exact price.";
+    $("wa").href=WA+"?text="+encodeURIComponent(msg);
+  }
+  function chk(cls,i,txt){return '<div class="chk '+cls+'"><span class="i">'+i+'</span><span>'+txt+'</span></div>';}
+  ["product","fabric","qty","dest"].forEach(function(id){$(id).addEventListener("input",calc)});
+  calc();
+</script>
