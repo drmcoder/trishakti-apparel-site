@@ -56,9 +56,9 @@
     @apply btn border border-white/40 text-white hover:bg-white/10;
   }
 
-  /* Section rhythm — generous, confident. */
+  /* Section rhythm — generous but not sparse (tightened from py-36). */
   .section {
-    @apply py-20 sm:py-28 lg:py-36;
+    @apply py-16 sm:py-24 lg:py-28;
   }
   .eyebrow {
     @apply inline-block text-[11px] font-semibold uppercase tracking-[0.2em] text-muted;

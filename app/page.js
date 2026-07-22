@@ -74,7 +74,7 @@ export default function Home() {
 
           {/* Hero visual — real product photography */}
           <div className="lg:col-span-5">
-            <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-white/10 shadow-2xl lg:max-w-none">
               <Image
                 src={asset("/assets/products/hero-polo.jpg")}
                 alt="Private-label knit polo shirt made by Trishakti Apparel"
