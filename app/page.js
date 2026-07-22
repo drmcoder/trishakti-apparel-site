@@ -230,7 +230,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {capabilities.map((c) => (
+            {capabilities.slice(0, 6).map((c) => (
               <div key={c.key} className="card p-6">
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary-50 text-primary-600">
                   <Icon name={c.icon} className="h-6 w-6" />
