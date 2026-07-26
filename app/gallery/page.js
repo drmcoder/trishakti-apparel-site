@@ -3,16 +3,16 @@ import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import { asset } from '@/lib/asset';
 import { getEventImages } from '@/lib/events';
-import { seo } from '@/lib/content';
+import { gallery, seo } from '@/lib/content';
 
 import { og } from '@/lib/seo';
 
 export const metadata = {
-  title: 'Life at Trishakti — Our Team, Factory & Events',
+  title: 'Product Work & Factory Updates',
   description:
-    'Real photos from inside Trishakti Apparel — our people, our production floor in Gaindakot, and life at a women-led knit garment factory in Nepal.',
+    'Selected product photography and verified factory updates from Trishakti Apparel in Gaindakot, Nepal.',
   alternates: { canonical: '/gallery' },
-  openGraph: og({ title: 'Life at Trishakti — Our Team, Factory & Events', path: '/gallery/' }),
+  openGraph: og({ title: 'Product Work & Factory Updates · Trishakti Apparel', path: '/gallery/' }),
   keywords: [
     'Trishakti Apparel factory photos',
     'women-led garment factory Nepal',
@@ -35,22 +35,48 @@ export default function GalleryPage() {
   return (
     <>
       <PageHero eyebrow="Life at Trishakti" title="Our people, our floor, our story">
-        We’d rather show you than tell you. Real moments from inside our factory in
-        Gaindakot — the team behind your garments, the floor they’re made on, and the life
-        of a women-led knit factory in Nepal.
+        We publish approved, verifiable visual updates here. Browse selected product work now,
+        then book a live video walkthrough or factory visit to see the current production floor.
       </PageHero>
 
       <section className="section">
         <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">Product work</span>
+            <h2 className="mt-2 h-section">A look at the product range</h2>
+            <p className="mt-4 lead">Selected knit and woven product photography from our line card.</p>
+          </div>
+          <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {gallery.map((image) => (
+              <figure key={image.src} className="relative aspect-square overflow-hidden rounded-lg border border-line bg-mist">
+                <Image
+                  src={asset(image.src)}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                  className="object-cover"
+                />
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section bg-mist/50">
+        <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">Factory updates</span>
+            <h2 className="mt-2 h-section">Approved photos from the floor</h2>
+          </div>
           {images.length === 0 ? (
-            <div className="mx-auto max-w-xl rounded-lg border border-line bg-mist/50 p-8 text-center">
+            <div className="mt-8 max-w-2xl rounded-lg border border-line bg-white p-8">
               <p className="text-body/80">
-                Photos are on their way — we’re gathering real shots of the team and floor.
-                In the meantime, <a href="/contact/" className="font-medium text-primary-700 hover:underline">book a live video walkthrough</a> and see it in real time.
+                We are gathering approved, current photography of the team and production floor.
+                Until it is published, <a href="/contact/" className="font-medium text-primary-700 hover:underline">book a live video walkthrough</a> or factory visit to see the operation directly.
               </p>
             </div>
           ) : (
-            <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
+            <div className="mt-8 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
               {images.map((img) => (
                 <figure key={img.src} className="break-inside-avoid overflow-hidden rounded-lg border border-line bg-mist">
                   <div className="relative">

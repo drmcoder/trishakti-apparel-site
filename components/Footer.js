@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Logo from './Logo';
 import Icon from './Icon';
 import { company, contact, nav, products } from '@/lib/content';
-import { hasEvents } from '@/lib/events';
 
 export default function Footer() {
   return (
@@ -41,11 +40,9 @@ export default function Footer() {
             <li>
               <Link href="/compliance/" className="text-white/70 transition hover:text-white">Compliance</Link>
             </li>
-            {hasEvents && (
-              <li>
-                <Link href="/gallery/" className="text-white/70 transition hover:text-white">Gallery</Link>
-              </li>
-            )}
+            <li>
+              <Link href="/gallery/" className="text-white/70 transition hover:text-white">Gallery</Link>
+            </li>
           </ul>
         </div>
 
@@ -97,7 +94,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col gap-2 py-5 text-xs text-white/65 sm:flex-row sm:items-center sm:justify-between">
           <p>© {company.founded}–2026 {company.name}. All rights reserved.</p>
-          <p>{company.taglinePoetic}</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-1">
+            <p>{company.taglinePoetic}</p>
+            <Link href="/privacy/" className="text-white/65 underline-offset-2 hover:text-white hover:underline">Privacy</Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -84,7 +84,7 @@ export default function DutySavingsCalculator() {
         </select>
 
         <label className="mt-5 block text-sm font-medium text-ink">Annual sourcing spend (USD)</label>
-        <input type="number" step="10000" value={value} onChange={(e) => setValue(e.target.value)}
+        <input type="number" min="1" step="10000" inputMode="numeric" value={value} onChange={(e) => setValue(e.target.value)}
           className="mt-2 w-full rounded-lg border border-line bg-white px-3 py-2.5 text-base tabular-nums text-ink focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-200" />
       </div>
 

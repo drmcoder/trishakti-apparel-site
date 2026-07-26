@@ -1,6 +1,11 @@
-# site-data.md — SINGLE SOURCE OF TRUTH for the build
+# site-data.md — Planning and verification record
 
-The builder session should pull ALL content from this file. Two tiers:
+## Publication rule
+The published website reads commercial content from `lib/content.js`. This document is a
+planning and verification record, not a second publishing source. Reconcile any difference
+with the owner before changing either source.
+
+Two tiers are used here:
 - ✅ **CONFIRMED** — verified, use as-is.
 - 🟡 **DRAFT / CONFIRM** — my best estimate so building isn't blocked. Santosh must
   confirm/correct before the site goes live. NEVER present a 🟡 number to buyers as
@@ -30,6 +35,8 @@ The builder session should pull ALL content from this file. Two tiers:
 - Phones: **+977-78-590826**, **+977-9863618347**, **+977-9865005120**
 - WhatsApp: **+977 9863618347** (primary inquiry channel)
 - Email (inquiries): **admin@trishaktiapparel.com**
+
+> Publication check required: the current website uses `admin@trishaktiapparel.com.np`.
 - Hours: **Factory 7AM–8PM, Office 9AM–6PM (Sun–Fri)**
 - Facebook: **facebook.com/trishaktiapparel**
 
@@ -42,7 +49,10 @@ The builder session should pull ALL content from this file. Two tiers:
 ---
 
 ## Sourcing facts — buyers decide on these
-> ✅ CONFIRMED by Santosh 2026-07-13 (published live as ranges on the site).
+> Reconciliation required before reuse. The figures below differ from the currently published
+> values in `lib/content.js` (capacity `~26,000–30,000 pcs`, MOQ `500–1,000 pcs`, and bulk lead
+> time `40–50 days`). Confirm one approved set with the owner and then update the website and this
+> record together.
 
 - ✅ **Monthly capacity:** ~**60,000–80,000 pcs/month** of basic knit tees.
 - ✅ **MOQ:** from ~**300 pcs per style/color** (small-batch friendly).

@@ -1,6 +1,5 @@
 import { seo, nav, products } from '@/lib/content';
 import { posts } from '@/lib/posts';
-import { hasEvents } from '@/lib/events';
 
 // Generates a static sitemap.xml at build time (works with output: 'export').
 export default function sitemap() {
@@ -17,7 +16,8 @@ export default function sitemap() {
   const extra = [
     { url: `${seo.url}/sustainability/`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${seo.url}/compliance/`, changeFrequency: 'monthly', priority: 0.7 },
-    ...(hasEvents ? [{ url: `${seo.url}/gallery/`, changeFrequency: 'weekly', priority: 0.6 }] : []),
+    { url: `${seo.url}/gallery/`, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${seo.url}/privacy/`, changeFrequency: 'yearly', priority: 0.3 },
   ];
   const blog = [
     // /blog/ index is already emitted via `nav`; only per-post URLs here.

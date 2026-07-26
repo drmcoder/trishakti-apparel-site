@@ -21,6 +21,6 @@
     { "source": "/blog-category/:path*", "destination": "/blog/", "permanent": true },
     { "source": "/image-gallery", "destination": "/gallery/", "permanent": true },
     { "source": "/video-gallery", "destination": "/gallery/", "permanent": true },
-    { "source": "/privacy-policy", "destination": "/", "permanent": true }
+    { "source": "/privacy-policy", "destination": "/privacy/", "permanent": true }
   ]
 }

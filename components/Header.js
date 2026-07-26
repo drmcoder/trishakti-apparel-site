@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo';
@@ -9,8 +9,18 @@ import { nav, contact } from '@/lib/content';
 export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname() || '/';
+  const menuId = 'mobile-navigation';
   const norm = (s) => (s !== '/' && s.endsWith('/') ? s.slice(0, -1) : s);
   const isActive = (href) => norm(pathname) === norm(href);
+
+  useEffect(() => {
+    if (!open) return undefined;
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', closeOnEscape);
+    return () => window.removeEventListener('keydown', closeOnEscape);
+  }, [open]);
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
@@ -40,6 +50,7 @@ export default function Header() {
           className="inline-flex items-center justify-center rounded-md p-2 text-navy md:hidden"
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
+          aria-controls={menuId}
           onClick={() => setOpen((v) => !v)}
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -49,7 +60,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-line bg-white md:hidden" aria-label="Mobile">
+        <nav id={menuId} className="border-t border-line bg-white md:hidden" aria-label="Mobile">
           <div className="container-x flex flex-col py-3">
             {nav.map((item) => (
               <Link

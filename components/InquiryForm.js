@@ -58,7 +58,8 @@ export default function InquiryForm() {
         headers: { Accept: 'application/json' },
         body: new FormData(form),
       });
-      if (!res.ok) throw new Error('Request failed');
+      const payload = await res.json().catch(() => null);
+      if (!res.ok || payload?.success === false) throw new Error('Request failed');
       form.reset();
       setStatus('sent');
     } catch {
@@ -118,6 +119,7 @@ export default function InquiryForm() {
               name={f.name}
               type={f.type}
               required={f.required}
+              autoComplete={f.name === 'name' ? 'name' : f.name === 'email' ? 'email' : f.name === 'country' ? 'country-name' : 'organization'}
               className="w-full rounded-lg border border-black/10 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition focus:border-navy focus:ring-2 focus:ring-navy/20"
             />
           </div>
@@ -218,6 +220,11 @@ export default function InquiryForm() {
         We typically reply within one business day. We’ll only use your details to
         respond to this inquiry — no spam, ever.
       </p>
+      <noscript>
+        <p className="mt-3 text-sm text-muted">
+          JavaScript is required for this form. Please email <a className="text-primary-700 underline" href={`mailto:${contact.email}`}>{contact.email}</a> instead.
+        </p>
+      </noscript>
     </form>
   );
 }

@@ -65,7 +65,7 @@ export default function QuoteEstimator() {
           </label>
           <label className="block">
             <span className="mb-1.5 block text-sm font-medium text-ink">Quantity (per style)</span>
-            <input type="number" step="100" value={qty} onChange={(e) => setQty(e.target.value)}
+            <input type="number" min="1" step="100" inputMode="numeric" value={qty} onChange={(e) => setQty(e.target.value)}
               className={`${sel} tabular-nums`} />
           </label>
           <label className="block">

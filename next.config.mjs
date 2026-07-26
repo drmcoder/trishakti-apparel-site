@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
-// Optional subpath deploy (e.g. a /claude preview folder). Set NEXT_BASE_PATH=/claude
-// at build time; leave unset for a root-domain deploy.
-const basePath = process.env.NEXT_BASE_PATH || '';
+// Optional subpath deploy (e.g. a /claude preview folder). Set
+// NEXT_PUBLIC_BASE_PATH=/claude at build time; NEXT_BASE_PATH remains supported
+// for existing deployment scripts.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || process.env.NEXT_BASE_PATH || '';
 
 const nextConfig = {
   // Static HTML export — produces /out that can be uploaded to any static/cPanel host.
