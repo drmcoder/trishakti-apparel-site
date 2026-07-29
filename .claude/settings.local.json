@@ -58,7 +58,8 @@
       "WebFetch(domain:www.reuters.com)",
       "Skill(deep-research)",
       "Skill(deep-research:*)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "mcp__claude_ai_Gmail__create_draft"
     ]
   }
 }

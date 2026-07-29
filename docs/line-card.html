@@ -126,6 +126,17 @@
   .foot a { color: var(--navy); text-decoration: none; font-weight: 600; }
   .foot .codes { text-align: right; font-variant-numeric: tabular-nums; letter-spacing: .01em; }
 
+  /* product gallery */
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+  .gcard img {
+    width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
+    border-radius: 4px; border: 1px solid var(--line);
+  }
+  .gcard .cap { font-size: 11px; color: var(--muted); margin-top: 6px; font-weight: 600; }
+  .gcard .cap b { color: var(--navy); }
+  .gallery-note { font-size: 12px; margin: 4px 0 0; }
+  .floorband { width: 100%; aspect-ratio: 16 / 5; object-fit: cover; display: block; border-radius: 4px; border: 1px solid var(--line); margin-top: 12px; }
+
   /* print button */
   .toolbar { max-width: 860px; margin: 0 auto 16px; display: flex; justify-content: flex-end; }
   .print-btn {
@@ -150,6 +161,8 @@
     .callout { padding: 11px 13px; }
     .edges { gap: 7px 18px; }
     .foot { margin-top: 13px; padding-top: 11px; }
+    .gallery-page { page-break-before: always; }
+    .gallery { gap: 12px; margin-top: 10px; }
     @page { size: A4; margin: 0; }
   }
 </style>
@@ -166,7 +179,7 @@
     </div>
     <div class="origin-badge">
       <div class="flag">Made in Nepal</div>
-      <div class="sub">Duty-free: EU · UK · Canada · Australia</div>
+      <div class="sub">Duty-free: EU · UK · Canada · Japan</div>
     </div>
   </header>
 
@@ -226,7 +239,7 @@
         Because we cut &amp; sew in Nepal, <b>imported fabric still counts as Nepali origin</b>
         (single-transformation rule).</p>
         <p style="margin-bottom:0"><b>Duty-free through ~2029</b> under the EU window — and even
-        longer for the UK under DCTS, plus duty-free entry to Canada and Australia. Lock in your
+        longer for the UK under DCTS, plus duty-free entry to Canada and Japan. Lock in your
         sourcing while the advantage lasts.</p>
       </div>
     </section>
@@ -243,6 +256,24 @@
       <div class="edge"><b>Duty-free landed cost</b> — a real advantage on your shelf</div>
       <div class="edge"><b>Real-time order tracking</b> — our own ERP, barcode/QR bundle system</div>
       <div class="edge"><b>Digital defect logging</b> — per operation &amp; operator, not paper</div>
+    </div>
+  </section>
+
+  <section class="gallery-page">
+    <hr class="rule" />
+    <h2 class="ey">Inside our factory</h2>
+    <p class="gallery-note muted">Our knit line in Gaidakot — ~100 machines, AQL 2.5 quality, an 80% women-staffed floor.</p>
+    <img class="floorband" src="lc-floor.jpg" alt="Trishakti Apparel sewing floor in Gaidakot, Nepal" />
+
+    <h2 class="ey" style="margin-top:22px">Selected production</h2>
+    <p class="gallery-note muted">A sample of private-label knitwear made in our factory — men's, women's &amp; kids', to buyers' own designs, prints and colourways.</p>
+    <div class="gallery">
+      <div class="gcard"><img src="lc-tees.jpg" alt="Printed jersey t-shirts"><div class="cap"><b>Graphic tees</b> — jersey, custom print</div></div>
+      <div class="gcard"><img src="lc-polos.jpg" alt="Performance polo shirts"><div class="cap"><b>Polo shirts</b> — pique &amp; performance</div></div>
+      <div class="gcard"><img src="lc-tanks.jpg" alt="Sleeveless tees and tanks"><div class="cap"><b>Tanks &amp; sleeveless</b> — jersey</div></div>
+      <div class="gcard"><img src="lc-women.jpg" alt="Women's printed tops in five colourways"><div class="cap"><b>Women's tops</b> — all-over print, multi-colour</div></div>
+      <div class="gcard"><img src="lc-kids.jpg" alt="Kids' co-ord tee and shorts set"><div class="cap"><b>Kids' co-ord sets</b> — 180 GSM CVC jersey</div></div>
+      <div class="gcard"><img src="lc-henley.jpg" alt="Women's henley tops"><div class="cap"><b>Women's henley</b> — printed, buttoned placket</div></div>
     </div>
   </section>
 
