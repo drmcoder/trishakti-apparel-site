@@ -26,3 +26,6 @@ Thumbs.db
 
 # Downloaded copy of live server (kept out of git until reviewed)
 live-backup/
+
+# Raw photo originals (HEIC/large) — processed copies live in public/assets/
+photo/

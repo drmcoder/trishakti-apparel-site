@@ -1,6 +1,9 @@
+import Image from 'next/image';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
+import { asset } from '@/lib/asset';
+import { getEventImages } from '@/lib/events';
 import { company, leadership, team, stats, differentiators } from '@/lib/content';
 
 import { og } from '@/lib/seo';
@@ -14,6 +17,8 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  const teamPhotos = getEventImages().slice(0, 3);
+
   return (
     <>
       <PageHero eyebrow="About" title="A young factory on a deep foundation">
@@ -127,6 +132,45 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Life at Trishakti — real photos of the people who make the orders */}
+      {teamPhotos.length > 0 && (
+        <section className="section bg-mist/50">
+          <div className="container-x">
+            <div className="max-w-2xl">
+              <span className="eyebrow">Life at Trishakti</span>
+              <h2 className="mt-2 h-section">The team behind every order</h2>
+              <p className="mt-4 lead">
+                Our team is local to Gaindakot, permanent, and 80% women. These are our own
+                photographs, not stock.
+              </p>
+            </div>
+            <div className="mt-10 grid gap-5 sm:grid-cols-3">
+              {teamPhotos.map((img) => (
+                <figure key={img.src} className="overflow-hidden rounded-lg border border-line bg-white">
+                  <div className="relative aspect-[4/3]">
+                    <Image
+                      src={asset(img.src)}
+                      alt={img.alt}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  {img.caption && (
+                    <figcaption className="px-4 py-3 text-sm text-body/80">{img.caption}</figcaption>
+                  )}
+                </figure>
+              ))}
+            </div>
+            <p className="mt-8">
+              <a href="/gallery/" className="font-medium text-primary-700 hover:underline">
+                See more from the factory and the team →
+              </a>
+            </p>
+          </div>
+        </section>
+      )}
 
       <CTASection
         title="Let’s build something together"

@@ -90,11 +90,11 @@ Two tiers are used here:
 - Puja Sharma — Asst. Production Head
 - Jeena Thakuri — Production Supervisor
 - Chandra Nath Dahal — Supervisor
-- Zakir Hussain — CAD Pattern Engineer / Asst. Production Head
+- Ismail — CAD Pattern Engineer / Asst. Production Head
 - Bishal Pariyar — CAD Operator / Cutting Master
 - Narayan Chaudhary — Cutting Master
 - Sangita Adhikari — Account Executive
-- Sunil Sharma — Junior Account Executive
+- Rakshya Pandey — Junior Account Executive
 
 ### Testimonials (✅ real — currently all domestic clients)
 - Tabarak Hussain — Owner, Sabnam Fancy
