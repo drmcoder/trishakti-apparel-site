@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Logo from './Logo';
 import Icon from './Icon';
 import { company, contact, nav, products } from '@/lib/content';
+import { SITE_VERSION, PUBLISH_ID } from '@/lib/version';
 
 export default function Footer() {
   return (
@@ -94,9 +95,12 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col gap-2 py-5 text-xs text-white/65 sm:flex-row sm:items-center sm:justify-between">
           <p>© {company.founded}–2026 {company.name}. All rights reserved.</p>
-          <div className="flex flex-wrap gap-x-4 gap-y-1">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <p>{company.taglinePoetic}</p>
             <Link href="/privacy/" className="text-white/65 underline-offset-2 hover:text-white hover:underline">Privacy</Link>
+            <span className="font-mono text-[11px] tracking-tight text-white/45" title="Site version · deploy commit">
+              {SITE_VERSION} · {PUBLISH_ID}
+            </span>
           </div>
         </div>
       </div>
