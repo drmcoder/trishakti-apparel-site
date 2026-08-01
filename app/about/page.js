@@ -97,6 +97,41 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Inclusion */}
+      <section className="section">
+        <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="order-2 lg:order-1">
+            <span className="eyebrow">An inclusive floor</span>
+            <h2 className="mt-2 h-section">Skill has a place here</h2>
+            <div className="mt-5 space-y-4 text-body/85">
+              <p>
+                Our production team includes deaf colleagues. We are proud to create a
+                workplace where skilled people can contribute, grow, and be respected for
+                the quality of their work.
+              </p>
+              <p>
+                Clear communication, practical support, and a team-first culture help keep
+                the floor focused on the details that matter to every order.
+              </p>
+            </div>
+          </div>
+          <figure className="order-1 overflow-hidden rounded-lg border border-line bg-mist lg:order-2">
+            <div className="relative aspect-[4/3]">
+              <Image
+                src={asset('/assets/events/14-inclusive-production-team.jpg')}
+                alt="A Trishakti Apparel production operator working at an industrial sewing machine in Gaindakot, Nepal"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+            </div>
+            <figcaption className="px-4 py-3 text-sm text-body/80">
+              On the sewing floor in Gaindakot.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
       {/* Leadership */}
       <section className="section">
         <div className="container-x">
