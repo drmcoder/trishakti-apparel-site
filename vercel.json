@@ -21,6 +21,25 @@
     { "source": "/blog-category/:path*", "destination": "/blog/", "permanent": true },
     { "source": "/image-gallery", "destination": "/gallery/", "permanent": true },
     { "source": "/video-gallery", "destination": "/gallery/", "permanent": true },
-    { "source": "/privacy-policy", "destination": "/privacy/", "permanent": true }
+    { "source": "/privacy-policy", "destination": "/privacy/", "permanent": true },
+    { "source": "/service/:path*/", "destination": "/capabilities/", "permanent": true },
+    { "source": "/blog-tags/:path*/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog-category/:path*/", "destination": "/blog/", "permanent": true },
+    { "source": "/about-us", "destination": "/about/", "permanent": true },
+    { "source": "/about-us/", "destination": "/about/", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact/", "permanent": true },
+    { "source": "/contact-us/", "destination": "/contact/", "permanent": true },
+    { "source": "/our-team", "destination": "/about/", "permanent": true },
+    { "source": "/our-team/", "destination": "/about/", "permanent": true },
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/home/", "destination": "/", "permanent": true },
+    { "source": "/product", "destination": "/products/", "permanent": true },
+    { "source": "/product/", "destination": "/products/", "permanent": true },
+    { "source": "/gallery-image", "destination": "/gallery/", "permanent": true },
+    { "source": "/gallery-image/", "destination": "/gallery/", "permanent": true },
+    { "source": "/subscribe-newsletter", "destination": "/contact/", "permanent": true },
+    { "source": "/subscribe-newsletter/", "destination": "/contact/", "permanent": true },
+    { "source": "/blog/crafting-fashion-legacies-since-2023-/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/letter-to-government-authorities.", "destination": "/blog/", "permanent": true }
   ]
 }
