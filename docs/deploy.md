@@ -11,8 +11,12 @@ the redirects in `vercel.json`.
 ## Deploying a change
 
 1. Run `npm run build` locally. A successful build writes the deployable static site to `out/`.
-2. Deploy through the Vercel project connected to this domain, using the project dashboard or
-   the deployment method configured there.
+2. **Push to `master` on GitHub (drmcoder/trishakti-apparel-site).** Verified 2026-08-04:
+   minutes after a push, new pages returned 200 on production without any manual deploy —
+   the Vercel project is connected to the GitHub repo and auto-deploys on push.
+   Note: the production Vercel project is NOT in the `santoshrijals-projects` Vercel
+   account (the one the local CLI and claude.ai connector see) — deployment access is
+   via the GitHub integration only.
 3. Verify the primary routes, `/sitemap.xml`, `/robots.txt`, and the inquiry form after deployment.
 
 The repository does not contain a GitHub Actions deployment workflow. Its only workflow,
