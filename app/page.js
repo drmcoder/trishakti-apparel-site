@@ -32,6 +32,16 @@ const faqJsonLd = {
 export default function Home() {
   return (
     <>
+      {/* Preload the LCP image. `images.unoptimized` (static export) stops Next
+          emitting this automatically, so the browser only discovers the hero
+          after hydration — which cost ~4s of LCP on slow connections. */}
+      <link
+        rel="preload"
+        as="image"
+        href={asset('/assets/products/hero-polo.webp')}
+        fetchPriority="high"
+      />
+
       {/* ---------- Hero ---------- */}
       <section className="relative overflow-hidden bg-navy text-white">
         <div className="grain pointer-events-none absolute inset-0"
@@ -76,7 +86,7 @@ export default function Home() {
           <div className="lg:col-span-5">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-white/10 shadow-2xl lg:max-w-none">
               <Image
-                src={asset("/assets/products/hero-polo.jpg")}
+                src={asset("/assets/products/hero-polo.webp")}
                 alt="Private-label knit polo shirt made by Trishakti Apparel"
                 fill
                 priority

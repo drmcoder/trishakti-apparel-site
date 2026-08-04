@@ -103,7 +103,7 @@ export default function QuoteEstimator() {
       <p className="mt-4 text-xs leading-relaxed text-muted">
         Feasibility and duty status are indicative; final price, lead time and duty-free eligibility
         depend on your exact design, fabric and destination rules of origin — confirmed on quote. We
-        don't publish prices: every quote is costed to your real specs.
+        don&apos;t publish prices: every quote is costed to your real specs.
       </p>
     </div>
   );
