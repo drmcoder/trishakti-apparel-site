@@ -1,0 +1,332 @@
+<title>Trishakti Apparel — Buyer Targeting &amp; Growth Brief</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --backdrop: #ece9e1;
+    --ink: #1b2230;
+    --navy: #1a3e73;
+    --green: #1e7a34;
+    --green-tint: #edf3ec;
+    --red: #9b2c2c;
+    --red-tint: #fbf0ef;
+    --amber-tint: #fdf6e8;
+    --muted: #5b6474;
+    --line: #e0dccf;
+    --line-strong: #c9c4b4;
+  }
+  @media (prefers-color-scheme: dark) { :root { --backdrop: #14171d; } }
+  :root[data-theme="light"] { --backdrop: #ece9e1; }
+  :root[data-theme="dark"]  { --backdrop: #14171d; }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--backdrop);
+    font-family: -apple-system, "Segoe UI", system-ui, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    padding: 28px 16px 64px;
+    line-height: 1.5;
+  }
+  .sheet {
+    background: var(--paper);
+    color: var(--ink);
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 52px 56px 44px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 18px 44px rgba(20,30,55,.18);
+    border-top: 4px solid var(--navy);
+  }
+
+  /* masthead */
+  .mast { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+  .brand-name { font-size: 30px; letter-spacing: .16em; font-weight: 700; color: var(--navy); margin: 0; line-height: 1; }
+  .brand-sub { margin: 9px 0 0; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .stamp { text-align: right; flex-shrink: 0; border-left: 2px solid var(--red); padding-left: 14px; }
+  .stamp .k { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--red); font-weight: 700; }
+  .stamp .d { font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+  .doctitle { margin: 26px 0 0; font-size: 25px; line-height: 1.25; color: var(--navy); font-weight: 600; text-wrap: balance; }
+  .standfirst { margin: 10px 0 0; font-size: 14px; color: var(--muted); max-width: 62ch; }
+
+  .rule { height: 1px; background: var(--line-strong); border: 0; margin: 26px 0; }
+
+  h2 {
+    font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--green); font-weight: 700; margin: 34px 0 12px;
+    padding-bottom: 7px; border-bottom: 1px solid var(--line);
+  }
+  h3 { font-size: 14.5px; margin: 20px 0 7px; color: var(--navy); }
+  p, li { font-size: 13.5px; }
+  p { margin: 0 0 11px; }
+  ul, ol { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 5px; }
+  b, strong { color: var(--navy); }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; background: #f1efe7; padding: 1px 5px; border-radius: 3px; }
+
+  /* callouts */
+  .call { border-left: 3px solid var(--green); background: var(--green-tint); padding: 13px 16px; margin: 0 0 14px; border-radius: 0 4px 4px 0; }
+  .call.warn { border-left-color: var(--red); background: var(--red-tint); }
+  .call.note { border-left-color: #c08a1e; background: var(--amber-tint); }
+  .call p:last-child { margin-bottom: 0; }
+  .call .lbl { display: block; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; margin-bottom: 5px; color: var(--green); }
+  .call.warn .lbl { color: var(--red); }
+  .call.note .lbl { color: #8a6212; }
+
+  /* numbered findings */
+  .findings { counter-reset: f; list-style: none; padding: 0; margin: 0 0 6px; }
+  .findings > li { counter-increment: f; position: relative; padding-left: 40px; margin-bottom: 16px; }
+  .findings > li::before {
+    content: counter(f); position: absolute; left: 0; top: -1px;
+    width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff;
+    font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+  }
+  .findings .h { display: block; font-weight: 700; color: var(--navy); margin-bottom: 3px; font-size: 14px; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: 12.5px; }
+  th { text-align: left; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; padding: 0 10px 7px 0; border-bottom: 1px solid var(--line-strong); }
+  td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.num { white-space: nowrap; }
+  .yes { color: var(--green); font-weight: 700; }
+  .no  { color: var(--red); font-weight: 700; }
+  .star { color: #b8860b; }
+
+  .foot { margin-top: 34px; padding-top: 14px; border-top: 1px solid var(--line-strong); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; gap: 20px; }
+
+  @media (max-width: 680px) {
+    .sheet { padding: 34px 22px 30px; }
+    .mast { flex-direction: column; }
+    .stamp { text-align: left; border-left: 0; border-top: 2px solid var(--red); padding: 10px 0 0; }
+    table { font-size: 11.5px; }
+  }
+
+  @page { margin: 14mm; }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .sheet { box-shadow: none; max-width: none; padding: 0; border-top: 0; }
+    h2, h3 { break-after: avoid; }
+    table, .call, .findings > li { break-inside: avoid; }
+  }
+</style>
+
+<div class="sheet">
+
+  <div class="mast">
+    <div>
+      <p class="brand-name">TRISHAKTI</p>
+      <p class="brand-sub">Apparel · Cut &amp; Sew · Gaindakot, Nepal</p>
+    </div>
+    <div class="stamp">
+      <div class="k">Internal — not for circulation</div>
+      <div class="d">3 August 2026</div>
+    </div>
+  </div>
+
+  <h1 class="doctitle">Buyer Targeting &amp; Growth Brief</h1>
+  <p class="standfirst">
+    Built from two Pakistan export-data pulls (sweatshirts/hoodies and sportswear, May 2026),
+    verified against current tariff schedules. It corrects two things our website and existing
+    buyer list currently get wrong.
+  </p>
+
+  <hr class="rule">
+
+  <h2>The three findings that change what we do</h2>
+  <ol class="findings">
+    <li>
+      <span class="h">Our duty-free pitch does not work against most competitors.</span>
+      Pakistan, Bangladesh, Sri Lanka, Cambodia — and India since 15 July 2026 — all enter the UK
+      at 0%. Our duty edge is real only against <b>China</b> and Indonesia, and against India into
+      the EU. Lead with duty only when the buyer currently sources from China.
+    </li>
+    <li>
+      <span class="h">Our published MOQ locks us out of our best-fit market.</span>
+      Around 80% of sportswear shipments are under 500 pcs — the least price-sensitive and least
+      audit-gated segment. Our site says 500–1,000; our own positioning claims 300–500.
+    </li>
+    <li>
+      <span class="h">Every bulk and retail-chain buyer requires a social audit we don't have.</span>
+      Sedex membership is paid, but the SAQ sits at 0% and no SMETA is booked. This gates the entire
+      volume strategy — importers, chains and agents alike.
+    </li>
+  </ol>
+
+  <h2>1 · Corrected duty position</h2>
+  <table>
+    <tr><th>Our duty edge is…</th><th>UK</th><th>EU</th></tr>
+    <tr><td>vs <b>China</b></td><td class="yes">✔ ~12%</td><td class="yes">✔ ~12%</td></tr>
+    <tr><td>vs <b>Indonesia</b> (DCTS graduation, Jan 2026)</td><td class="yes">✔</td><td>—</td></tr>
+    <tr><td>vs <b>India</b></td><td class="no">✘ 0% since UK–India CETA, 15 Jul 2026</td><td class="yes">✔ ~9.6%</td></tr>
+    <tr><td>vs Bangladesh / Pakistan / Sri Lanka / Cambodia</td><td class="no">✘ tied at 0%</td><td class="no">✘ tied at 0%</td></tr>
+    <tr><td>vs any dutiable origin into <b>Canada</b></td><td colspan="2" class="yes">✔ 18% MFN — our biggest single saving</td></tr>
+  </table>
+  <div class="call warn">
+    <span class="lbl">Implication</span>
+    <p>"Duty-free to the EU/UK/Canada" is true but <b>not differentiating</b> against our actual
+    competition. Against a South Asian incumbent, lead with MOQ, flexibility and attention.
+    Against a China incumbent, lead with duty — it's worth ~12%.</p>
+  </div>
+
+  <h2>2 · The data describes two different markets</h2>
+  <table>
+    <tr><th></th><th>Retail-brand knitwear</th><th>Teamwear / uniform / niche</th></tr>
+    <tr><td>Typical order</td><td class="num"><b>3,000–10,600 pcs</b></td><td class="num"><b>under 500 pcs</b></td></tr>
+    <tr><td>Share under 500 pcs</td><td class="num">~30%</td><td class="num">~80%</td></tr>
+    <tr><td>Unit price</td><td class="num">$2.10–8.69</td><td class="num">$4–39</td></tr>
+    <tr><td>Buyers</td><td>Inditex, Mango, Woolworth, Fashion Nova</td><td>Vixn Fit, PL Schoolwear, Grip Racewear, fight/race/hockey brands</td></tr>
+    <tr><td>Gate</td><td>Full audit, price</td><td>Responsiveness, small runs</td></tr>
+  </table>
+  <p><b>Small + repeat beats big + once.</b> Urban Couture Group placed six orders in ten days
+  (150/200/200/400/540/560) — roughly 2,000 pcs a year from one buyer, at about three times the
+  unit price of a Woolworth bulk run.</p>
+
+  <h2>3 · The prices in the report are not a benchmark</h2>
+  <ul>
+    <li>Rows tagged <code>EFS SRO 957</code> are under Pakistan's Export Facilitation Scheme — inputs
+      imported under bond. Where fabric is buyer-supplied, declared value is the <b>making charge only</b>.</li>
+    <li>The UNIT column mixes <b>per-kg and per-piece</b>. Mango's "$13.34" is per kilo (~$3/pc).</li>
+    <li>Single POs are split across several bills of lading, and 15-piece rows are development samples.</li>
+  </ul>
+  <div class="call note">
+    <span class="lbl">Sanity check</span>
+    <p><b>Woolworth: 9,018 pcs, $19,824 = $2.20/pc</b> for a printed 41/59 hooded sweatshirt.
+    A hoodie takes 0.6–0.8 kg of fleece; even at $3/kg that's ~$2 of fabric before a stitch.
+    That is a CMT charge or a data error — not a garment price. We cannot make it and should not try.</p>
+  </div>
+  <p>Only trust rows where Incoterm, fabric inclusion and spec are known. In this dataset that is
+  <b>PL Schoolwear ($5.10–5.80)</b> and <b>Vixn Fit ($13.37)</b> — both per piece, both UK.
+  Price our own work bottom-up: <code>fabric consumption × fabric price + trims + CMT + overhead + margin</code>.</p>
+
+  <h2>4 · MOQ — the constraint to solve</h2>
+  <p>100 machines will happily run 300 pieces. The binding constraint is almost certainly
+  <b>fabric</b> — Chinese mills typically hold 300–500 kg minimums per colour. Confirm which it is,
+  then choose:</p>
+  <ul>
+    <li><b>Hold core fabric</b> in 4–6 staple weights and colours so small orders cut from stock —
+      ties up cash, but turns MOQ into a real weapon.</li>
+    <li><b>Buy from a stockist</b> rather than a mill for small runs.</li>
+    <li><span class="star">★</span> <b>Offer a 300-pc trial tier at +20–25%.</b> Buyers accept a premium
+      on a first order; nobody hands a 5,000-pc first order to an unaudited factory they have never met.
+      The trial converts them — the reorder is the business.</li>
+  </ul>
+
+  <h2>5 · Target segments, in priority order</h2>
+
+  <h3>A · Importers, wholesalers and trading houses — best route to bulk</h3>
+  <p>They buy volume and vet far less strictly than retail brands. Start here.</p>
+  <table>
+    <tr><th>Buyer</th><th>Country</th><th>Quantity seen</th><th>Notes</th></tr>
+    <tr><td><span class="star">★★</span> <b>PL Schoolwear Ltd</b></td><td>UK</td><td class="num">115 · 216 · 683 · <b>5,050</b></td>
+        <td>Schoolwear, 65/35 poly-cotton, $5.10–5.80/pc. Orders both small <b>and</b> bulk on an
+        annual repeating cycle — start small, grow into volume. <b>Best single target.</b></td></tr>
+    <tr><td>Imagine Design Inc</td><td>US</td><td class="num">10,598</td><td>Ladies 3-terry sweatshirt</td></tr>
+    <tr><td>Blue Star Imports L P</td><td>US</td><td class="num">1,555 · 7,176 · 3,941</td><td>Repeat buyer; 450 GSM is above our 400 max — check</td></tr>
+    <tr><td>Stitchmate Ltd</td><td>UK</td><td class="num">3,749</td><td>$4.48</td></tr>
+    <tr><td>J and J Apparel Inc</td><td>US</td><td class="num">3,040</td><td>Mens sweatshirts and hoodies</td></tr>
+    <tr><td>Inno Knits LLC</td><td>Canada</td><td class="num">434 · 1,000</td><td>Canada = 18% MFN saving vs dutiable origins</td></tr>
+    <tr><td>5 Star Tradex Ltd</td><td>UK</td><td class="num">500</td><td>"tshirts hoodies sweatshirts" — our whole range in one order</td></tr>
+  </table>
+
+  <h3>B · Niche activewear and uniform brands — best margin</h3>
+  <table>
+    <tr><th>Buyer</th><th>Country</th><th>Quantity</th><th>Notes</th></tr>
+    <tr><td><span class="star">★★</span> <b>Vixn Fit Ltd</b></td><td>UK</td><td class="num">1,099</td>
+        <td><b>$13.37/pc</b>, 90% polyester / 10% spandex — our exact activewear capability, our exact
+        MOQ, at a price that works</td></tr>
+    <tr><td>Tradewind GmbH</td><td>Germany</td><td class="num">1,571 kg</td><td></td></tr>
+    <tr><td>Grip Racewear</td><td>UK</td><td class="num">1,000</td><td></td></tr>
+    <tr><td>TGS Fightgear s.r.o.</td><td>Czechia</td><td class="num">424</td><td></td></tr>
+    <tr><td>Procheer Uniforms</td><td>Canada</td><td class="num">104</td><td></td></tr>
+  </table>
+
+  <h3>C · Retail chains and department stores — highest volume, hardest gate</h3>
+  <p>Ahlens (SE), Woolworth (DE), Mango (ES), Inditex (ES), Fashion Nova (US). Understand how they
+  actually buy before targeting them:</p>
+  <ul>
+    <li><b>The audit is pre-qualifying.</b> BSCI, SMETA or their own code. No audit, no purchase order.</li>
+    <li><b>They rarely onboard factories directly.</b> Most source through <b>buying agents and sourcing
+      offices</b>. One agent relationship routes chain orders — that is the realistic door, not a cold
+      email to head office.</li>
+    <li><b>They buy to a calendar</b>, 6–9 months ahead. To land AW27 we must be in front of buyers by
+      early 2027 — which is exactly what the January shows are for.</li>
+    <li><b>Vendor onboarding</b> needs a DUNS number (free), bank details, a factory profile and usually
+      a physical audit visit.</li>
+    <li><b>Tier realistically.</b> Inditex, Mango and H&amp;M are not a 12-month target. Regional
+      department stores, discount chains, supermarket clothing lines and catalogue/online retailers are.</li>
+  </ul>
+
+  <h3>D · Deprioritise</h3>
+  <p>Individual US buyers ordering 1–100 pcs of team kit — below MOQ, no duty advantage. And the
+  sub-300 custom-jersey segment runs on <b>dye-sublimation printing</b>, a capability we don't have;
+  those Sialkot and Faisalabad sellers are purpose-built for it.</p>
+
+  <h2>6 · The next data pulls</h2>
+  <div class="call">
+    <span class="lbl">Pull #1 — highest priority</span>
+    <p><b>Who already imports from Nepal.</b> These buyers have already solved Nepali documentation,
+    LDC origin paperwork, Kolkata transit and lead times. If they buy knit from another Nepali
+    factory, they can buy from us.</p>
+    <p>Seller country <b>Nepal</b> · HS <b>6109, 6110, 6105, 6106, 6111, 6103, 6104</b> ·
+    destination <b>UK, EU, Canada</b> · last <b>12 months</b> · sort by quantity descending.</p>
+    <p>Then <b>reverse-look-up</b> each Nepali exporter that appears to get their buyer list —
+    competitors' customers, buying our product, from our country, at volume.</p>
+  </div>
+  <p><b>Pull #2 — where our duty edge is worth 12%.</b> Seller <b>China</b>, destination UK/EU,
+  HS 6110/6109, quantity 3,000–20,000. Those buyers pay ~12%; we're the only origin on the list
+  where switching saves them real money.</p>
+  <p><b>Standing filter:</b> quantity <b>300–5,000</b> · unit price <b>≥ $4</b> ·
+  destination <b>UK / EU / Canada</b>.</p>
+
+  <h2>7 · Vetting a buyer</h2>
+  <p>Outbound is self-verifying — when <i>we</i> pick a real brand, legitimacy is largely settled.
+  Fraud arrives through <b>inbound</b> marketplace leads.</p>
+  <p><b>Ten-minute free checks:</b> EU <b>VIES</b> (VAT number must match the name) · UK Companies House ·
+  DE Handelsregister / NL KvK / DK CVR / SE Bolagsverket · the person's LinkedIn history ·
+  domain age and a company-domain email, not Gmail · can we find their product in real shops?</p>
+  <p><b>Payment structure matters more than vetting:</b></p>
+  <ul>
+    <li>30% advance TT, 70% against copy of B/L</li>
+    <li><b>Never release the original B/L before payment</b> — whoever holds it controls the cargo</li>
+    <li><b>L/C only when advised through our own Nepali bank.</b> Never accept a PDF from the buyer —
+      forged L/Cs are the most common large-value export fraud and look perfect to an untrained eye</li>
+    <li>Never ship open account or DA terms to a new buyer</li>
+    <li><b>Charge for samples and freight</b> — this filters more time-wasters than any other rule</li>
+  </ul>
+  <div class="call warn">
+    <span class="lbl">Walk away if</span>
+    <p>They ask <b>us</b> to pay any fee (registration, agent, certification, customs — always a scam) ·
+    a huge first order with no spec questions and no price negotiation · a bank in a different country
+    from the company · a sudden bank-detail change mid-deal (confirm by phone on a number we already
+    had) · <b>they ask for an under-declared invoice.</b></p>
+    <p><b>On under-invoicing:</b> it is customs fraud in the buyer's country and a foreign-exchange
+    offence here. Export proceeds are reconciled against the export declaration, so a $2-declared /
+    $9-received mismatch is exactly what that system detects. It risks the <b>origin privilege the
+    whole business depends on</b>, kills L/C access, and — decisively — <b>saves nothing</b>, because
+    most target buyers already pay 0% duty. A buyer who wants a false invoice will also dispute
+    quality to avoid the balance payment.</p>
+  </div>
+
+  <h2>8 · Sequence</h2>
+  <table>
+    <tr><th>When</th><th>Action</th><th>What it unblocks</th></tr>
+    <tr><td><b>Now</b></td><td><b>Book SMETA</b> ($2–4k, 1–3 months). Complete the free Sedex SAQ and
+      Environment SAQ this week.</td><td>All of §5A and every buyer in §5C</td></tr>
+    <tr><td><b>Now</b></td><td>Confirm whether fabric or sewing sets our MOQ floor; decide the
+      300-pc trial tier</td><td>§4</td></tr>
+    <tr><td>Week 1</td><td>Pull #1 (Nepal export data) and reverse-look-up</td><td>—</td></tr>
+    <tr><td>Week 2</td><td>Contact PL Schoolwear and Vixn Fit — named people, not <code>info@</code></td><td>—</td></tr>
+    <tr><td>Week 3</td><td>Apply via TEPC for <b>Source Fashion London</b> (19–21 Jan 2027) and
+      <b>PSI Cologne</b> (12–14 Jan 2027) — consecutive weeks, one trip, part-subsidised</td><td>—</td></tr>
+    <tr><td>Ongoing</td><td>50 touches per week, LinkedIn first (10–18% reply vs 3.4% for email).
+      <b>We still have no LinkedIn company page.</b></td><td>—</td></tr>
+  </table>
+  <p><b>Scoreboard — track four numbers and nothing else:</b> touches sent · replies received ·
+  samples requested · quotes issued.</p>
+
+  <div class="foot">
+    <span>Trishakti Apparel · Gaida Chowk, Ward-6, Gaidakot, Nawalparasi (East), Nepal</span>
+    <span>admin@trishaktiapparel.com.np</span>
+  </div>
+
+</div>

@@ -64,7 +64,7 @@ const orgJsonLd = {
   legalName: company.name,
   description: seo.description,
   url: seo.url,
-  logo: `${seo.url}/assets/logo-mark.png`,
+  logo: `${seo.url}/assets/logo-mark.webp`,
   image: `${seo.url}/assets/og-image.jpg`,
   foundingDate: company.founded,
   email: contact.email,
@@ -72,7 +72,6 @@ const orgJsonLd = {
   knowsLanguage: 'en',
   areaServed: ['European Union', 'United Kingdom', 'Canada', 'United States', 'Australia', 'Japan', 'Worldwide'],
   slogan: company.tagline,
-  foundingDate: company.founded,
   knowsAbout: [
     'Private-label knit garment manufacturing',
     'Cut and sew apparel production',

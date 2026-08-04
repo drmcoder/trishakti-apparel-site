@@ -40,6 +40,8 @@
     { "source": "/subscribe-newsletter", "destination": "/contact/", "permanent": true },
     { "source": "/subscribe-newsletter/", "destination": "/contact/", "permanent": true },
     { "source": "/blog/crafting-fashion-legacies-since-2023-/", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/letter-to-government-authorities.", "destination": "/blog/", "permanent": true }
+    { "source": "/blog/letter-to-government-authorities.", "destination": "/blog/", "permanent": true },
+    { "source": "/connect-with-trishakti-apparel(.*)", "destination": "/contact/", "permanent": true },
+    { "source": "/blog/the-genesis-of-trishakti-apparel(.*)", "destination": "/about/", "permanent": true }
   ]
 }
