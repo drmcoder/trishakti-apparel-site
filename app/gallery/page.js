@@ -45,6 +45,13 @@ export default function GalleryPage() {
             <span className="eyebrow">Product work</span>
             <h2 className="mt-2 h-section">A look at the product range</h2>
             <p className="mt-4 lead">Selected knit and woven product photography from our line card.</p>
+            <p className="mt-4 text-body/80">
+              Everything shown here was cut and sewn on our own floor in Gaindakot — crew-neck tees,
+              piqué and jersey polos, fleece sweatshirts and hoodies, henleys, tanks, women’s fits,
+              and kids’ co-ord sets. These are the same constructions we quote for private-label
+              buyers: your fabric weight, your fit, your label. If a garment here is close to what
+              you need, mention it in your inquiry and we’ll spec from it.
+            </p>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
             {gallery.map((image) => (
@@ -67,6 +74,12 @@ export default function GalleryPage() {
           <div className="max-w-2xl">
             <span className="eyebrow">Factory updates</span>
             <h2 className="mt-2 h-section">Approved photos from the floor</h2>
+            <p className="mt-4 text-body/80">
+              Real photographs from a real factory: the cutting tables, sewing lines, and finishing
+              section of a women-majority production floor in Gaindakot, Nepal. We publish only
+              approved, current images — and for anything a photo can’t prove, we offer every buyer
+              a live, unscripted video walkthrough where you direct the camera.
+            </p>
           </div>
           {images.length === 0 ? (
             <div className="mt-8 max-w-2xl rounded-lg border border-line bg-white p-8">
