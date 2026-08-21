@@ -9,9 +9,9 @@ import { seo, contact } from '@/lib/content';
 import { og } from '@/lib/seo';
 
 export const metadata = {
-  title: 'Duty-Free Knitwear for UK Buyers — 500 pcs Minimum',
+  title: 'Duty-Free Knitwear for UK Buyers — 1,000 pcs Minimum',
   description:
-    'Blank and private-label knitwear from Nepal for UK brands, schoolwear suppliers, decorators and uniform companies. 500 pcs per style, duty-free into the UK under DCTS, Certificate of Origin supplied.',
+    'Blank and private-label knitwear from Nepal for UK brands, schoolwear suppliers, decorators and uniform companies. 1,000 pcs per style, duty-free into the UK under DCTS, Certificate of Origin supplied.',
   alternates: { canonical: '/uk-buyers' },
   openGraph: og({ title: 'Duty-Free Knitwear for UK Buyers · Trishakti Apparel', path: '/uk-buyers/' }),
   keywords: [
@@ -33,7 +33,7 @@ const breadcrumbJsonLd = {
 };
 
 const facts = [
-  { k: '500 pcs', v: 'Minimum per style', d: 'Test a fit or a colour without committing to a container.' },
+  { k: '1,000 pcs', v: 'Minimum per style', d: 'Test a fit or a colour without committing to a container.' },
   { k: '0%', v: 'UK import duty', d: 'Nepal ships duty-free under DCTS. We supply the Certificate of Origin.' },
   { k: '135–400', v: 'GSM range', d: 'Light jersey through to heavyweight French terry and fleece.' },
   { k: '26–30k', v: 'Pieces per month', d: 'Enough capacity to grow into, small enough that your order matters.' },
@@ -53,7 +53,7 @@ export default function UkBuyersPage() {
 
   return (
     <>
-      <PageHero eyebrow="For UK buyers" title="Blank and private-label knitwear, from 500 pieces">
+      <PageHero eyebrow="For UK buyers" title="Blank and private-label knitwear, from 1,000 pieces">
         We make the knit garments behind UK schoolwear ranges, uniform programmes, decorated
         workwear and independent brands — to your own fits, colours and labels, not from a stock
         catalogue.
