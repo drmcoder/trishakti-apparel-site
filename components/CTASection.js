@@ -17,6 +17,9 @@ export default function CTASection({
             Request a Quote
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
+          <Link href="/how-it-works/" className="btn-ghost-light">
+            See how it works
+          </Link>
           <a
             href={`https://wa.me/${contact.whatsapp}`}
             target="_blank"

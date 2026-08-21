@@ -55,7 +55,7 @@ const SEGMENTS = {
   },
   brands: {
     line: 'For independent brands',
-    pitch: 'Knit garments to your tech pack, from 500 pieces — so a new fit or colourway does not mean committing to a container.',
+    pitch: 'Knit garments to your tech pack, from 1,000 pieces — so a new fit or colourway does not mean committing to a container.',
     items: [
       ['tshirt.webp', 'Crew-neck tee', 'Single jersey · cotton, CVC, modal or poly blends'],
       ['sweatshirt.webp', 'Hoodie &amp; sweatshirt', 'French terry and fleece · up to 400 GSM'],
@@ -125,7 +125,7 @@ b{color:#1a3e73}
 
 <h2>Terms at a glance</h2>
 <div class="facts">
-  <div class="fact"><div class="v">500 pcs</div><div class="l">Minimum per style</div></div>
+  <div class="fact"><div class="v">1,000 pcs</div><div class="l">Minimum per style</div></div>
   <div class="fact"><div class="v">0%</div><div class="l">UK duty under DCTS</div></div>
   <div class="fact"><div class="v">40–50 days</div><div class="l">Bulk after approval</div></div>
   <div class="fact"><div class="v">26–30k</div><div class="l">Pieces per month</div></div>
@@ -149,7 +149,7 @@ b{color:#1a3e73}
   <div>
     <h2>Where we stand</h2>
     <ul>
-      <li>91 people, ~100 machines, single knit floor</li>
+      <li>150+ machines on a single knit floor</li>
       <li>80% women — all local, all permanent</li>
       <li>EXIM registered exporter</li>
       <li>Buyer-appointed third-party inspection welcome</li>
