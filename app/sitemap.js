@@ -14,6 +14,7 @@ export default function sitemap() {
     priority: 0.7,
   }));
   const extra = [
+    { url: `${seo.url}/uk-buyers/`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${seo.url}/sustainability/`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${seo.url}/compliance/`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${seo.url}/gallery/`, changeFrequency: 'monthly', priority: 0.6 },
