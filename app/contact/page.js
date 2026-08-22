@@ -1,5 +1,6 @@
 import Icon from '@/components/Icon';
 import InquiryForm from '@/components/InquiryForm';
+import Link from 'next/link';
 import QuoteEstimator from '@/components/QuoteEstimator';
 import { contact } from '@/lib/content';
 
@@ -25,7 +26,8 @@ export default function ContactPage() {
           <p className="mt-5 max-w-2xl text-lg text-white/80">
             Tell us what you want to make and how many. We’ll come back with fabric
             options, MOQ, pricing, and lead time — usually within one business day.
-            It’s free and no-obligation.
+            It’s free and no-obligation. New to sourcing from Nepal?{' '}
+            <Link href="/how-it-works/" className="font-medium text-primary-200 underline hover:text-white">See the whole process, with real numbers</Link>.
           </p>
         </div>
       </section>

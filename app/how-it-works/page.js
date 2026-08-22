@@ -8,7 +8,7 @@ import { og } from '@/lib/seo';
 export const metadata = {
   title: 'How It Works — Inquiry to Delivery, With Real Numbers',
   description:
-    'The full Trishakti Apparel process with days per stage: 24-hour replies, quotes in 2 working days, samples in 7–14 days, production at 150+ machines, and sea freight in 4–6 weeks — plus a buyer FAQ where every answer is a number.',
+    'Our whole process with days per stage: 24-hour replies, quotes in 2 days, samples in 7–14 days, production on 150+ machines, freight in 4–6 weeks — plus a numeric buyer FAQ.',
   alternates: { canonical: '/how-it-works' },
   openGraph: og({ title: 'How It Works · Trishakti Apparel', path: '/how-it-works/' }),
   keywords: [
@@ -89,7 +89,7 @@ const faqs = [
   },
   {
     q: 'What duty will I pay?',
-    a: '0% into the UK, EU, Canada, and Japan under LDC trade preferences — versus 12–18% for most large garment origins. We supply the proof-of-origin documents with every shipment.',
+    a: '0% into the UK, EU, Canada, and Japan under LDC trade preferences — versus 12–18% for most large garment origins — with the proof-of-origin documents supplied. EU access is confirmed through a transition to at least 2029; ask us about the window for your market.',
   },
   {
     q: 'What capacity do you have?',

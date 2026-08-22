@@ -77,7 +77,7 @@ export default function UkBuyersPage() {
         <div className="container-x grid gap-12 lg:grid-cols-2">
           <div>
             <span className="eyebrow">The duty position</span>
-            <h2 className="mt-2 h-section">0% into the UK, and not a short-term window</h2>
+            <h2 className="mt-2 h-section">0% into the UK — with a scheme built for the long term</h2>
             <div className="prose-custom mt-5 space-y-4 text-body/85">
               <p>
                 Nepal ships duty-free into the UK under the Developing Countries Trading Scheme,
@@ -86,8 +86,7 @@ export default function UkBuyersPage() {
               </p>
               <p>
                 The UK has also improved its garment rules of origin so that clothing exporters
-                keep that access as their country develops through the scheme — so this is not a
-                window that shuts on you mid-programme. We are glad to set out our exact origin
+                keep that access as their country develops through the scheme. We are glad to set out our exact origin
                 position in writing for your compliance team.
               </p>
               <p className="border-l-2 border-primary-500 pl-4 text-body/70">

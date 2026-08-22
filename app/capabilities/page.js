@@ -8,7 +8,7 @@ import { asset } from '@/lib/asset';
 import { og } from '@/lib/seo';
 
 export const metadata = {
-  title: 'Capabilities',
+  title: 'Knit Garment Manufacturing Capabilities — Cut & Sew Nepal',
   description:
     'Trishakti Apparel capabilities: design & development, in-house Optitex CAD pattern making, cut & sew, private-label finishing, quality control, and fabric/trims sourcing with duty management.',
   alternates: { canonical: '/capabilities' },

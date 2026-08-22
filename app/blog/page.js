@@ -23,6 +23,28 @@ export default function BlogIndex() {
         cost comparisons, and how to work with a manufacturing partner.
       </PageHero>
 
+      <section className="section pb-0">
+        <div className="container-x">
+          <div className="rounded-lg border border-line bg-mist/50 p-6">
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-muted">Start here</h2>
+            <ul className="mt-3 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
+              {[
+                ['/how-it-works/', 'How ordering works — the process with real numbers'],
+                ['/blog/how-to-import-clothing-from-nepal/', 'How to import clothing from Nepal, step by step'],
+                ['/blog/nepal-duty-free-apparel-eu-uk-canada/', 'The duty-free maths for EU, UK & Canadian buyers'],
+                ['/blog/first-time-importer-guide-working-with-garment-factory/', 'The first-time importer’s guide'],
+                ['/blog/garment-sourcing-glossary-terms-explained/', 'FOB, CMT, MOQ, AQL — the sourcing glossary'],
+                ['/blog/how-to-verify-overseas-factory-remotely/', 'How to verify a factory you’ll never visit'],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link href={href} className="font-medium text-primary-700 hover:underline">{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container-x grid gap-6 md:grid-cols-2">
           {sorted.map((p) => (
@@ -31,7 +53,7 @@ export default function BlogIndex() {
                 {p.tags.map((t) => (
                   <span key={t}>{t}</span>
                 ))}
-                <span className="text-muted/60">· {p.readMins} min read</span>
+                <span className="text-muted/60">· {p.readMins} min read · <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' })}</time></span>
               </div>
               <h2 className="mt-3 font-display text-2xl font-medium leading-snug text-ink">
                 <Link href={`/blog/${p.slug}/`} className="hover:text-primary-700">{p.title}</Link>

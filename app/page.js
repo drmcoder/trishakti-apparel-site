@@ -99,6 +99,26 @@ export default function Home() {
 
       </section>
 
+      {/* ---------- Audience picker ---------- */}
+      <section className="border-b border-line bg-mist/40">
+        <div className="container-x py-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Find your path</p>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              ['/blog/blank-apparel-direct-from-factory-decorators-guide/', 'Decorator or promo distributor', 'Blanks direct from the factory'],
+              ['/blog/corporate-uniform-programme-sourcing-guide/', 'Uniform or schoolwear supplier', 'Programme sourcing, size curves, reorders'],
+              ['/low-moq-clothing-manufacturer/', 'Small or emerging brand', 'Real production from 1,000 pieces'],
+              ['/uk-buyers/', 'UK importer', 'DCTS duty-free, paperwork included'],
+            ].map(([href, who, what]) => (
+              <Link key={href} href={href} className="card group p-4 transition hover:border-primary-300">
+                <span className="block text-sm font-semibold text-ink group-hover:text-primary-700">{who}</span>
+                <span className="mt-1 block text-xs text-body/70">{what}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ---------- By the numbers (credibility strip) ---------- */}
       <StatStrip />
 
@@ -273,6 +293,10 @@ export default function Home() {
             <div className="mt-4 rounded-lg border border-primary-200 bg-primary-50 p-5">
               <p className="text-sm font-medium text-primary-800">“{trust.pledge}”</p>
             </div>
+            <p className="mt-4 text-sm leading-relaxed text-body/80">
+              Want proof before a conversation? <Link href="/contact/" className="font-medium text-primary-700 hover:underline">Book a live video walkthrough</Link> —
+              unscripted, you direct the camera — or <Link href="/gallery/" className="font-medium text-primary-700 hover:underline">see the floor and the team</Link>.
+            </p>
             <div className="mt-6 border-t border-line pt-6">
               <p className="text-sm leading-relaxed text-body/80">{heritage.statement}</p>
               <dl className="mt-5 grid grid-cols-3 gap-4">

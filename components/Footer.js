@@ -6,7 +6,7 @@ import { SITE_VERSION, PUBLISH_ID } from '@/lib/version';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-navy-900 text-white/80">
+    <footer className="border-t border-white/10 bg-navy-900 pb-16 text-white/80 md:pb-0">
       <div className="container-x grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2 lg:col-span-1">
           <Logo variant="light" />
@@ -35,6 +35,21 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href="/how-it-works/" className="text-white/70 transition hover:text-white">How it works</Link>
+            </li>
+            <li>
+              <Link href="/uk-buyers/" className="text-white/70 transition hover:text-white">For UK buyers</Link>
+            </li>
+            <li>
+              <Link href="/garment-manufacturer-nepal/" className="text-white/70 transition hover:text-white">Manufacturer in Nepal</Link>
+            </li>
+            <li>
+              <Link href="/low-moq-clothing-manufacturer/" className="text-white/70 transition hover:text-white">Low-MOQ manufacturing</Link>
+            </li>
+            <li>
+              <a href="/assets/Trishakti-Apparel-Company-Profile.pdf" className="text-white/70 transition hover:text-white">Company profile (PDF)</a>
+            </li>
             <li>
               <Link href="/sustainability/" className="text-white/70 transition hover:text-white">Sustainability</Link>
             </li>

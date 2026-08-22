@@ -78,7 +78,8 @@ export default function BlogPost({ params }) {
               {p.title}
             </h1>
             <p className="mt-4 text-sm text-body/70">
-              By <span className="font-medium text-ink">Santosh Rijal</span> · Founder, Trishakti Apparel
+              By <span className="font-medium text-ink">Santosh Rijal</span> · Founder, Trishakti Apparel ·{' '}
+              <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}</time>
             </p>
           </div>
         </header>

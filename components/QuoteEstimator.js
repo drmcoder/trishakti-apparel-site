@@ -13,7 +13,7 @@ const DUTY = {
   'United States': { free: false, note: 'not duty-free to the US (we compete on quality, ethics & MOQ)' },
   Other: { free: 'ask', note: "tell us the country and we'll confirm your duty treatment" },
 };
-const MOQ = 500;
+const MOQ = 1000;
 const WA = 'https://wa.me/9779863618347';
 
 export default function QuoteEstimator() {
@@ -30,8 +30,8 @@ export default function QuoteEstimator() {
     const rows = [
       { cls: meetsMoq ? 'ok' : 'warn', i: meetsMoq ? '✓' : '!',
         t: meetsMoq
-          ? `Meets our MOQ — ${q.toLocaleString()} pcs is fine (min 500/style).`
-          : "Below our 500/style MOQ — ask us; we're often flexible for growing brands." },
+          ? `Meets our MOQ — ${q.toLocaleString()} pcs is fine (min 1,000/style).`
+          : "Below our 1,000/style MOQ — ask us; colour splits and growth plans are negotiable." },
       { cls: 'ok', i: '✓',
         t: `We make ${product.toLowerCase()} in ${fabric.toLowerCase()} — all knit fabrics, your designs, in-house CAD.` },
       { cls: dutyOk ? 'ok' : 'warn', i: dutyOk ? '✓' : '!', t: `${dest}: ${D.note}.` },
