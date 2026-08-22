@@ -53,7 +53,7 @@ export default function BlogIndex() {
                 {p.tags.map((t) => (
                   <Link key={t} href={`/blog/tag/${slugifyTag(t)}/`} className="hover:text-primary-700">{t}</Link>
                 ))}
-                <span className="text-muted/60">· {p.readMins} min read · <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' })}</time></span>
+                <span className="text-muted">· {p.readMins} min read · <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' })}</time></span>
               </div>
               <h2 className="mt-3 font-display text-2xl font-medium leading-snug text-ink">
                 <Link href={`/blog/${p.slug}/`} className="hover:text-primary-700">{p.title}</Link>

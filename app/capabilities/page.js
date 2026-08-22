@@ -115,7 +115,7 @@ export default function CapabilitiesPage() {
               a Certificate of Origin supplied. For the US, Nepal carries the lowest tariff
               in South Asia. Tell us your market and we’ll confirm what applies.
             </p>
-            <p className="mt-4 text-sm text-body/70">
+            <p className="mt-4 text-sm text-body/80">
               We state our compliance posture honestly: what we hold today, and what’s
               in progress. No cert claims we can’t back up.
             </p>
@@ -125,7 +125,7 @@ export default function CapabilitiesPage() {
               <div key={c.label} className="rounded-lg border border-line p-5">
                 <div className="text-sm font-semibold text-navy">{c.value}</div>
                 <div className="mt-0.5 text-sm font-medium text-ink">{c.label}</div>
-                <div className="mt-1 text-xs text-body/70">{c.note}</div>
+                <div className="mt-1 text-xs text-body/80">{c.note}</div>
               </div>
             ))}
           </div>

@@ -123,7 +123,7 @@ export default function ProductsPage() {
             </article>
           ))}
 
-          <p className="rounded-lg border border-line bg-white p-4 text-sm text-body/70">
+          <p className="rounded-lg border border-line bg-white p-4 text-sm text-body/80">
             <strong className="font-semibold text-ink">Don’t see your exact product?</strong>{' '}
             If it’s a knit garment, we can likely make it — and we run woven shirts too. GSM,
             MOQ, and pricing are confirmed against your tech pack rather than listed as fixed

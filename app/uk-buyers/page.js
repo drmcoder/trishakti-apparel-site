@@ -89,7 +89,7 @@ export default function UkBuyersPage() {
                 keep that access as their country develops through the scheme. We are glad to set out our exact origin
                 position in writing for your compliance team.
               </p>
-              <p className="border-l-2 border-primary-500 pl-4 text-body/70">
+              <p className="border-l-2 border-primary-500 pl-4 text-body/80">
                 One honest note: if you currently buy from Bangladesh, Pakistan, Sri Lanka or India,
                 those also enter the UK at 0% — so duty is not the reason to move. Minimum order
                 quantity and getting a straight answer the same day usually are.

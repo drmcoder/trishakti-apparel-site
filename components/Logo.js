@@ -6,7 +6,7 @@ import { asset } from '@/lib/asset';
 export default function Logo({ variant = 'dark', className = '' }) {
   const light = variant === 'light';
   const text = light ? 'text-white' : 'text-navy';
-  const sub = light ? 'text-white/70' : 'text-body/70';
+  const sub = light ? 'text-white/70' : 'text-body/80';
   const src = light ? '/assets/logo-mark-white.webp' : '/assets/logo-mark.webp';
   return (
     <span className={`inline-flex items-center gap-2.5 ${className}`}>

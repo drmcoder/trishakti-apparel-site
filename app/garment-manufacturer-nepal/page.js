@@ -125,7 +125,7 @@ export default function GarmentManufacturerNepalPage() {
               How ordering works, step by step
             </Link>
           </div>
-          <p className="mt-8 text-sm text-body/70">
+          <p className="mt-8 text-sm text-body/80">
             Buying from the UK? <Link href="/uk-buyers/" className="font-medium text-primary-700 hover:underline">Our UK buyer page</Link> covers DCTS paperwork.
             New to importing? Start with <Link href="/blog/how-to-import-clothing-from-nepal/" className="font-medium text-primary-700 hover:underline">the step-by-step import guide</Link>.
           </p>

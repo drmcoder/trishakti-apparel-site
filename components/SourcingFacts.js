@@ -11,7 +11,7 @@ export default function SourcingFacts() {
             {s.label}
           </div>
           <div className="mt-1.5 text-lg font-semibold text-ink">{s.value}</div>
-          <div className="mt-0.5 text-xs text-body/70">{s.detail}</div>
+          <div className="mt-0.5 text-xs text-body/80">{s.detail}</div>
         </div>
       ))}
     </div>

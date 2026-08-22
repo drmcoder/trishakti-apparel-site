@@ -72,12 +72,12 @@ export default function BlogPost({ params }) {
             </nav>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
               {p.tags.map((t) => <Link key={t} href={`/blog/tag/${slugifyTag(t)}/`} className="hover:text-primary-700">{t}</Link>)}
-              <span className="text-muted/60">· {p.readMins} min read</span>
+              <span className="text-muted">· {p.readMins} min read</span>
             </div>
             <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight tracking-[-0.02em] text-ink sm:text-5xl">
               {p.title}
             </h1>
-            <p className="mt-4 text-sm text-body/70">
+            <p className="mt-4 text-sm text-body/80">
               By <span className="font-medium text-ink">Santosh Rijal</span> · Founder, Trishakti Apparel ·{' '}
               <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}</time>
             </p>
@@ -107,7 +107,7 @@ export default function BlogPost({ params }) {
                       </span>
                       <span>
                         <span className="block font-medium text-ink group-hover:text-primary-700">{r.title}</span>
-                        <span className="mt-0.5 block text-sm leading-relaxed text-body/70">{r.description}</span>
+                        <span className="mt-0.5 block text-sm leading-relaxed text-body/80">{r.description}</span>
                       </span>
                     </Link>
                   </li>

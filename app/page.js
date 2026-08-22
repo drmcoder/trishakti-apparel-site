@@ -112,7 +112,7 @@ export default function Home() {
             ].map(([href, who, what]) => (
               <Link key={href} href={href} className="card group p-4 transition hover:border-primary-300">
                 <span className="block text-sm font-semibold text-ink group-hover:text-primary-700">{who}</span>
-                <span className="mt-1 block text-xs text-body/70">{what}</span>
+                <span className="mt-1 block text-xs text-body/80">{what}</span>
               </Link>
             ))}
           </div>
@@ -366,7 +366,7 @@ export default function Home() {
               <div key={c.label} className="rounded-lg border border-line p-5">
                 <div className="text-sm font-semibold text-primary-700">{c.value}</div>
                 <div className="mt-0.5 text-sm font-medium text-ink">{c.label}</div>
-                <div className="mt-1 text-xs text-body/70">{c.note}</div>
+                <div className="mt-1 text-xs text-body/80">{c.note}</div>
               </div>
             ))}
           </div>

@@ -49,7 +49,7 @@ export default function AboutPage() {
                 specialise in, and honest, transparent communication from first
                 consultation to final delivery.
               </p>
-              <p className="border-l-2 border-primary-500 pl-4 text-body/70">
+              <p className="border-l-2 border-primary-500 pl-4 text-body/80">
                 {company.taglinePoetic}
               </p>
             </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
               <dl className="mt-4 space-y-4">
                 {stats.map((s) => (
                   <div key={s.label} className="flex items-baseline justify-between gap-4 border-b border-line pb-3 last:border-0 last:pb-0">
-                    <dt className="text-sm text-body/70">{s.label}</dt>
+                    <dt className="text-sm text-body/80">{s.label}</dt>
                     <dd className="text-lg font-semibold text-navy">{s.value}</dd>
                   </div>
                 ))}

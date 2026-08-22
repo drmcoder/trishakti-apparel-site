@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
       <body>
         {/* Microsoft Clarity — analytics & heatmaps */}
-        <Script id="ms-clarity" strategy="afterInteractive">
+        <Script id="ms-clarity" strategy="lazyOnload">
           {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "xlxbid90s0");`}
         </Script>
         {/* Ahrefs Web Analytics */}
@@ -131,7 +131,7 @@ export default function RootLayout({ children }) {
           id="ahrefs-analytics"
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="qlJLcPU7xkoU4YVya27gjg"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <script
           type="application/ld+json"

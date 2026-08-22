@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
-        <Link href="/" aria-label="Trishakti Apparel — home" onClick={() => setOpen(false)}>
+        <Link href="/" onClick={() => setOpen(false)}>
           <Logo />
         </Link>
 

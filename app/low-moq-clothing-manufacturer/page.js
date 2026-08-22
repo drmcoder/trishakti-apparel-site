@@ -83,7 +83,7 @@ export default function LowMoqPage() {
                 </div>
               ))}
             </div>
-            <p className="mt-6 border-l-2 border-primary-500 pl-4 text-body/70">
+            <p className="mt-6 border-l-2 border-primary-500 pl-4 text-body/80">
               Why minimums exist at all: every style carries fixed costs — patterns, markers, fabric
               minimums per colour, machine changeover, sampling. A factory quoting far below its real
               floor is either not a factory, or planning to recover the difference somewhere you

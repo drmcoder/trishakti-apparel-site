@@ -70,7 +70,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-semibold text-ink">WhatsApp (fastest)</div>
-                  <div className="text-sm text-body/70">{contact.whatsappDisplay}</div>
+                  <div className="text-sm text-body/80">{contact.whatsappDisplay}</div>
                 </div>
               </a>
 

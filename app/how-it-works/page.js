@@ -184,7 +184,7 @@ export default function HowItWorksPage() {
                 <Icon name="arrow" className="h-4 w-4" />
               </a>
             </div>
-            <p className="mt-8 text-sm text-body/70">
+            <p className="mt-8 text-sm text-body/80">
               Deeper reading: <Link href="/blog/how-to-import-clothing-from-nepal/" className="font-medium text-primary-700 hover:underline">the step-by-step import guide</Link>,{' '}
               <Link href="/blog/sample-to-bulk-what-to-expect-first-order/" className="font-medium text-primary-700 hover:underline">sample to bulk in detail</Link>, and{' '}
               <Link href="/blog/how-to-pay-a-garment-factory-safely-tt-vs-lc/" className="font-medium text-primary-700 hover:underline">paying a factory safely</Link>.

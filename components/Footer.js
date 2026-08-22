@@ -113,7 +113,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <p>{company.taglinePoetic}</p>
             <Link href="/privacy/" className="text-white/65 underline-offset-2 hover:text-white hover:underline">Privacy</Link>
-            <span className="font-mono text-[11px] tracking-tight text-white/45" title="Site version · deploy commit">
+            <span className="font-mono text-[11px] tracking-tight text-white/60" title="Site version · deploy commit">
               {SITE_VERSION} · {PUBLISH_ID}
             </span>
           </div>

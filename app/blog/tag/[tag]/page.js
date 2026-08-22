@@ -58,7 +58,7 @@ export default function TagPage({ params }) {
             {getAllTags().filter((t) => t.slug !== params.tag).slice(0, 8).map((t, i) => (
               <span key={t.slug}>
                 {i > 0 && <span className="px-1 text-muted">·</span>}
-                <Link href={`/blog/tag/${t.slug}/`} className="text-body/70 hover:text-primary-700">{t.tag}</Link>
+                <Link href={`/blog/tag/${t.slug}/`} className="text-body/80 hover:text-primary-700">{t.tag}</Link>
               </span>
             ))}
           </p>
@@ -67,7 +67,7 @@ export default function TagPage({ params }) {
               <article key={p.slug} className="card flex flex-col p-7">
                 <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
                   {p.tags.map((t) => <span key={t}>{t}</span>)}
-                  <span className="text-muted/60">· {p.readMins} min read</span>
+                  <span className="text-muted">· {p.readMins} min read</span>
                 </div>
                 <h2 className="mt-3 font-display text-2xl font-medium leading-snug text-ink">
                   <Link href={`/blog/${p.slug}/`} className="hover:text-primary-700">{p.title}</Link>

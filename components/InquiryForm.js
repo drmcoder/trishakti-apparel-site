@@ -74,7 +74,7 @@ export default function InquiryForm() {
           <Icon name="check" className="h-6 w-6" />
         </div>
         <h3 className="text-xl font-semibold text-ink">Thank you — we’ll be in touch</h3>
-        <p className="max-w-sm text-sm text-body/70">
+        <p className="max-w-sm text-sm text-body/80">
           {hasEndpoint
             ? 'Your inquiry has been sent. Our team typically replies within one business day.'
             : 'Your email draft is ready to send. Prefer instant contact? Message us on WhatsApp.'}
