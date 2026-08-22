@@ -85,7 +85,7 @@ const orgJsonLd = {
   address: {
     '@type': 'PostalAddress',
     streetAddress: `${contact.address.line1}, ${contact.address.line2}`,
-    addressLocality: 'Gaidakot',
+    addressLocality: 'Gaindakot',
     addressRegion: 'Gandaki Province',
     addressCountry: 'NP',
   },

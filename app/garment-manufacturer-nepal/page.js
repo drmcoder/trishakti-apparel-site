@@ -38,7 +38,7 @@ const facts = [
 
 const proofs = [
   'A registered Nepali exporter with an EXIM code — company documents available on request.',
-  'A physical factory at Gaida Chowk, Ward-6, Gaidakot — visit in person, any working day.',
+  'A physical factory at Gaida Chowk, Ward-6, Gaindakot — visit in person, any working day.',
   'Live, unscripted video walkthroughs where you direct the camera — no appointment theatre.',
   'Named ownership: you deal directly with the founder, not a sales layer.',
 ];

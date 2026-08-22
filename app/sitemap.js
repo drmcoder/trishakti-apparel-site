@@ -1,5 +1,5 @@
 import { seo, nav, products } from '@/lib/content';
-import { posts } from '@/lib/posts';
+import { posts, getAllTags } from '@/lib/posts';
 
 // Generates a static sitemap.xml at build time (works with output: 'export').
 export default function sitemap() {
@@ -32,5 +32,10 @@ export default function sitemap() {
       priority: 0.6,
     })),
   ];
-  return [...pages, ...productPages, ...extra, ...blog];
+  const tags = getAllTags().map((t) => ({
+    url: `${seo.url}/blog/tag/${t.slug}/`,
+    changeFrequency: 'monthly',
+    priority: 0.4,
+  }));
+  return [...pages, ...productPages, ...extra, ...blog, ...tags];
 }

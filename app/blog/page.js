@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
-import { posts } from '@/lib/posts';
+import { posts, slugifyTag } from '@/lib/posts';
 
 import { og } from '@/lib/seo';
 
@@ -51,7 +51,7 @@ export default function BlogIndex() {
             <article key={p.slug} className="card flex flex-col p-7">
               <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
                 {p.tags.map((t) => (
-                  <span key={t}>{t}</span>
+                  <Link key={t} href={`/blog/tag/${slugifyTag(t)}/`} className="hover:text-primary-700">{t}</Link>
                 ))}
                 <span className="text-muted/60">· {p.readMins} min read · <time dateTime={p.date}>{new Date(p.date).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' })}</time></span>
               </div>

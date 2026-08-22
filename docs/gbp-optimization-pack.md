@@ -14,7 +14,7 @@ Order of work (total ~30 min on a phone):
 
 ## 1. Business description (GBP limit 750 chars — this is 732)
 
-> Trishakti Apparel is a private-label knit garment factory in Gaidakot, Nepal — t-shirts, polos, sweatshirts, hoodies, jersey and kidswear, cut and sewn to your spec. We work with importers, decorators, uniform suppliers and small brands worldwide, with minimums from 1,000 pieces per style. Nepal-made garments enter the UK, EU and Canada at 0% import duty under LDC trade preferences, and we handle the export paperwork and certificates of origin. Our floor is 80% women, we pay fair wages, and we offer buyers a live video walkthrough of production any time. OEKO-TEX-certified fabric available with mill certificates. Samples before bulk, staged payments, honest answers. Office hours Sun–Fri, 9:00–18:00 NPT.
+> Trishakti Apparel is a private-label knit garment factory in Gaindakot, Nepal — t-shirts, polos, sweatshirts, hoodies, jersey and kidswear, cut and sewn to your spec. We work with importers, decorators, uniform suppliers and small brands worldwide, with minimums from 1,000 pieces per style. Nepal-made garments enter the UK, EU and Canada at 0% import duty under LDC trade preferences, and we handle the export paperwork and certificates of origin. Our floor is 80% women, we pay fair wages, and we offer buyers a live video walkthrough of production any time. OEKO-TEX-certified fabric available with mill certificates. Samples before bulk, staged payments, honest answers. Office hours Sun–Fri, 9:00–18:00 NPT.
 
 **Categories** — Primary: `Garment manufacturer`. Add secondaries (as available):
 `Clothing manufacturer` · `Clothing wholesaler` · `T-shirt store` (only if manufacturer variants unavailable) · `Embroidery service` (only if actually offered in-house).
@@ -56,7 +56,7 @@ phone +977 9863618347 · WhatsApp enabled for messages.
 - **Q: What is your minimum order quantity?** A: 1,000 pieces per style, with colour splits agreed per program. We are built for small, repeatable runs.
 - **Q: Do you export internationally?** A: Yes — UK, EU, Canada, Japan and beyond. Nepal-made knits enter these markets at 0% import duty; we supply the origin paperwork.
 - **Q: Can I get samples before ordering?** A: Always. Nothing goes to bulk until you approve a pre-production sample. Sample and courier costs apply, credited against your order.
-- **Q: Can I visit or verify the factory?** A: Yes — visit us in Gaidakot, or take a live video walkthrough of the floor any working day. We encourage verification.
+- **Q: Can I visit or verify the factory?** A: Yes — visit us in Gaindakot, or take a live video walkthrough of the floor any working day. We encourage verification.
 - **Q: What certifications do you have?** A: OEKO-TEX-certified fabric available with the mill's certificate passed through. Our social-audit roadmap is stated plainly at trishaktiapparel.com.np/compliance/.
 
 ---

@@ -9,7 +9,7 @@ enough to name us. Google local pack is already #1 — this closes the organic +
 Use this EXACT block on every listing — same spelling, same format:
 
 - **Name:** Trishakti Apparel
-- **Address:** Gaida Chowk, Ward-6, Gaidakot Municipality, Nawalparasi (East), Gandaki Province, Nepal
+- **Address:** Gaida Chowk, Ward-6, Gaindakot Municipality, Nawalparasi (East), Gandaki Province, Nepal
 - **Phone:** +977 9863618347
 - **Email:** admin@trishaktiapparel.com.np
 - **Website:** https://trishaktiapparel.com.np

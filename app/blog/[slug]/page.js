@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Icon from '@/components/Icon';
 import CTASection from '@/components/CTASection';
-import { posts, getPost, getRelatedPosts } from '@/lib/posts';
+import { posts, getPost, getRelatedPosts, slugifyTag } from '@/lib/posts';
 import { seo } from '@/lib/content';
 import { og } from '@/lib/seo';
 
@@ -71,7 +71,7 @@ export default function BlogPost({ params }) {
               <Link href="/blog/" className="hover:text-primary-700">Blog</Link>
             </nav>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
-              {p.tags.map((t) => <span key={t}>{t}</span>)}
+              {p.tags.map((t) => <Link key={t} href={`/blog/tag/${slugifyTag(t)}/`} className="hover:text-primary-700">{t}</Link>)}
               <span className="text-muted/60">· {p.readMins} min read</span>
             </div>
             <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight tracking-[-0.02em] text-ink sm:text-5xl">

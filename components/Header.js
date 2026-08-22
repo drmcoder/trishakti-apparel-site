@@ -59,8 +59,7 @@ export default function Header() {
         </button>
       </div>
 
-      {open && (
-        <nav id={menuId} className="border-t border-line bg-white md:hidden" aria-label="Mobile">
+      <nav id={menuId} className={`border-t border-line bg-white md:hidden ${open ? '' : 'hidden'}`} aria-label="Mobile">
           <div className="container-x flex flex-col py-3">
             {nav.map((item) => (
               <Link
@@ -85,7 +84,6 @@ export default function Header() {
             </a>
           </div>
         </nav>
-      )}
     </header>
   );
 }

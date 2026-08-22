@@ -121,7 +121,7 @@ export default function UkBuyersPage() {
               <span className="eyebrow">The actual floor</span>
               <h2 className="mt-2 h-section">Our own photographs, not stock images</h2>
               <p className="mt-4 lead">
-                A 150+-machine knit floor in Gaidakot — 80% women, all local and permanent.
+                A 150+-machine knit floor in Gaindakot — 80% women, all local and permanent.
                 You are welcome to visit, or to see the line live on a video call.
               </p>
             </div>
