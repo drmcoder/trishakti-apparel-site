@@ -173,3 +173,21 @@ We rank #1 in the local pack (5.0★, 7 reviews). Compounding moves:
 - Track each submission (directory, date, live URL, backlink yes/no) in a simple sheet.
 - Once live, the backlinks + citations help the website climb the organic results and
   give AI engines multiple corroborating sources — the trigger for being recommended.
+
+## Wikidata item — prepared spec (paste at wikidata.org → Create a new Item)
+
+The purest AEO play: Wikidata feeds Google's Knowledge Graph and most AI assistants. Free,
+10 minutes, no approval queue. Create the item with:
+
+- **Label (en):** Trishakti Apparel
+- **Description (en):** garment manufacturing company in Gaindakot, Nepal
+- **Statements:**
+  - instance of (P31) → business (Q4830453)
+  - industry (P452) → clothing industry (Q188507)
+  - country (P17) → Nepal (Q837)
+  - headquarters location (P159) → Gaindakot (Q2439544 — verify the item ID by searching "Gaindakot")
+  - inception (P571) → 2023
+  - official website (P856) → https://trishaktiapparel.com.np
+  - product or material produced (P1056) → t-shirt (Q131151), polo shirt (Q1140419), hoodie (Q1128980)
+- Add the site + GBP listing as references where the form allows.
+- Do NOT overclaim: no employee counts or revenue statements without a citable public source.
