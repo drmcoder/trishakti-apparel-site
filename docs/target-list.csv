@@ -36,37 +36,37 @@ Tier,Company,Country,Email,Segment,Why,Status,Date sent,Follow-up due,Notes
 2,Impressions Uniform,UK,standish@impressionsuniform.co.uk,Schoolwear,Standish,SENT,2026-08-26,2026-08-30,"Gmail draft created 26 Aug 2026 (Claude); review, set From alias, attach linecard, send"
 2,MCS Stores,UK,info@mcsstores.co.uk,Schoolwear,Manchester,SENT,2026-08-26,2026-08-30,"Gmail draft created 26 Aug 2026 (Claude); review, set From alias, attach linecard, send"
 2,Tru Schoolwear,UK,info@vijschoolwear.co.uk,Schoolwear,Accrington,SENT,2026-08-26,2026-08-30,"Gmail draft created 26 Aug 2026 (Claude); review, set From alias, attach linecard, send"
-2,Schoolshop York,UK,sales@school-shop.co.uk,Schoolwear,York,TO SEND,,,
+2,Schoolshop York,UK,sales@school-shop.co.uk,Schoolwear,York,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
 2,Denby Dale Clothing,UK,enquires@denbydaleclothing.co.uk,Schoolwear mfr,Barnsley - may compete,TO SEND,,,Check if they outsource
 2,JR Sports,UK,sales@jr-sports.co.uk,Schoolwear + sport,Otley,TO SEND,,,
-2,The Rizues,UK,admin@rizues.com,Schoolwear,Bradford,TO SEND,,,
-2,My Uniform Hub,UK,sales@myuniformhub.com,Schoolwear,Birmingham,TO SEND,,,
-2,School Uniform Merchant,UK,info@theschooluniformmerchant.co.uk,Schoolwear,Tipton,TO SEND,,,
-2,Something Special Cheadle,UK,admin@ssc-limited.co.uk,Schoolwear,Stoke,TO SEND,,,
-2,Regency Clothing,UK,office@regency-clothing.com,Schoolwear,Droitwich,TO SEND,,,
-2,W D Coe,UK,help@coes.co.uk,Schoolwear,Ipswich,TO SEND,,,
-2,Birds of Dereham,UK,enquiries@birdsofdereham.com,Schoolwear,Dereham,TO SEND,,,
-2,Aubyn Davies,UK,enquiries@aubyndavies.co.uk,Schoolwear,Bury St Edmunds,TO SEND,,,
-2,C & D Uniform Solutions,UK,info@candduniform.co.uk,Schoolwear,Ipswich,TO SEND,,,
-2,Riviera Schooldays,UK,info@rivieraschooldays.co.uk,Schoolwear,Torquay,TO SEND,,,
-2,Daws Clothing,UK,hello@dawsclothing.co.uk,Schoolwear,Devon,TO SEND,,,
-2,Billings & Edmonds,UK,sales@billingsandedmonds.co.uk,Schoolwear,Eton,TO SEND,,,
+2,The Rizues,UK,admin@rizues.com,Schoolwear,Bradford,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,My Uniform Hub,UK,sales@myuniformhub.com,Schoolwear,Birmingham,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,School Uniform Merchant,UK,info@theschooluniformmerchant.co.uk,Schoolwear,Tipton,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Something Special Cheadle,UK,admin@ssc-limited.co.uk,Schoolwear,Stoke,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Regency Clothing,UK,office@regency-clothing.com,Schoolwear,Droitwich,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,W D Coe,UK,help@coes.co.uk,Schoolwear,Ipswich,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Birds of Dereham,UK,enquiries@birdsofdereham.com,Schoolwear,Dereham,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Aubyn Davies,UK,enquiries@aubyndavies.co.uk,Schoolwear,Bury St Edmunds,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,C & D Uniform Solutions,UK,info@candduniform.co.uk,Schoolwear,Ipswich,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Riviera Schooldays,UK,info@rivieraschooldays.co.uk,Schoolwear,Torquay,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Daws Clothing,UK,hello@dawsclothing.co.uk,Schoolwear,Devon,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Billings & Edmonds,UK,sales@billingsandedmonds.co.uk,Schoolwear,Eton,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
 2,Batemans Sports,UK,orders@batemanssports.co.uk,Schoolwear + sport,Stroud,TO SEND,,,
 2,Game Set & Match,UK,info@gsam.co.uk,Schoolwear + sport,Chichester,TO SEND,,,
 2,Wreal Sports,UK,info@wrealsports.co.uk,Schoolwear + sport,Cheltenham,TO SEND,,,
 2,NK Sports,UK,enquiries@nkgroupuk.com,Schoolwear + sport,Weston Super Mare,TO SEND,,,
-2,Top Form Schoolwear,UK,admin@top-form.co.uk,Schoolwear,Harlow,TO SEND,,,
-2,Bucks Schoolwear,UK,info@bucksschoolwearplus.co.uk,Schoolwear,Aylesbury,TO SEND,,,
-2,Pages Schoolwear,UK,info@pages-schoolwear.co.uk,Schoolwear,Maidstone,TO SEND,,,
-2,School I.D.,UK,contactus@school-id.co.uk,Schoolwear,Borehamwood,TO SEND,,,
-2,School Uniform Direct,UK,info@sud.co.uk,Schoolwear,Mitcham,TO SEND,,,
-2,Schoolwear Inc,UK,sales@schoolwearinc.co.uk,Schoolwear,Worcester Park,TO SEND,,,
-2,Smiths Schoolwear,UK,sales@smithsschoolwear.co.uk,Schoolwear,Barnet,TO SEND,,,
-2,Smarty Schoolwear,UK,customerservice@smartyschoolwear.co.uk,Schoolwear,Hatfield,TO SEND,,,
-2,Graduates Schoolwear,UK,info@graduates-schoolwear.co.uk,Schoolwear,Orpington,TO SEND,,,
-2,Horncastles,UK,sales@horncastles.co.uk,Schoolwear,Sevenoaks,TO SEND,,,
-2,JK Clothing,UK,sales@jkclothing.co.uk,Schoolwear,London SE9,TO SEND,,,
-2,Juniper Uniform,UK,customers@juniperuniform.com,Schoolwear,London W13,TO SEND,,,
+2,Top Form Schoolwear,UK,admin@top-form.co.uk,Schoolwear,Harlow,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Bucks Schoolwear,UK,info@bucksschoolwearplus.co.uk,Schoolwear,Aylesbury,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Pages Schoolwear,UK,info@pages-schoolwear.co.uk,Schoolwear,Maidstone,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,School I.D.,UK,contactus@school-id.co.uk,Schoolwear,Borehamwood,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,School Uniform Direct,UK,info@sud.co.uk,Schoolwear,Mitcham,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Schoolwear Inc,UK,sales@schoolwearinc.co.uk,Schoolwear,Worcester Park,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Smiths Schoolwear,UK,sales@smithsschoolwear.co.uk,Schoolwear,Barnet,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Smarty Schoolwear,UK,customerservice@smartyschoolwear.co.uk,Schoolwear,Hatfield,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Graduates Schoolwear,UK,info@graduates-schoolwear.co.uk,Schoolwear,Orpington,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Horncastles,UK,sales@horncastles.co.uk,Schoolwear,Sevenoaks,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,JK Clothing,UK,sales@jkclothing.co.uk,Schoolwear,London SE9,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
+2,Juniper Uniform,UK,customers@juniperuniform.com,Schoolwear,London W13,DRAFTED,,,"Gmail draft created 26 Aug 2026 batch 2 (Claude); review, attach linecard, send"
 2,Angels Uniforms,UK,info@angelsuniforms.co.uk,Schoolwear,Pinner,TO SEND,,,
 2,KL Schoolwear,UK,orders@klschoolwear.co.uk,Schoolwear,Chesham,TO SEND,,,
 2,KT Textiles,UK,enquiries@kttextiles.co.uk,Schoolwear,Yateley,TO SEND,,,
