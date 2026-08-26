@@ -45,6 +45,9 @@ export default function Footer() {
               <Link href="/garment-manufacturer-nepal/" className="text-white/70 transition hover:text-white">Manufacturer in Nepal</Link>
             </li>
             <li>
+              <Link href="/readymade-garment-exporter-nepal/" className="text-white/70 transition hover:text-white">RMG exporter Nepal</Link>
+            </li>
+            <li>
               <Link href="/low-moq-clothing-manufacturer/" className="text-white/70 transition hover:text-white">Low-MOQ manufacturing</Link>
             </li>
             <li>

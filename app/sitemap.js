@@ -17,6 +17,7 @@ export default function sitemap() {
     { url: `${seo.url}/uk-buyers/`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${seo.url}/how-it-works/`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${seo.url}/garment-manufacturer-nepal/`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${seo.url}/readymade-garment-exporter-nepal/`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${seo.url}/low-moq-clothing-manufacturer/`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${seo.url}/sustainability/`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${seo.url}/compliance/`, changeFrequency: 'monthly', priority: 0.7 },

@@ -126,7 +126,7 @@ export default function GarmentManufacturerNepalPage() {
             </Link>
           </div>
           <p className="mt-8 text-sm text-body/80">
-            Buying from the UK? <Link href="/uk-buyers/" className="font-medium text-primary-700 hover:underline">Our UK buyer page</Link> covers DCTS paperwork.
+            Looking for the export side? <Link href="/readymade-garment-exporter-nepal/" className="font-medium text-primary-700 hover:underline">Our readymade-garment exporter page</Link> covers documentation and vetting. Buying from the UK? <Link href="/uk-buyers/" className="font-medium text-primary-700 hover:underline">Our UK buyer page</Link> covers DCTS paperwork.
             New to importing? Start with <Link href="/blog/how-to-import-clothing-from-nepal/" className="font-medium text-primary-700 hover:underline">the step-by-step import guide</Link>.
           </p>
         </div>

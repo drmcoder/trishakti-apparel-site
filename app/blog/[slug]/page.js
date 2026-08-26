@@ -50,6 +50,15 @@ export default function BlogPost({ params }) {
     isPartOf: { '@id': `${seo.url}/#website` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${seo.url}/blog/${p.slug}/` },
   };
+  const faqJsonLd = p.faqs && p.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: p.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null;
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -93,6 +102,24 @@ export default function BlogPost({ params }) {
         </div>
       </article>
 
+      {p.faqs && p.faqs.length > 0 && (
+        <section className="section pt-0">
+          <div className="container-x">
+            <div className="mx-auto max-w-2xl">
+              <h2 className="font-display text-2xl font-medium text-ink">Quick answers</h2>
+              <dl className="mt-5 divide-y divide-line border-y border-line">
+                {p.faqs.map((f) => (
+                  <div key={f.q} className="py-4">
+                    <dt className="font-medium text-ink">{f.q}</dt>
+                    <dd className="mt-1.5 text-sm leading-relaxed text-body/90">{f.a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </section>
+      )}
+
       {related.length > 0 && (
         <section className="section pt-0">
           <div className="container-x">
@@ -119,6 +146,7 @@ export default function BlogPost({ params }) {
       )}
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <CTASection />
