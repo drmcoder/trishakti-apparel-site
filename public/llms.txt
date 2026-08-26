@@ -2,16 +2,16 @@
 
 > Trishakti Apparel is an export-focused private-label knit garment (cut-and-sew) manufacturer in Gaindakot, Nepal. It makes t-shirts, polos, sweatshirts, hoodies, and jersey basics to buyers' own designs and tech packs, and offers duty-free access to the EU, UK, and Canada under Nepal's Least Developed Country (LDC) trade status.
 
-Trishakti Apparel serves brands, importers, wholesalers, and resellers worldwide. It is the manufacturing arm of Trishakti Stores, a fashion business trading since 1991. The factory is a dedicated single-floor knit line of about 100 sewing machines with in-house Optitex CAD, and its production team is roughly 80% women. It is honest about compliance: it states what it holds today and what is still in progress, and never claims certifications it has not earned.
+Trishakti Apparel serves brands, importers, wholesalers, and resellers worldwide. It is the manufacturing arm of Trishakti Stores, a fashion business trading since 1991. The factory is a dedicated single-floor knit line of 150+ sewing machines with in-house Optitex CAD, and its production team is roughly 80% women. It is honest about compliance: it states what it holds today and what is still in progress, and never claims certifications it has not earned.
 
 ## Key facts (confirmed)
-- Location: Gaida Chowk, Ward-6, Gaidakot Municipality, Nawalparasi (East), Gandaki Province, Nepal.
+- Location: Gaida Chowk, Ward-6, Gaindakot Municipality, Nawalparasi (East), Gandaki Province, Nepal.
 - Type: cut-and-sew (CMT / full-package) private-label knit garment manufacturer.
 - Products: crew-neck t-shirts, polo shirts, sweatshirts, hoodies, long-sleeve tees, henleys, ribbed and jersey knit basics; woven shirts also available.
 - Capacity: approximately 26,000–30,000 pieces per month (confirmed per program).
-- MOQ: 500–1,000 pieces per style/colour (flexible per program).
+- MOQ: 1,000 pieces per style (colour splits agreed per program).
 - Lead time: sampling 7–14 days; bulk 40–50 days after tech-pack approval.
-- Machines: ~100 sewing machines, single-floor knit line (scaled up in 2026).
+- Machines: 150+ sewing machines, single-floor knit line (scaled up in 2026).
 - Workforce: approximately 80% women.
 - Energy: made on Nepal's predominantly hydro-electric (renewable) grid.
 - Design: in-house Optitex CAD for pattern making, marking, and on-site resizing.
@@ -27,7 +27,7 @@ Trishakti Apparel serves brands, importers, wholesalers, and resellers worldwide
 - UK: 0% duty under the Developing Countries Trading Scheme (DCTS).
 - Canada: 0% duty under the Least Developed Country Tariff (LDCT) — the most fabric-friendly rule.
 - Single transformation: cutting and sewing in Nepal qualifies the garment as Nepal-made even with imported fabric.
-- United States: no LDC duty-free access, but Nepal carries among the lowest tariffs in South Asia.
+- United States: no preferential access — standard MFN rates apply (16.5% cotton tee). As of August 2026 Nepal carries no additional US surcharge, unlike several competing origins; verify current measures at order time.
 - Timing: Nepal graduates from LDC status in November 2026, with an EU/UK transition keeping duty-free access to roughly 2029.
 
 ## Products
@@ -62,3 +62,107 @@ Trishakti Apparel serves brands, importers, wholesalers, and resellers worldwide
 - WhatsApp / Phone: +977 9863618347
 - Languages: English
 - Serves: worldwide (EU, UK, Canada, USA, Australia, and other markets)
+
+## Process & buyer landing pages
+- [How it works — process with days per stage and numeric FAQ](https://trishaktiapparel.com.np/how-it-works/)
+- [For UK buyers — DCTS duty-free](https://trishaktiapparel.com.np/uk-buyers/)
+- [Garment manufacturer in Nepal](https://trishaktiapparel.com.np/garment-manufacturer-nepal/)
+- [Readymade garment (RMG) exporter in Nepal](https://trishaktiapparel.com.np/readymade-garment-exporter-nepal/)
+- [Low-MOQ clothing manufacturer — honest definition](https://trishaktiapparel.com.np/low-moq-clothing-manufacturer/)
+
+## Buyer guide library (full index)
+Over 65 practical, fact-checked guides. Grouped by topic:
+
+### Sourcing
+- [Sourcing knitwear from Nepal: a guide for German & DACH buyers](https://trishaktiapparel.com.np/blog/nepal-knitwear-sourcing-germany-dach-buyers/)
+- [Schoolwear sourcing after the three-item cap: a guide for UK uniform retailers](https://trishaktiapparel.com.np/blog/uk-schoolwear-sourcing-guide-three-item-cap/)
+- [Sourcing knitwear from Nepal to Japan: duty-free access as China’s share falls](https://trishaktiapparel.com.np/blog/sourcing-knitwear-nepal-japan-duty-free/)
+- [Small-batch activewear manufacturing: a guide for independent gym-wear brands](https://trishaktiapparel.com.np/blog/small-batch-activewear-manufacturing-gym-brands/)
+- [Sourcing knitwear from Nepal: a guide for French buyers — duty, EPR, and the paperwork that matters](https://trishaktiapparel.com.np/blog/nepal-knitwear-sourcing-france-buyers-guide/)
+- [Corporate uniform programmes: a sourcing guide for hotels, restaurants & fleets](https://trishaktiapparel.com.np/blog/corporate-uniform-programme-sourcing-guide/)
+- [Buying agents, buying houses & sourcing offices: how apparel middlemen work](https://trishaktiapparel.com.np/blog/apparel-buying-agents-sourcing-offices-explained/)
+- [Sourcing from Nepal to the US: the honest 2026 tariff picture](https://trishaktiapparel.com.np/blog/sourcing-nepal-to-us-tariffs-2026/)
+- [Nepal vs. Pakistan for knitwear sourcing: an honest comparison](https://trishaktiapparel.com.np/blog/nepal-vs-pakistan-knitwear-sourcing-comparison/)
+- [The UK importer’s guide to sourcing knitwear from Nepal](https://trishaktiapparel.com.np/blog/uk-importers-guide-sourcing-nepal/)
+- [Sourcing knitwear from Nepal: a guide for Dutch buyers — direct, with numbers](https://trishaktiapparel.com.np/blog/nepal-knitwear-sourcing-netherlands-buyers-guide/)
+- [The polo, specified properly: piqué vs jersey, collars that stay flat, and the details buyers miss](https://trishaktiapparel.com.np/blog/polo-shirt-buyers-guide-pique-collar-quality/)
+- [CMT vs FPP: which garment manufacturing model fits your brand?](https://trishaktiapparel.com.np/blog/cmt-vs-fpp-full-package-manufacturing/)
+- [Best countries to manufacture clothing in 2026: an honest comparison](https://trishaktiapparel.com.np/blog/best-countries-to-manufacture-clothing-2026/)
+- [CVC vs TC vs 100% polyester for uniform programmes: the blend decision](https://trishaktiapparel.com.np/blog/cvc-vs-tc-vs-polyester-uniforms/)
+- [How to import clothing from Nepal: a step-by-step buyer’s guide](https://trishaktiapparel.com.np/blog/how-to-import-clothing-from-nepal/)
+- [Shipping garments from a landlocked country: how orders leave Nepal](https://trishaktiapparel.com.np/blog/shipping-garments-from-nepal-freight-lead-time/)
+- [Paying a new overseas factory safely: TT vs Letter of Credit](https://trishaktiapparel.com.np/blog/how-to-pay-a-garment-factory-safely-tt-vs-lc/)
+- [Apparel production lead time & buying calendar: when to place your order](https://trishaktiapparel.com.np/blog/apparel-production-lead-time-buying-calendar/)
+- [Nepal vs. Bangladesh vs. India for knit basics: a 2026 sourcing comparison](https://trishaktiapparel.com.np/blog/nepal-vs-bangladesh-vs-india-knit-basics/)
+- [How to find and vet an overseas clothing manufacturer (without getting scammed)](https://trishaktiapparel.com.np/blog/how-to-find-vet-overseas-clothing-manufacturer/)
+
+### Duty-free
+- [Importing apparel from Nepal to Canada: the 18% duty advantage explained](https://trishaktiapparel.com.np/blog/import-apparel-nepal-canada-duty-free-ldct/)
+- [HS codes for knitwear imports: 6109, 6110 & 6105 explained, with duty rates by market](https://trishaktiapparel.com.np/blog/hs-codes-knitwear-6109-6110-duty-rates/)
+- [How EU, UK & Canadian buyers save import duty sourcing garments from Nepal](https://trishaktiapparel.com.np/blog/nepal-duty-free-apparel-eu-uk-canada/)
+- [Single vs. double transformation rules of origin, explained for apparel importers](https://trishaktiapparel.com.np/blog/single-vs-double-transformation-rules-of-origin/)
+- [Nepal LDC graduation 2026: what apparel importers need to know](https://trishaktiapparel.com.np/blog/nepal-ldc-graduation-2026-what-importers-must-know/)
+- [How to legally reduce your apparel import duty](https://trishaktiapparel.com.np/blog/how-to-reduce-apparel-import-duty-legally/)
+
+### Quality
+- [The most expensive email in apparel: “approved, go ahead”](https://trishaktiapparel.com.np/blog/garment-sample-approval-checklist/)
+- [French terry vs brushed fleece: specifying sweatshirt fabric like you mean it](https://trishaktiapparel.com.np/blog/french-terry-vs-brushed-fleece-guide/)
+- [Hoodie GSM guide: fleece weights from 250 to 450+, from the factory floor](https://trishaktiapparel.com.np/blog/hoodie-gsm-guide-fleece-weights/)
+- [Ring-spun vs open-end cotton: the yarn decision that decides your tee](https://trishaktiapparel.com.np/blog/ring-spun-vs-open-end-cotton/)
+- [Combed vs carded cotton: why it decides print quality and pilling](https://trishaktiapparel.com.np/blog/combed-vs-carded-cotton-print-quality/)
+- [Single jersey vs interlock vs piqué: knit constructions explained for buyers](https://trishaktiapparel.com.np/blog/single-jersey-vs-interlock-vs-pique/)
+- [How much do cotton t-shirts shrink? Shrinkage, compacting, and the spec that prevents it](https://trishaktiapparel.com.np/blog/cotton-shrinkage-compacting-guide/)
+- [The pre-shipment inspection checklist for garment orders (use it or lose it)](https://trishaktiapparel.com.np/blog/pre-shipment-inspection-checklist-garments/)
+
+### How to
+- [FOB, CMT, MOQ, AQL: a plain-English garment sourcing glossary](https://trishaktiapparel.com.np/blog/garment-sourcing-glossary-terms-explained/)
+- [How much does a t-shirt weigh? Real numbers for shipping and freight](https://trishaktiapparel.com.np/blog/how-much-does-a-tshirt-weigh-shipping/)
+- [Proforma vs commercial invoice, and every other document in your garment shipment](https://trishaktiapparel.com.np/blog/garment-export-documents-proforma-vs-commercial-invoice/)
+- [Size charts and grading: what your factory actually needs from you](https://trishaktiapparel.com.np/blog/size-charts-grading-what-factory-needs/)
+- [Garment QC and AQL inspection: an importer’s guide](https://trishaktiapparel.com.np/blog/garment-qc-aql-inspection-guide/)
+- [What is a tech pack — and what your factory needs to quote your order](https://trishaktiapparel.com.np/blog/what-is-a-tech-pack/)
+- [Private label vs. white label vs. OEM vs. ODM: which do you actually need?](https://trishaktiapparel.com.np/blog/private-label-vs-white-label-vs-oem-odm/)
+- [Sample to bulk: what to expect on your first clothing production order](https://trishaktiapparel.com.np/blog/sample-to-bulk-what-to-expect-first-order/)
+- [A first-time importer’s guide to working with a garment factory](https://trishaktiapparel.com.np/blog/first-time-importer-guide-working-with-garment-factory/)
+- [Screen print vs. DTG vs. embroidery: decorating your apparel](https://trishaktiapparel.com.np/blog/screen-print-vs-dtg-vs-embroidery-apparel/)
+
+### Pricing
+- [What does a hoodie cost to manufacture? The full breakdown](https://trishaktiapparel.com.np/blog/what-does-a-hoodie-cost-to-manufacture/)
+- [Garment costing sheets explained, with a real cost breakdown from our factory](https://trishaktiapparel.com.np/blog/garment-costing-sheet-explained/)
+- [What does it cost to manufacture a t-shirt? A cost breakdown for brands](https://trishaktiapparel.com.np/blog/cost-to-manufacture-a-t-shirt/)
+
+### Private label
+- [Buying blanks direct from the factory: a guide for decorators, promo distributors & uniform suppliers](https://trishaktiapparel.com.np/blog/blank-apparel-direct-from-factory-decorators-guide/)
+- [The heavyweight tee era: sourcing 240 gsm blanks for your streetwear brand](https://trishaktiapparel.com.np/blog/heavyweight-blank-tshirts-streetwear-sourcing/)
+- [Merch beyond print-on-demand: when creators and bands should go factory-direct](https://trishaktiapparel.com.np/blog/creator-band-merch-beyond-print-on-demand/)
+- [Tri-blend vs CVC vs cotton for decorators: choosing blanks by print result](https://trishaktiapparel.com.np/blog/triblend-vs-cvc-vs-cotton-decorators/)
+- [Private-label branding & retail-ready packaging for your knitwear](https://trishaktiapparel.com.np/blog/private-label-branding-packaging-knitwear/)
+
+### Compliance
+- [Relabelling blank garments for your own brand: how to do it right in the UK & EU](https://trishaktiapparel.com.np/blog/relabelling-blank-garments-own-brand-uk-eu/)
+- [OEKO-TEX, GOTS, SMETA, BSCI: what apparel certifications actually cover](https://trishaktiapparel.com.np/blog/oeko-tex-gots-smeta-bsci-apparel-certifications-explained/)
+- [Children’s clothing manufacturing: the safety rules that actually apply](https://trishaktiapparel.com.np/blog/childrens-clothing-manufacturing-safety-standards/)
+- [Clothing label & care-label requirements for the EU, UK, US & Canada](https://trishaktiapparel.com.np/blog/clothing-label-care-label-requirements-eu-uk-us-canada/)
+
+### Trust
+- [How to verify a factory you’ll never visit: remote due diligence that actually works](https://trishaktiapparel.com.np/blog/how-to-verify-overseas-factory-remotely/)
+- [30/70 payment terms explained: deposits, balances, and what “against B/L” means](https://trishaktiapparel.com.np/blog/30-70-payment-terms-explained/)
+
+### Logistics
+- [Incoterms for apparel imports: EXW, FOB & CIF from Nepal explained](https://trishaktiapparel.com.np/blog/incoterms-apparel-imports-exw-fob-cif-nepal/)
+
+### China plus one
+- [China Plus One for apparel: is Nepal your second sourcing country?](https://trishaktiapparel.com.np/blog/china-plus-one-apparel-nepal-second-sourcing/)
+
+### Sustainability
+- [Recycled fabrics without the greenwash: an honest guide for brands and promo buyers](https://trishaktiapparel.com.np/blog/recycled-polyester-cotton-grs-honest-guide/)
+
+### Low MOQ
+- [Low-MOQ clothing manufacturing: how small brands keep first orders affordable](https://trishaktiapparel.com.np/blog/low-moq-clothing-manufacturing-small-brands/)
+
+### Startups
+- [How to start a clothing brand: from idea to your first production run](https://trishaktiapparel.com.np/blog/how-to-start-a-clothing-brand-first-production-run/)
+
+### Our story
+- [Women at the heart of our factory: why 80% matters](https://trishaktiapparel.com.np/blog/women-empowerment-nepal-garment-factory/)
+- [Nepal, honour, and doing business the Nepali way](https://trishaktiapparel.com.np/blog/why-trust-a-nepali-garment-supplier/)
