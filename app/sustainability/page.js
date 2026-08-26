@@ -54,6 +54,24 @@ export default function SustainabilityPage() {
 
       {/* Four pillars */}
       <section className="section pt-0">
+        <div className="container-x">
+          <div className="max-w-2xl">
+            <span className="eyebrow">Factory facts 2026</span>
+            <h2 className="mt-2 h-section">Numbers, not adjectives</h2>
+            <p className="mt-4 lead">Owner-stated, checkable on a visit or a video call. Updated when the facts change.</p>
+          </div>
+          <dl className="mt-8 grid gap-5 md:grid-cols-2">
+            {sustainability.facts.map((f) => (
+              <div key={f.k} className="card p-6">
+                <dt className="text-sm font-semibold uppercase tracking-wider text-primary-700">{f.k}</dt>
+                <dd className="mt-2 leading-relaxed text-body/90">{f.v}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
+      <section className="section pt-0">
         <div className="container-x grid gap-6 md:grid-cols-2">
           {sustainability.pillars.map((p) => (
             <div key={p.key} className="card p-7">
