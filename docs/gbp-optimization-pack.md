@@ -19,7 +19,7 @@ Order of work (total ~30 min on a phone):
 **Categories** — Primary: `Garment manufacturer`. Add secondaries (as available):
 `Clothing manufacturer` · `Clothing wholesaler` · `T-shirt store` (only if manufacturer variants unavailable) · `Embroidery service` (only if actually offered in-house).
 
-**Confirm:** website link `https://trishaktiapparel.com.np` · hours Sun–Fri 9:00–18:00 ·
+**Confirm:** website link `https://trishaktiapparel.com` · hours Sun–Fri 9:00–18:00 ·
 phone +977 9863618347 · WhatsApp enabled for messages.
 
 ---
@@ -57,16 +57,16 @@ phone +977 9863618347 · WhatsApp enabled for messages.
 - **Q: Do you export internationally?** A: Yes — UK, EU, Canada, Japan and beyond. Nepal-made knits enter these markets at 0% import duty; we supply the origin paperwork.
 - **Q: Can I get samples before ordering?** A: Always. Nothing goes to bulk until you approve a pre-production sample. Sample and courier costs apply, credited against your order.
 - **Q: Can I visit or verify the factory?** A: Yes — visit us in Gaindakot, or take a live video walkthrough of the floor any working day. We encourage verification.
-- **Q: What certifications do you have?** A: OEKO-TEX-certified fabric available with the mill's certificate passed through. Our social-audit roadmap is stated plainly at trishaktiapparel.com.np/compliance/.
+- **Q: What certifications do you have?** A: OEKO-TEX-certified fabric available with the mill's certificate passed through. Our social-audit roadmap is stated plainly at trishaktiapparel.com/compliance/.
 
 ---
 
 ## 5. Google Posts — first four (one per month; each with a photo)
 
-1. **(Now)** "Blanks direct from the factory — for decorators & promo distributors. Your label sewn in at source, ~1,000 pcs per style, 0% duty to the UK/EU/Canada. Read our buyer's guide → trishaktiapparel.com.np/blog/blank-apparel-direct-from-factory-decorators-guide/" *(photo: lc-tees.jpg)*
-2. **(+1 month)** "What does a hoodie really cost to make? We published the full breakdown — fabric maths, CMT, and the too-cheap-hoodie trap → trishaktiapparel.com.np/blog/what-does-a-hoodie-cost-to-manufacture/" *(photo: lc-floor.jpg)*
-3. **(+2 months)** "80% of our production floor are women — skilled, fairly paid work in Gaindakot. It shapes everything we make → trishaktiapparel.com.np/blog/women-empowerment-nepal-garment-factory/" *(photo: team-photo.jpg)*
-4. **(+3 months)** "Verify us from your desk: live, unscripted video walkthrough of the floor — you direct the camera. How remote factory verification works → trishaktiapparel.com.np/blog/how-to-verify-overseas-factory-remotely/" *(photo: factory-floor.jpg)*
+1. **(Now)** "Blanks direct from the factory — for decorators & promo distributors. Your label sewn in at source, ~1,000 pcs per style, 0% duty to the UK/EU/Canada. Read our buyer's guide → trishaktiapparel.com/blog/blank-apparel-direct-from-factory-decorators-guide/" *(photo: lc-tees.jpg)*
+2. **(+1 month)** "What does a hoodie really cost to make? We published the full breakdown — fabric maths, CMT, and the too-cheap-hoodie trap → trishaktiapparel.com/blog/what-does-a-hoodie-cost-to-manufacture/" *(photo: lc-floor.jpg)*
+3. **(+2 months)** "80% of our production floor are women — skilled, fairly paid work in Gaindakot. It shapes everything we make → trishaktiapparel.com/blog/women-empowerment-nepal-garment-factory/" *(photo: team-photo.jpg)*
+4. **(+3 months)** "Verify us from your desk: live, unscripted video walkthrough of the floor — you direct the camera. How remote factory verification works → trishaktiapparel.com/blog/how-to-verify-overseas-factory-remotely/" *(photo: factory-floor.jpg)*
 
 ---
 

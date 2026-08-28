@@ -3,7 +3,7 @@
 // notification). Google does NOT participate in IndexNow; for Google, rely on the
 // sitemap submitted in Search Console. Run: `node scripts/indexnow.mjs`.
 
-const HOST = 'trishaktiapparel.com.np';
+const HOST = 'trishaktiapparel.com';
 const KEY = '8cc12be327a2f4b7ad9ba8879b70c591';
 const SITEMAP = `https://${HOST}/sitemap.xml`;
 

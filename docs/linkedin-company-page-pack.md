@@ -8,7 +8,7 @@ Everything below is paste-ready at linkedin.com/company/setup/new/. Total time: 
 
 - **Name:** Trishakti Apparel
 - **LinkedIn public URL:** linkedin.com/company/trishakti-apparel
-- **Website:** https://trishaktiapparel.com.np
+- **Website:** https://trishaktiapparel.com
 - **Industry:** Apparel Manufacturing
 - **Company size:** 51–200 employees
 - **Type:** Privately Held
@@ -16,7 +16,7 @@ Everything below is paste-ready at linkedin.com/company/setup/new/. Total time: 
 - **Location:** Gaindakot, Gandaki Province, Nepal
 - **Logo:** the site logo mark (public/assets/logo-mark.webp — export as 300×300 PNG)
 - **Cover image:** the factory-floor photo (docs/factory-floor.jpg, crop 1128×191)
-- **CTA button:** "Visit website" → https://trishaktiapparel.com.np/how-it-works/
+- **CTA button:** "Visit website" → https://trishaktiapparel.com/how-it-works/
 
 **Tagline (120 chars max — this is 118):**
 > Private-label knitwear factory in Nepal · MOQ 1,000 pcs · 0% duty to UK, EU, Canada & Japan · 80% women workforce
@@ -42,7 +42,7 @@ Everything below is paste-ready at linkedin.com/company/setup/new/. Total time: 
 > The manufacturing arm of a family fashion business trading since 1991, we run in-house
 > Optitex CAD and a barcode-tracked production system uncommon at our size.
 >
-> Start here: https://trishaktiapparel.com.np/how-it-works/ — our whole process with real
+> Start here: https://trishaktiapparel.com/how-it-works/ — our whole process with real
 > numbers, or message us for a quote. We reply within 24 hours, Sunday–Friday.
 
 **Specialities (paste as comma list):**

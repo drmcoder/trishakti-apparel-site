@@ -40,7 +40,7 @@ You are helping me, **Santosh Rijal, founder of Trishakti Apparel**, write short
   Santosh Rijal
   Founder, Trishakti Apparel — private-label knit garments, Gaindakot, Nepal
   admin@trishaktiapparel.com.np · WhatsApp +977 9863618347
-  https://trishaktiapparel.com.np
+  https://trishaktiapparel.com
 
 ## Targets — one email each (personalize the opening line to the noted fact)
 | # | Brand | Email / how | Personalization hook | Angle |

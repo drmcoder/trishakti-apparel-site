@@ -2,11 +2,34 @@
 
 ## Current production hosting
 
-The public domain is served by **Vercel**. This was verified on 2026-07-26 from the
-production HTTPS response (`server: Vercel`) and the `www` Vercel DNS CNAME.
+The site is served by **Vercel** (verified 2026-07-26 from the production HTTPS response,
+`server: Vercel`, and the Vercel DNS CNAME).
 
 The repository is configured as a static Next.js export (`out/`) and Vercel also applies
 the redirects in `vercel.json`.
+
+### Domains
+
+**Primary: `trishaktiapparel.com`** — registered 28 Aug 2026 via Nest Nepal / OwnRegistrar
+(Rs. 2,500/yr, renews 27 Aug 2027). `seo.url` in `lib/content.js` is the single source of
+truth for this; `metadataBase`, `app/robots.js`, `app/sitemap.js` and every page's
+canonical, OG and JSON-LD URL derive from it.
+
+**`trishaktiapparel.com.np`** — 301-redirects to the `.com`. Keep it registered and
+pointed at Vercel indefinitely: it holds the original Search Console history and is
+linked from ~50 outreach emails already sent.
+
+⚠️ **Mail is separate from the website and must not be assumed to have moved.**
+`admin@trishaktiapparel.com.np` routes via Cloudflare Email Routing
+(`route1-3.mx.cloudflare.net`) and is the address published across the site and all
+collateral. `trishaktiapparel.com`'s MX still points at the Nest Nepal cPanel box, so
+`admin@trishaktiapparel.com` is **not** a working mailbox. Do not swap the address in
+content until a mailbox or forwarder exists on the `.com`.
+
+⚠️ **The old 2024 Laravel/Nexelit site is still on Nest Nepal cPanel at 190.92.174.24.**
+It must stay redirected or removed — served directly it returns HTTP 200 with the old
+B2C positioning, a self-canonical to `https://trishaktiapparel.com`, a March-2024
+sitemap and its own GA tag (`G-Q9TBSV3CPH`).
 
 ## Deploying a change
 

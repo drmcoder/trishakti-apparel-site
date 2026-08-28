@@ -7,17 +7,17 @@ same ONE contact identity below.
 ## ✅ One identity — use everywhere (reconciled)
 - **Email:** admin@trishaktiapparel.com.np  ← single primary export inbox (send + receive live)
 - **WhatsApp:** +977 9863618347
-- **Website:** https://trishaktiapparel.com.np
+- **Website:** https://trishaktiapparel.com
 - **Headcount framing:** say **"a ~100-machine single-floor knit line, 80% women"** —
   do NOT quote a worker headcount until confirmed (old "~50 workers" line is retired to
   avoid an inconsistency). Machines + the 80% figure are both confirmed and stronger.
 
 ## Credibility links to drop into emails (all live now)
-- Duty-free proof: https://trishaktiapparel.com.np/why-nepal/
-- Honest compliance posture: https://trishaktiapparel.com.np/compliance/
-- Ethics / 80% women: https://trishaktiapparel.com.np/sustainability/
-- "Why trust a Nepali supplier": https://trishaktiapparel.com.np/blog/why-trust-a-nepali-garment-supplier/
-- Products / line card: https://trishaktiapparel.com.np/products/
+- Duty-free proof: https://trishaktiapparel.com/why-nepal/
+- Honest compliance posture: https://trishaktiapparel.com/compliance/
+- Ethics / 80% women: https://trishaktiapparel.com/sustainability/
+- "Why trust a Nepali supplier": https://trishaktiapparel.com/blog/why-trust-a-nepali-garment-supplier/
+- Products / line card: https://trishaktiapparel.com/products/
 
 ## Duty-free hook by market (lead with the right one)
 - **EU:** EBA — duty-free, single transformation (Chinese fabric qualifies). LDC window to ~2029.
@@ -52,8 +52,8 @@ same ONE contact identity below.
 >
 > Warm regards,
 > Santosh Rijal — Trishakti Apparel
-> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com.np
-> Duty-free detail: trishaktiapparel.com.np/why-nepal/
+> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com
+> Duty-free detail: trishaktiapparel.com/why-nepal/
 
 ### B. UK importer (DCTS angle)
 > **Subject:** Nepal knitwear supplier — duty-free UK entry (DCTS), own designs
@@ -73,7 +73,7 @@ same ONE contact identity below.
 >
 > Best,
 > Santosh Rijal — Trishakti Apparel
-> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com.np
+> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com
 
 ### C. US importer (quality + ethics + de-risk angle — NO duty-free claim)
 > **Subject:** Ethical Nepal knit factory — low MOQ, China-plus-one option
@@ -93,14 +93,14 @@ same ONE contact identity below.
 >
 > Best regards,
 > Santosh Rijal — Trishakti Apparel
-> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com.np
-> Ethics / 80% women: trishaktiapparel.com.np/sustainability/
+> admin@trishaktiapparel.com.np · WhatsApp +977 9863618347 · trishaktiapparel.com
+> Ethics / 80% women: trishaktiapparel.com/sustainability/
 
 ### D. WhatsApp / short fast-fire (any market)
 > Namaste 👋 I'm Santosh Rijal, founder of Trishakti Apparel — a private-label knit factory
 > in Nepal (t-shirts, polos, sweatshirts & hoodies to your designs; MOQ 500–1,000 pcs; 80% women floor).
 > We enter the EU/UK/Canada duty-free under Nepal's LDC status. Happy to send our line card,
-> photos, or free samples — are you sourcing knitwear? trishaktiapparel.com.np
+> photos, or free samples — are you sourcing knitwear? trishaktiapparel.com
 
 ---
 
@@ -146,4 +146,4 @@ Buyers convert on **photos + samples + a clean line card**, not extra emails.
   New Baneshwor · WhatsApp 9761801580 → membership + member listing (backlink).
 - **Sagarmatha Export Import House** (Thamel) — Mr Shreedhar Regmi / Mr Sharad (buying house).
 - Also worth listing on: Go4WorldBusiness, Fibre2Fashion marketplace, Kompass, Europages,
-  TradeIndia — each is a discovery channel AND a backlink to trishaktiapparel.com.np.
+  TradeIndia — each is a discovery channel AND a backlink to trishaktiapparel.com.

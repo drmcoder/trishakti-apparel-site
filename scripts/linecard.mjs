@@ -160,7 +160,7 @@ b{color:#1a3e73}
 
 <div class="foot">
   <span>Santosh Rijal · Founder · admin@trishaktiapparel.com.np · WhatsApp +977 9863618347</span>
-  <span>trishaktiapparel.com.np</span>
+  <span>trishaktiapparel.com</span>
 </div>`;
 }
 

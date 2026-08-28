@@ -41,7 +41,8 @@ lead-gen brochure site — NOT a retail shop, NOT the domestic site.
 - Leadership: Santosh Rijal (Founder-CEO), Bishnu Rijal (Principal Founder), Saroj Rijal (COO).
 - Brand colors: blue #1e73be, navy #1a3e73, green #228b22, red #d7282b, text #4a4a4a.
 
-## Deploy target (later)
-Live domain trishaktiapparel.com.np is on cPanel (user `trishakt`, IP 190.92.174.24),
-where trishaktiapparel is an addon domain. To publish, Santosh creates an FTP account in
-cPanel. Decide with him: replace the Laravel site, or launch on a subdomain first.
+## Deploy target
+The site is on **Vercel**, auto-deploying from `master` on GitHub. The primary domain is
+**trishaktiapparel.com** (registered 28 Aug 2026); trishaktiapparel.com.np 301-redirects to it.
+The old Laravel site still sits on Nest Nepal cPanel at 190.92.174.24 — do not FTP to it and
+do not treat it as live. See `docs/deploy.md` for the full picture.

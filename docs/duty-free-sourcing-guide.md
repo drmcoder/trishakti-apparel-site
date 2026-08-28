@@ -112,9 +112,9 @@ A full-package knit garment factory in Gaidakot, Nepal — ~100 machines, in-hou
 in **all knit fabrics** to your designs, MOQ 500–1,000, and supply the Certificate of Origin for
 duty-free entry.
 
-**Get an exact quote:** WhatsApp **+977 9863618347** · admin@trishaktiapparel.com.np · trishaktiapparel.com.np
+**Get an exact quote:** WhatsApp **+977 9863618347** · admin@trishaktiapparel.com.np · trishaktiapparel.com
 
-*Try our free tools: the Duty-Savings Calculator and Instant Quote estimator at trishaktiapparel.com.np/why-nepal/*
+*Try our free tools: the Duty-Savings Calculator and Instant Quote estimator at trishaktiapparel.com/why-nepal/*
 
 ---
 *Sources (verified July 2026): EU Access2Markets · GOV.UK DCTS · Canada CBSA (Customs Notice 24-41, Memo D11-4-4) · Japan Customs / UNCTAD · WageIndicator & Statista (wages) · US OTEXA/USTR (NTPP). This guide is indicative; confirm your exact HS code and rules of origin before contracting.*

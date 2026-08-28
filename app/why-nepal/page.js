@@ -3,7 +3,7 @@ import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import CTASection from '@/components/CTASection';
 import FAQ from '@/components/FAQ';
-import { whyNepal, dutyFree, dutyComparison, dutyFaqs } from '@/lib/content';
+import { seo, whyNepal, dutyFree, dutyComparison, dutyFaqs } from '@/lib/content';
 import DutySavingsCalculator from '@/components/DutySavingsCalculator';
 import { og } from '@/lib/seo';
 
@@ -39,8 +39,8 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://trishaktiapparel.com.np/' },
-    { '@type': 'ListItem', position: 2, name: 'Why Nepal', item: 'https://trishaktiapparel.com.np/why-nepal/' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${seo.url}/` },
+    { '@type': 'ListItem', position: 2, name: 'Why Nepal', item: `${seo.url}/why-nepal/` },
   ],
 };
 

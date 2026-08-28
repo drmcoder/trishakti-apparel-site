@@ -2,7 +2,7 @@
 
 Export-facing website for **Trishakti Apparel**, a garment (cut & sew) manufacturer in Gaindakot, Nepal.
 
-- **Live domain:** https://trishaktiapparel.com.np (currently a Laravel/XGenious "Nexelit" v3.8.0 CMS)
+- **Live domain:** https://trishaktiapparel.com (currently a Laravel/XGenious "Nexelit" v3.8.0 CMS)
 - **Goal:** rebuild / evolve into a buyer-hook site for **general export / all markets** — product catalog, MOQ, capacity, factory story + photos, private-label capability, buyer inquiry.
 - **Company:** founded 2023, ~50 workers, ~50 sewing machines, sewing-only (no wash/print/embroidery in-house).
 
