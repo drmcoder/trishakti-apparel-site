@@ -35,7 +35,7 @@ export default function BlogPost({ params }) {
     headline: p.title,
     description: p.description,
     datePublished: p.date,
-    dateModified: p.date,
+    dateModified: p.lastMod || p.date,
     inLanguage: 'en',
     image: `${seo.url}/assets/og-image.jpg`,
     keywords: p.tags.join(', '),

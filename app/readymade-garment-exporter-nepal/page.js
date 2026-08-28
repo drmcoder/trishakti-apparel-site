@@ -73,7 +73,7 @@ export default function RmgExporterPage() {
   return (
     <>
       <PageHero eyebrow="Nepal RMG export" title="A readymade garment exporter in Nepal — for knitwear">
-        Nepal’s readymade garment (RMG) industry exports worldwide, and knitwear is our corner of
+        A readymade garment (RMG) exporter manufactures finished clothing and ships it internationally with the customs documentation buyers need. Nepal’s RMG industry exports worldwide, and knitwear is our corner of
         it: t-shirts, polos, sweatshirts, hoodies, and kids’ knits, cut and sewn in Gaindakot to
         your designs and labels, shipped with full export documentation.
       </PageHero>

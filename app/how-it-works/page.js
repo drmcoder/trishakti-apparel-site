@@ -128,7 +128,7 @@ export default function HowItWorksPage() {
   return (
     <>
       <PageHero eyebrow="The process" title="How it works — with real numbers">
-        First-time importers deserve a map, not a mystery. Here is our whole process, inquiry to
+        Ordering from a garment factory follows a fixed sequence: inquiry, quote, sample, approval, production, inspection, shipping. First-time importers deserve that map with real numbers on it, not a mystery. Here is our whole process, inquiry to
         delivery, with the days each stage actually takes — and a FAQ where every answer is a
         number, not “contact us.”
       </PageHero>
