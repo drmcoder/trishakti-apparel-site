@@ -82,7 +82,7 @@ Tomorrow." (Consider a more buyer-focused primary tagline; keep this as secondar
 - Email: admin@trishaktiapparel.com  (inquiry destination)
 - WhatsApp: +977 9863618347
 - Hours: Factory 7AM–8PM, Office 9AM–6PM (Sun–Fri)
-- Facebook: facebook.com/trishaktiapparel
+- Facebook: https://www.facebook.com/profile.php?id=100093906197498
 
 ## Brand / design
 - Colors: primary blue #1e73be, deep navy #1a3e73, sustainability green #228b22,

@@ -53,7 +53,7 @@ Sizes XS–XXL. Custom designs, colors, labels & packaging — private-label wel
 
 ### Contact
 Trishakti Apparel · Gaida Chowk, Ward-6, Gaidakot, Nawalparasi (East), Nepal
-WhatsApp **+977 9863618347** · admin@trishaktiapparel.com · facebook.com/trishaktiapparel
+WhatsApp **+977 9863618347** · admin@trishaktiapparel.com · https://www.facebook.com/profile.php?id=100093906197498
 HS codes: 6109 / 6105 / 6106 / 6110 · EXIM: 1244417670168
 
 ---

@@ -69,7 +69,7 @@ These aren't sourcing directories; they're what **buyers check when they Google 
 | **Bing Places for Business** | Feeds Bing → which powers **ChatGPT Search and Copilot**. Almost nobody bothers. Free. |
 | **Apple Business Connect** | Apple Maps + Apple Intelligence. Free. |
 | **OpenCorporates** | Company-registry aggregator; a corroborating citation for AI and due-diligence. |
-| **Facebook / Instagram Business** | Already have facebook.com/trishaktiapparel — keep it active; buyers do check social proof. |
+| **Facebook / Instagram Business** | Already have https://www.facebook.com/profile.php?id=100093906197498 — keep it active; buyers do check social proof. |
 
 ### More B2B marketplaces (free tiers; verify Nepal is selectable each time)
 - **TradeWheel** · tradewheel.com — general apparel B2B.

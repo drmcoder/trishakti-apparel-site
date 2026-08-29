@@ -53,7 +53,7 @@ Home · About · Service (Design & Develop / Full Private Label Packages / Quali
 - **Email:** admin@trishaktiapparel.com
 - **WhatsApp:** +977 9863618347
 - **Hours:** Factory 7AM–8PM, Office 9AM–6PM (Sun–Fri)
-- **Facebook:** facebook.com/trishaktiapparel
+- **Facebook:** https://www.facebook.com/profile.php?id=100093906197498
 
 ## Assessment — what's wrong for EXPORT buyers
 - **Domestic/retail framing.** Copy is about "happy customers," heritage, and Nepal retail — not what an overseas sourcing manager needs (MOQ, lead time, capacity, compliance certs, product range, price positioning).

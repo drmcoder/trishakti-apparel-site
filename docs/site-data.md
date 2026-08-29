@@ -38,7 +38,7 @@ Two tiers are used here:
 
 > Publication check required: the current website uses `admin@trishaktiapparel.com.np`.
 - Hours: **Factory 7AM–8PM, Office 9AM–6PM (Sun–Fri)**
-- Facebook: **facebook.com/trishaktiapparel**
+- Facebook: **https://www.facebook.com/profile.php?id=100093906197498**
 
 ## Brand / design (✅ confirmed from live CSS)
 - Colors: blue **#1e73be**, navy **#1a3e73**, green **#228b22**, red **#d7282b**,
