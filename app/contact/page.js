@@ -96,6 +96,7 @@ export default function ContactPage() {
                 <div className="space-y-0.5">
                   <div>{contact.hours.factory}</div>
                   <div>{contact.hours.office}</div>
+                  <div>{contact.hours.saturday}</div>
                 </div>
               </ContactRow>
             </div>

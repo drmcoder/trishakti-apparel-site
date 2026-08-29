@@ -90,6 +90,21 @@ const orgJsonLd = {
     postalCode: contact.address.postalCode,
     addressCountry: 'NP',
   },
+  // Nepal's working week runs Sunday–Friday; Saturday is the short day.
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '07:00',
+      closes: '19:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: 'Saturday',
+      opens: '09:00',
+      closes: '12:00',
+    },
+  ],
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'sales',
