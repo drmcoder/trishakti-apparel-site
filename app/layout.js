@@ -87,6 +87,7 @@ const orgJsonLd = {
     streetAddress: `${contact.address.line1}, ${contact.address.line2}`,
     addressLocality: 'Gaindakot',
     addressRegion: 'Gandaki Province',
+    postalCode: contact.address.postalCode,
     addressCountry: 'NP',
   },
   contactPoint: {
@@ -104,7 +105,9 @@ const orgJsonLd = {
       name: 'Private-label knit garment manufacturing (cut & sew)',
     },
   },
-  sameAs: [contact.facebook],
+  // Every profile Google already associates with the business, so the entity
+  // consolidates in the Knowledge Graph instead of fragmenting.
+  sameAs: [contact.facebook, contact.instagram, contact.twitter, contact.linkedin],
 };
 
 // WebSite entity — helps engines and AI assistants model the site itself.
